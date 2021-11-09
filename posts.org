@@ -1,0 +1,104 @@
+#+hugo_base_dir: .
+#+hugo_section: posts
+* About
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: /about
+:EXPORT_FILE_NAME: about
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :displayInList false
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :displayInMenu true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :dropCap false
+:END:
+Hello! My name is Aidin Biibosunov.
+
+** Contacts
+- Email: biibosunov.aidin(at)gmail.com
+- [[https://github.com/aidinbii][Github]]
+- [[https://t.me/aidinbii][Telegram]]
+* Links                                                            :noexport:
+- https://ox-hugo.scripter.co/doc/custom-front-matter/
+-
+* Blog                                                                :@blog:
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: /blog
+:END:
+** TODO first post
+:PROPERTIES:
+:EXPORT_FILE_NAME: first_post
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+references:
+- https://kloop.kg/t/deputies-kyrgyzstan/
+-
+This gets created in ~<HUGO_BASE_DIR>/content/articles/~. As the
+~EXPORT_HUGO_SECTION~ property is not set, the ~#+hugo_section~
+keyword value applies.
+write about ferroptosis and apoptosis drugs and the model.
+** DONE Why I started this blog                                    :writing:
+CLOSED: [2021-11-04 Thu 08:55]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: first_post
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :dropCap false
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+I want to learn to write clear text. To be able to express my thoughts in a logical and structured manner. I believe it will benefit me a lot.
+
+As it was pointed out by many famous people notes are not a record of a thinking process. They are the thinking process. The primary purpose of note-taking should not be for storing ideas, but for developing them.
+
+Writing is an active process. It forces you to think. You are trying to find the best way to express ideas. So that the person who reads your work understands it the way you planned. In this way, it is similar to teaching, except it is not oral. An efficient way to study, arguably the best, is to actively engage yourself with the topic. Hence, writing about the things you want to understand is a powerful learning technique.
+
+Today there is no monopoly on printing. So, anyone can publish their work on the web without any approval of an institution. Like a publisher which would filter the work. Sure, it is good and bad at the same time as almost everything. I consider myself lucky to be living in this time. So why not make use of it!
+
+If you publish something regularly for a period like a year, you will gain insights into what you should be creating. Moreover, it could be a kinda useful way to procrastinate. Making it public makes yourself accountable.
+
+A person’s memory is not reliable. This is a way to record your thoughts. Also, I would update posts whenever there will be feedback or new thoughts. Of course, I will save all the old versions with /git/.
+
+#+begin_src yaml :front_matter_extra t
+  resources:
+  - name: featuredImage
+    src: "old_man_writing.jpg"
+    params:
+      description: "Image of a man writing"
+#+end_src
+
+
+* Lists                                                              :@lists:
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: /lists
+:END:
+** TODO Podcasts
+:PROPERTIES:
+:EXPORT_FILE_NAME: podcasts
+:END:
+List of podcasts I listen to.
+music i listen to
+
+*** Post with YAML front-matter
+:PROPERTIES:
+:EXPORT_FILE_NAME: extra-front-matter-yaml
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+The contents of the ~#+begin_src yaml :front_matter_extra t~ YAML
+block here will get appended to the YAML front-matter.
+#+begin_src yaml :front_matter_extra t
+    resources:
+      - name: old_man_writing
+  src: "old_man_writing.jpg"
+  params:
+  description: "dsdad"
+#+end_src
+
+*** Post with TOML front-matter (default)
+:PROPERTIES:
+:EXPORT_FILE_NAME: extra-front-matter-toml
+:END:
+resources:
+- name: featuredImage
+  src: "grandCanyonDescent.jpeg"
+  params:
+    description: "Walking down the grand canyon trail.  Lots of lense flair."
+
+The contents of the ~#+begin_src toml :front_matter_extra t~ TOML
+block here will get appended to the TOML front-matter.
+#+begin_src toml :front_matter_extra t
+#+end_src
