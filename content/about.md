@@ -1,10 +1,9 @@
 +++
 title = "About"
 author = ["Aidin Biibosunov"]
+date = 2021-11-01T21:30:00+01:00
 draft = false
-displayInList = false
-displayInMenu = true
-dropCap = false
+type = "page"
 +++
 
 Hello! My name is Aidin Biibosunov.
