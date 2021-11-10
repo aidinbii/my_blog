@@ -1,22 +1,3 @@
-# baseURL = "https://aidinbii.netlify.app"
-# languageCode = "en"
-# title = "Aidin Biibosunov"
-# theme = "aether"
-# #googleAnalytics = "Your google analytics tracking ID - optional"
-# #disqusShortname = "Your shortname for Disqus - optional"
-
-# [params]
-# brand = "aidinbii"
-# description = "Personal blog"
-# github = "https://github.com/aidinbii"
-# homeimg = "img/footer-hex.png"
-# bgimg = "img/clean-blue-background-2.jpg"
-# rssinmenu = true
-
-# [markup]
-#   [markup.highlight]
-#     style = "igor"
-
 baseURL = "https://aidinbii.netlify.app"
 languageCode = "en-us"
 title = "Aidin Biibosunov"
