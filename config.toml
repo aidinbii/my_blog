@@ -11,7 +11,7 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 # Your Google analytics code.
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "G-1GQSC4QRCT"
 # Your Disqus sortname. for enabling comments on the site
 # disqusShortname = "localhost"
 
