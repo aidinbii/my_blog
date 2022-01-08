@@ -14,4 +14,4 @@ Hello! My name is Aidin Biibosunov.
 -   Email: biibosunov.aidin(at)gmail.com
 -   [Github](https://github.com/aidinbii)
 -   [Telegram](https://t.me/aidinbii)
--   PGP public key (64-bit): [5AE9 CA7A 6911 F765](main_public.key)
+-   PGP public key (64-bit): [5AE9 CA7A 6911 F765](static/main_public.key)
