@@ -7,8 +7,8 @@ categories = ["blog"]
 draft = false
 +++
 
-I want to share some of my sister's paintings. Mostly for her future self.
-It seems to me that it will be interesting for her to look at this in the future. And when she will have her own website, I will move the post there.
+I want to share some of my sister's paintings. Mainly for her future self.
+It seems to me that it will be interesting for her to look at this post in the future. And when she will have her own website, I will move the post there.
 
 {{< figure src="/ox-hugo/20220108-192541_photo_2022-01-08_12-16-38.jpg" caption="Figure 1: The very first painting. It was painted with her mother in a coffee shop, fall 2019." >}}
 
