@@ -5,6 +5,7 @@ date = 2022-01-08T19:36:00+01:00
 tags = ["family", "art"]
 categories = ["blog"]
 draft = false
+type = "posts"
 +++
 
 I want to share some of my sister's paintings. Mainly for her future self.
