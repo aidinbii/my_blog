@@ -14,3 +14,4 @@ Here I will provide some links.
 -   [Homework 2](https://forms.gle/FjEktjxaboMudPto8)
 -   [Quarter test](html_files/grade_8_physics.html)
 -   [Final grades](/html_files/final_grades.html)
+-   [Recommendations](/html_files/recommendations.html)
