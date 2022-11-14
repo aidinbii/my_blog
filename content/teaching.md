@@ -9,7 +9,7 @@ type = "page"
 Here I will provide some links.
 
 
-## School 84, 9th grade. First quarter 2022/2023 {#school-84-9th-grade-dot-first-quarter-2022-2023}
+## School 84, 8th grade. First quarter 2022/2023. {#school-84-8th-grade-dot-first-quarter-2022-2023-dot}
 
 -   [Link to the Telegram group of the class](https://t.me/+edfnmw-7YlplMTdi)
 -   [Notes](https://drive.google.com/drive/folders/1CKcaU-8RLLfkq7hiw9vfbSwG%5FpN51qfE?usp=sharing)
