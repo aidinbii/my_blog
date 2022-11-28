@@ -8,6 +8,8 @@ type = "page"
 
 Hello! My name is Aidin Biibosunov.
 
+Here is my [CV](/pdf_files/cv.pdf).
+
 
 ## Contacts {#contacts}
 
