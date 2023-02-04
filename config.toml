@@ -74,10 +74,10 @@ name = "Teaching"
 url = "/teaching"
 weight = 4
 
-# [[menu.main]]
-# name = "Lists"
-# url = "/lists"
-# weight = 5
+[[menu.main]]
+name = "Lists"
+url = "/lists"
+weight = 5
 
 [[menu.main]]
 name = "Tags"

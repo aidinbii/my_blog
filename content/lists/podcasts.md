@@ -1,9 +1,8 @@
 +++
 title = "Podcasts"
 author = ["Aidin Biibosunov"]
-date = 2022-10-03T10:36:00+02:00
 categories = ["lists"]
-draft = false
+draft = true
 
 +++
 

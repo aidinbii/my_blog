@@ -6,7 +6,7 @@ draft = false
 type = "page"
 +++
 
-Hello! My name is Aidin Biibosunov.
+Hello! My name is Aidin.
 
 Here is my [CV](/pdf_files/cv.pdf).
 
