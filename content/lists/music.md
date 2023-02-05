@@ -2,14 +2,13 @@
 title = "Music"
 author = ["Aidin Biibosunov"]
 date = 2023-02-04T10:07:00+01:00
-lastmod = 2023-02-05T09:28:10+01:00
-tags = ["music"]
+tags = ["music", "list"]
 categories = ["list"]
 draft = false
 type = "lists"
 +++
 
-_LastMod Feb 5, 2023_
+_LastMod - Feb 5, 2023_
 
 List of my favourite albums and bands (to be updated). With no particular order.
 
