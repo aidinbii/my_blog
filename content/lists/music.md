@@ -8,7 +8,7 @@ draft = false
 type = "lists"
 +++
 
-_LastMod - Feb 5, 2023_
+_Updated on Feb 5, 2023_
 
 List of my favourite albums and bands (to be updated). With no particular order.
 
