@@ -7,4 +7,4 @@ draft = false
 type = "posts"
 +++
 
-<iframe src="<https://http//localhost:1313/html%5Ffiles/test%5Finteractive.html>" width="100%" height="500"></iframe>
+<iframe src="<https://aidinbii.netlify.app/html%5Ffiles/test%5Finteractive.html>" width="100%" height="500"></iframe>
