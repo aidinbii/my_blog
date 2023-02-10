@@ -7,12 +7,6 @@ draft = false
 type = "posts"
 +++
 
--   [map](/html_files/test_interactive.html)
-
-<iframe src="/home/aidin/my_blog/static/html_files/test_interactive.html" width="100%" height="500"></iframe>
-
-<iframe src="/static/test_interactive.html" width="100%" height="500"></iframe>
-
-<iframe src="test_interactive.html" width="100%" height="500"></iframe>
+-   test map
 
 <iframe src="/html_files/test_interactive.html" width="100%" height="500"></iframe>
