@@ -9,6 +9,10 @@ type = "posts"
 
 -   [map](/html_files/test_interactive.html)
 
-<iframe src="https://aidinbii.netlify.app/html_files/test_interactive.html" width="100%" height="500"></iframe>
+<iframe src="/home/aidin/my_blog/static/html_files/test_interactive.html" width="100%" height="500"></iframe>
 
-<iframe src="https://localhost:1313/html_files/test_interactive.html" width="100%" height="500"></iframe>
+<iframe src="/static/test_interactive.html" width="100%" height="500"></iframe>
+
+<iframe src="test_interactive.html" width="100%" height="500"></iframe>
+
+<iframe src="/html_files/test_interactive.html" width="100%" height="500"></iframe>
