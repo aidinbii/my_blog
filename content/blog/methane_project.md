@@ -4,9 +4,9 @@ author = ["Aidin Biibosunov"]
 date = 2023-02-10T12:34:00+01:00
 categories = ["blog"]
 draft = false
-type = "posts"
+mathjax = true
 +++
 
--   Average CH4(methane) values over November, 2021 in Bishkek
+-   Average \\(CH\_4\\) (methane) values over November, 2021 in Bishkek
 
 <iframe src="/methane_project/ch4_November_2021_Bishkek.html" width="100%" height="500"></iframe>
