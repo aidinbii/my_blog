@@ -9,4 +9,4 @@ mathjax = true
 
 -   Average \\(CH\_4\\) (methane) values over November, 2021 in Bishkek
 
-<iframe src="/methane_project/ch4_November_2021_Bishkek.html" width="100%" height="500"></iframe>
+<iframe src="/methane_project/ch4_November_2021_interactive_None.html" width="100%" height="500"></iframe>
