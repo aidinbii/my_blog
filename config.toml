@@ -53,6 +53,10 @@ summaryLength = 20
     # for example you may want to include external JS library.
     #customJS = ["js/abc.js", "js/xyz.js", "https://code.jquery.com/jquery-3.4.1.js"]
 
+    enableGitInfo = true
+
+
+
 # Main menu which appears below site header.
 [[menu.main]]
 name = "Home"
@@ -109,3 +113,8 @@ url = "https://t.me/aidinbii"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+
+[frontmatter]
+    date = ["date", "publishDate", "lastmod"]
+    lastmod = ["lastmod", ":git", "date", "publishDate"]
