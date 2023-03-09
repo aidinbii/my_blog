@@ -53,7 +53,6 @@ summaryLength = 20
     # for example you may want to include external JS library.
     #customJS = ["js/abc.js", "js/xyz.js", "https://code.jquery.com/jquery-3.4.1.js"]
 
-    enableGitInfo = true
 
 
 
@@ -114,7 +113,10 @@ url = "https://t.me/aidinbii"
     [markup.goldmark.renderer]
       unsafe = true
 
+enableGitInfo = true
 
 [frontmatter]
-    date = ["date", "publishDate", "lastmod"]
-    lastmod = ["lastmod", ":git", "date", "publishDate"]
+  date = ['date', 'publishDate', 'lastmod']
+  expiryDate = ['expiryDate']
+  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+  publishDate = ['publishDate', 'date']
