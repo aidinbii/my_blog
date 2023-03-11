@@ -2,6 +2,7 @@
 title = "Why I started this blog"
 author = ["Aidin Biibosunov"]
 date = 2021-11-04T08:55:00+01:00
+lastmod = 2023-03-11T06:36:03+01:00
 tags = ["writing"]
 categories = ["blog"]
 draft = false
