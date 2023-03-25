@@ -1,0 +1,6 @@
+<p class="md__image">
+<figure>
+    <img src="{{ .Destination | safeURL }}" id="zoom-default" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
+    <figcaption>{{ .Title }}</figcaption>
+</figure>
+</p>

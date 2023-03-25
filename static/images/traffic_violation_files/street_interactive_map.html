@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a8800775ba091eb99c496a43b1d98c40 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    
+                    <style>
+                        .foliumtooltip {
+                            font-family: Ubuntu, sans-serif; font-size: 12px;
+                        }
+                       .foliumtooltip table{
+                            margin: auto;
+                        }
+                        .foliumtooltip tr{
+                            text-align: left;
+                        }
+                        .foliumtooltip th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a8800775ba091eb99c496a43b1d98c40" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a8800775ba091eb99c496a43b1d98c40 = L.map(
+                "map_a8800775ba091eb99c496a43b1d98c40",
+                {
+                    center: [42.849, 74.601],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_38196bd8bbebc7edf3c4cce5c72ad572 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a8800775ba091eb99c496a43b1d98c40);
+        
+    
+        function geo_json_afa488790b2770f4d60b6e01a58dc781_styler(feature) {
+            switch(feature.properties.Name) {
+                default:
+                    return {"color": "blue", "fillColor": "blue", "fillOpacity": 0.5, "weight": 1};
+            }
+        }
+
+        function geo_json_afa488790b2770f4d60b6e01a58dc781_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_afa488790b2770f4d60b6e01a58dc781 = L.geoJson(null, {
+                onEachFeature: geo_json_afa488790b2770f4d60b6e01a58dc781_onEachFeature,
+            
+                style: geo_json_afa488790b2770f4d60b6e01a58dc781_styler,
+        });
+
+        function geo_json_afa488790b2770f4d60b6e01a58dc781_add (data) {
+            geo_json_afa488790b2770f4d60b6e01a58dc781
+                .addData(data)
+                .addTo(map_a8800775ba091eb99c496a43b1d98c40);
+        }
+            geo_json_afa488790b2770f4d60b6e01a58dc781_add({"features": [{"geometry": {"coordinates": ["74.625852", "42.886359"], "type": "Point"}, "properties": {"Name": "\u0433. \u0411\u0438\u0448\u043a\u0435\u043a, \u0443\u043b. \u0416\u0438\u0431\u0435\u043a-\u0416\u043e\u043b\u0443 \u2116 291", "Top-5 cars": "HONDA FIT: 6850,\u003cbr\u003e TOYOTA CAMRY: 3471,\u003cbr\u003e HONDA ODYSSEY: 2775,\u003cbr\u003e HONDA STEPWGN: 1966,\u003cbr\u003e VOLKSWAGEN PASSAT: 1927"}, "type": "Feature"}, {"geometry": {"coordinates": ["74.637173", "42.868933"], "type": "Point"}, "properties": {"Name": "\u0433.\u0411\u0438\u0448\u043a\u0435\u043a, \u041f\u0443\u0442\u0435\u043f\u0440\u043e\u0432\u043e\u0434 \u043f\u043e \u0443\u043b.\u0428\u0430\u0431\u0434\u0430\u043d-\u0411\u0430\u0430\u0442\u044b\u0440\u0430 (\u0443\u043b.7-\u0410\u043f\u0440\u0435\u043b\u044f)", "Top-5 cars": "HONDA FIT: 2197,\u003cbr\u003e TOYOTA CAMRY: 1995,\u003cbr\u003e LEXUS GX 470: 1374,\u003cbr\u003e HONDA ODYSSEY: 1371,\u003cbr\u003e HONDA CR-V: 1213"}, "type": "Feature"}, {"geometry": {"coordinates": ["74.574893", "42.868342"], "type": "Point"}, "properties": {"Name": "\u0433. \u0411\u0438\u0448\u043a\u0435\u043a, \u043f\u0435\u0440\u0435\u0441\u0435\u0447\u0435\u043d\u0438\u0435 \u0431\u0443\u043b\u044c\u0432. \u041c\u043e\u043b\u043e\u0434\u043e\u0439 \u0413\u0432\u0430\u0440\u0434\u0438\u0438 \u0438 \u0443\u043b. \u0416.\u0411\u043e\u043a\u043e\u043d\u0431\u0430\u0435\u0432\u0430", "Top-5 cars": "HONDA FIT: 2413,\u003cbr\u003e TOYOTA CAMRY: 1864,\u003cbr\u003e HONDA ODYSSEY: 1269,\u003cbr\u003e HONDA CR-V: 1246,\u003cbr\u003e VOLKSWAGEN PASSAT: 1028"}, "type": "Feature"}, {"geometry": {"coordinates": ["74.574677", "42.866315"], "type": "Point"}, "properties": {"Name": "\u0433. \u0411\u0438\u0448\u043a\u0435\u043a, \u043f\u0435\u0440\u0435\u0441\u0435\u0447\u0435\u043d\u0438\u0435 \u0443\u043b\u0438\u0446 \u041b.\u0422\u043e\u043b\u0441\u0442\u043e\u0433\u043e - \u041c\u043e\u043b\u043e\u0434\u0430\u044f \u0413\u0432\u0430\u0440\u0434\u0438\u044f", "Top-5 cars": "HONDA FIT: 3260,\u003cbr\u003e TOYOTA CAMRY: 2142,\u003cbr\u003e HONDA CR-V: 968,\u003cbr\u003e HONDA STEPWGN: 866,\u003cbr\u003e HONDA ODYSSEY: 855"}, "type": "Feature"}, {"geometry": {"coordinates": ["74.576291", "42.884719"], "type": "Point"}, "properties": {"Name": "\u0433. \u0411\u0438\u0448\u043a\u0435\u043a, \u043f\u0435\u0440\u0435\u0441\u0435\u0447\u0435\u043d\u0438\u0435 \u043f\u0440\u043e\u0441\u043f. \u0416\u0438\u0431\u0435\u043a-\u0416\u043e\u043b\u0443 \u0438 \u0431\u0443\u043b\u044c\u0432. \u041c\u043e\u043b\u043e\u0434\u043e\u0439 \u0413\u0432\u0430\u0440\u0434\u0438\u0438", "Top-5 cars": "HONDA FIT: 1842,\u003cbr\u003e TOYOTA CAMRY: 1565,\u003cbr\u003e VOLKSWAGEN PASSAT: 1226,\u003cbr\u003e HONDA ODYSSEY: 1218,\u003cbr\u003e HONDA CR-V: 1025"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_afa488790b2770f4d60b6e01a58dc781.bindTooltip(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["Name", "Top-5 cars"];
+    let aliases = ["Name", "Top-5 cars"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i]}</th>
+            
+            <td>${handleObject(layer.feature.properties[v])}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumtooltip", "sticky": true});
+                     
+    
+            var layer_control_d20c3c5f96f761cf0627ccbc2f3ed3c0 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_38196bd8bbebc7edf3c4cce5c72ad572,
+                },
+                overlays :  {
+                    "My data" : geo_json_afa488790b2770f4d60b6e01a58dc781,
+                },
+            };
+            L.control.layers(
+                layer_control_d20c3c5f96f761cf0627ccbc2f3ed3c0.base_layers,
+                layer_control_d20c3c5f96f761cf0627ccbc2f3ed3c0.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_a8800775ba091eb99c496a43b1d98c40);
+        
+</script>
+</html>

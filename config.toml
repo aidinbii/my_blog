@@ -52,6 +52,8 @@ summaryLength = 20
     # `static/js` folder and specify path here as `js/script-name.js`. You can also specify full url,
     # for example you may want to include external JS library.
     #customJS = ["js/abc.js", "js/xyz.js", "https://code.jquery.com/jquery-3.4.1.js"]
+    customJS = ["js/index.js", "js/placeholders.js",
+    "https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"]
 
 
 # Main menu which appears below site header.
@@ -111,10 +113,10 @@ url = "https://t.me/aidinbii"
     [markup.goldmark.renderer]
       unsafe = true
 
-enableGitInfo = true
+# enableGitInfo = true
 
-[frontmatter]
-  date = ['date', 'publishDate', 'lastmod']
-  expiryDate = ['expiryDate']
-  lastmod = [':git', 'lastmod', 'date', 'publishDate']
-  publishDate = ['publishDate', 'date']
+# [frontmatter]
+#   date = ['date', 'publishDate', 'lastmod']
+#   expiryDate = ['expiryDate']
+#   lastmod = [':git', 'lastmod', 'date', 'publishDate']
+#   publishDate = ['publishDate', 'date']

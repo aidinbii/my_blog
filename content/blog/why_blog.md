@@ -2,14 +2,15 @@
 title = "Why I started this blog"
 author = ["Aidin Biibosunov"]
 date = 2021-11-04T08:55:00+01:00
-lastmod = 2023-03-11T06:36:03+01:00
+lastmod = 2023-03-15T07:15:37+01:00
 tags = ["writing"]
 categories = ["blog"]
 draft = false
 type = "posts"
 +++
 
-![](img/old_man_writing.jpg)
+![](/images/misc/old_man_writing.jpg "Image Title")
+
 I want to learn to write clear text. To be able to express my thoughts in a logical and structured manner. I believe it will benefit me a lot.
 
 As it was pointed out by many famous people notes are not a record of a thinking process. They are the thinking process. The primary purpose of note-taking should not be for storing ideas, but for developing them.
