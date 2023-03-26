@@ -2,14 +2,14 @@
 title = "Why I started this blog"
 author = ["Aidin Biibosunov"]
 date = 2021-11-04T08:55:00+01:00
-lastmod = 2023-03-15T07:15:37+01:00
+lastmod = 2023-03-25T07:50:39+01:00
 tags = ["writing"]
 categories = ["blog"]
 draft = false
 type = "posts"
 +++
 
-![](/images/misc/old_man_writing.jpg "Image Title")
+![](/images/misc/old_man_writing.jpg "")
 
 I want to learn to write clear text. To be able to express my thoughts in a logical and structured manner. I believe it will benefit me a lot.
 
