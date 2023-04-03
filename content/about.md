@@ -2,6 +2,7 @@
 title = "About"
 author = ["Aidin Biibosunov"]
 date = 2021-11-01T21:30:00+01:00
+lastmod = 2023-04-03T07:45:37+02:00
 draft = false
 type = "page"
 +++

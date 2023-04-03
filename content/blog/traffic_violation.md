@@ -2,7 +2,7 @@
 title = "Traffic violations in Bishkek"
 author = ["Aidin Biibosunov"]
 date = 2023-03-29T16:27:00+02:00
-lastmod = 2023-03-29T16:40:04+02:00
+lastmod = 2023-03-30T09:09:09+02:00
 tags = ["data-analysis"]
 categories = ["blog"]
 draft = false
@@ -144,7 +144,7 @@ By monitoring changes in traffic violation rates over time, authorities can dete
 
 ## **Reproducibility** {#reproducibility}
 
-The code with the analysis is in this [repo](https://github.com/aidinbii/traffic_violation_KG). You can generate all the tables and figures presented in this post yourself.
+The code with the analysis is in this [repo](https://github.com/aidinbii/traffic%5Fviolation%5FKG). You can generate all the tables and figures presented in this post yourself.
 
 Please feel free to comment. And if you have any questions, contact me.
 
