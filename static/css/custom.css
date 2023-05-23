@@ -1,9 +1,9 @@
 body {
-    font-family: "SF", sans-serif;
+    font-family: "SF Pro Text", sans-serif;
     font-weight: 400;
     color: #333;
     line-height: 1.6;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 a, a:hover {
@@ -63,7 +63,7 @@ textarea {
 blockquote {
     margin-left: 1rem;
     font-style: italic;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-family: Georgia,bitstream charter,serif;
     border-left: 3px solid;
     border-color: #a00;
@@ -427,5 +427,3 @@ code.has-jax {
     border: none !important;
     font-size: 100%;
 }
-
-
