@@ -2,7 +2,7 @@
 title = "Family Tree"
 author = ["Aidin Biibosunov"]
 date = 2023-06-15T19:17:00+02:00
-lastmod = 2023-06-15T19:18:52+02:00
+lastmod = 2023-06-15T19:25:59+02:00
 tags = ["family"]
 categories = ["blog"]
 draft = false
@@ -20,5 +20,5 @@ I imagine it can come in handy when meeting with distant relatives. You can fast
 
 [ _To enlarge the images click on the them! ]_
 
-Certainly, it is convenient when you can consult with someone who knows most of your relatives. In my case, it is my grandma (Ene). Otherwise, one might need to collect the information peace by peace.
+Certainly, it is convenient when you can consult with someone who knows most of your relatives. In my case, it is my grandma (Ene). Otherwise, one might need to collect the information peace by peace - or relative by relative.
 Though, I started it years ago still it is far from completion.
