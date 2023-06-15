@@ -2,10 +2,11 @@
 title = "Family Tree"
 author = ["Aidin Biibosunov"]
 date = 2023-06-15T19:17:00+02:00
-lastmod = 2023-06-15T19:17:14+02:00
+lastmod = 2023-06-15T19:18:52+02:00
 tags = ["family"]
 categories = ["blog"]
 draft = false
+type = "posts"
 +++
 
 At some point in life, a person gets interested in his identity. And one thing that contributes to it is his unique heritage. In general, by understanding our ancestor's triumphs, struggles, and stories, we gain insight into our own identities and develop a stronger sense of belonging.
