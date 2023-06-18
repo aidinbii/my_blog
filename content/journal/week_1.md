@@ -2,7 +2,8 @@
 title = "Week 1"
 author = ["Aidin Biibosunov"]
 date = 2023-06-18T17:26:00+02:00
-lastmod = 2023-06-18T17:26:43+02:00
+lastmod = 2023-06-18T17:28:42+02:00
+tags = ["journal"]
 categories = ["journal"]
 draft = false
 type = "journal"
