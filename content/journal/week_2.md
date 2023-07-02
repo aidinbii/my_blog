@@ -2,7 +2,7 @@
 title = "Week 2"
 author = ["Aidin Biibosunov"]
 date = 2023-07-02T10:53:00+02:00
-lastmod = 2023-07-02T10:53:33+02:00
+lastmod = 2023-07-02T19:21:21+02:00
 tags = ["journal"]
 categories = ["journal"]
 draft = false
@@ -19,7 +19,7 @@ Went to a trip to Issyk-Kul. Had a bike ride which I wanted to do since the firs
 -   <https://opensourcemusings.com/where-to-buy-a-linux-powered-computer>
 
 
-## Health {#health}
+## Health & Food {#health-and-food}
 
 -   <https://www.umamiinfo.com/umamidb/> <br />
     <https://www.youtube.com/watch?v=GHX3aaLmjMI&list=WL&index=19>
