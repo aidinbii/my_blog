@@ -2,7 +2,7 @@
 title = "Week 3"
 author = ["Aidin Biibosunov"]
 date = 2023-07-02T19:21:00+02:00
-lastmod = 2023-07-02T19:21:32+02:00
+lastmod = 2023-07-04T12:49:12+02:00
 tags = ["journal"]
 categories = ["journal"]
 draft = false
@@ -23,3 +23,7 @@ type = "journal"
 ## Tech {#tech}
 
 -   <https://github.com/susam/emacs4cl#opinion-references>
+
+\*\*
+
+-   <https://github.com/python/mypy>

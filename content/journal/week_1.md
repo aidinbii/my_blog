@@ -2,7 +2,7 @@
 title = "Week 1"
 author = ["Aidin Biibosunov"]
 date = 2023-06-18T17:26:00+02:00
-lastmod = 2023-06-19T08:31:50+02:00
+lastmod = 2023-07-04T15:07:50+02:00
 tags = ["journal"]
 categories = ["journal"]
 draft = false
@@ -26,10 +26,11 @@ Certainly, I will not include all the stuff. For instance, something related to 
 
 ## Music {#music}
 
--   <https://www.youtube.com/watch?v=keu5fRyRtNw&list=PLUpJzFMvTg8wk4oskibFqg0EkLt1AUul3&index=3> <br />
-    Randomly stumbled on "Bruce almighty" on TV. Song from the scene with the starry night.
+{{< youtube id="keu5fRyRtNw" >}}
+ Live performance of a great song!
+
 -   <https://www.youtube.com/watch?v=QQ55ywJwF1Q&list=PLUpJzFMvTg8wk4oskibFqg0EkLt1AUul3&index=3> <br />
-    Live performance of a great song!
+    Randomly stumbled on "Bruce almighty" on TV. Song from the scene with the starry night.
 
 
 ## Podcasts {#podcasts}

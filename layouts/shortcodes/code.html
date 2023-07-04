@@ -1,0 +1,4 @@
+{{ $code := .Inner | markdownify }}
+{{ $lang := .Get 0 }}
+<pre><code class="src src-{{ $lang }}">{{ $code }}</code></pre>
+ 
