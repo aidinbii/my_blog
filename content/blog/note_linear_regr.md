@@ -2,7 +2,7 @@
 title = "Note on linear regression"
 author = ["Aidin Biibosunov"]
 date = 2023-07-04T18:17:00+02:00
-lastmod = 2023-07-04T18:39:12+02:00
+lastmod = 2023-07-04T18:47:57+02:00
 tags = ["python", "ML"]
 categories = ["blog"]
 draft = false
@@ -16,4 +16,4 @@ mathjax = true
 
 **Notebook**: And here is a simple demonstration:
 
-{{< notebook "noteLinearRegr" 1000 >}}
+{{< notebook "noteLinearRegr" 1200 >}}
