@@ -2,7 +2,7 @@
 title = "Traffic violations in Bishkek"
 author = ["Aidin Biibosunov"]
 date = 2023-03-29T16:27:00+02:00
-lastmod = 2023-05-23T17:50:07+02:00
+lastmod = 2023-06-14T11:52:13+02:00
 tags = ["data-analysis"]
 categories = ["blog"]
 draft = false

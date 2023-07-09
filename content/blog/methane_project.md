@@ -2,7 +2,7 @@
 title = "Methane maps for Bishkek"
 author = ["Aidin Biibosunov"]
 date = 2023-02-10T12:34:00+01:00
-lastmod = 2023-03-11T06:39:09+01:00
+lastmod = 2023-07-07T09:59:04+02:00
 tags = ["methane"]
 categories = ["blog"]
 draft = false

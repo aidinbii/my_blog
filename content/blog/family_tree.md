@@ -2,7 +2,7 @@
 title = "Family Tree"
 author = ["Aidin Biibosunov"]
 date = 2023-06-15T19:17:00+02:00
-lastmod = 2023-06-15T19:35:22+02:00
+lastmod = 2023-07-04T15:09:17+02:00
 tags = ["family"]
 categories = ["blog"]
 draft = false
