@@ -2,7 +2,7 @@
 title = "Week 3"
 author = ["Aidin Biibosunov"]
 date = 2023-07-02T19:21:00+02:00
-lastmod = 2023-07-04T12:49:12+02:00
+lastmod = 2023-07-16T17:55:49+02:00
 tags = ["journal"]
 categories = ["journal"]
 draft = false
@@ -20,10 +20,6 @@ type = "journal"
 -   <https://www.benkuhn.net/writing/>
 
 
-## Tech {#tech}
+## Techs {#techs}
 
 -   <https://github.com/susam/emacs4cl#opinion-references>
-
-\*\*
-
--   <https://github.com/python/mypy>
