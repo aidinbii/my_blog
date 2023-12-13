@@ -1,16 +1,14 @@
 +++
-title = "Teaching"
+title = "School 84, 8th grade. First quarter 2022/2023"
 author = ["Aidin Biibosunov"]
-date = 2022-10-03T10:21:00+02:00
-lastmod = 2023-05-10T07:15:43+02:00
+lastmod = 2023-12-13T20:30:50+01:00
+tags = ["teaching"]
+categories = ["teaching"]
 draft = false
-type = "page"
+type = "teaching"
 +++
 
-Here I will provide some links.
-
-
-## School 84, 8th grade. First quarter 2022/2023 {#school-84-8th-grade-dot-first-quarter-2022-2023}
+Here I will provide some links
 
 -   [Link to the Telegram group of the class](https://t.me/+edfnmw-7YlplMTdi)
 -   [Notes](https://drive.google.com/drive/folders/1CKcaU-8RLLfkq7hiw9vfbSwG%5FpN51qfE?usp=sharing)
