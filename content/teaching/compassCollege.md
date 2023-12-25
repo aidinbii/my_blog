@@ -1,7 +1,7 @@
 +++
 title = "Compass College, Winter semester 2023/2024"
 author = ["Aidin Biibosunov"]
-lastmod = 2023-12-13T20:32:23+01:00
+lastmod = 2023-12-25T11:06:43+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -21,6 +21,22 @@ type = "teaching"
 -   [api javascript](https://www.youtube.com/watch?v=CdDXbvBFXLY)
 -   [cs50 html,css](https://www.youtube.com/watch?v=alnzFK-4xMY)
 -   [oop](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=WL&index=42&t=553s), [oop2](https://www.youtube.com/watch?v=e4fwY9ZsxPw)
+-   [change page kivy](https://www.youtube.com/watch?v=sJmkhV02lnM&list=PLQVvvaa0QuDfwnDTZWw8H3hN%5FVRQfq8rF&index=3)
+-   commands I used to build app for Android:
+
+    ```shell
+    buildozer appclean
+    buildozer init
+    JAVA_HOME="/usr/lib/jvm/java-11-openjdk/" buildozer -v android debug deploy run
+    ```
+
+<!--listend-->
+
+-   [app for Android debug](https://github.com/Android-for-Python/Android-for-Python-Users#install-app-on-android)
+-   [buildozer](https://github.com/kivy/buildozer)
+-   [buildozer2](https://buildozer.readthedocs.io/en/latest/quickstart.html#init-and-build-for-a)
+
+-   [to my code example of the map](https://github.com/aidinbii/kivy%5Fapp)
 
 
 ### Team 1 {#team-1}
