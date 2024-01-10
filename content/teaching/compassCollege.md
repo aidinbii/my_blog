@@ -1,7 +1,7 @@
 +++
 title = "Compass College, Winter semester 2023/2024"
 author = ["Aidin Biibosunov"]
-lastmod = 2023-12-25T11:06:43+01:00
+lastmod = 2024-01-10T05:40:46+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -30,13 +30,11 @@ type = "teaching"
     JAVA_HOME="/usr/lib/jvm/java-11-openjdk/" buildozer -v android debug deploy run
     ```
 
-<!--listend-->
-
--   [app for Android debug](https://github.com/Android-for-Python/Android-for-Python-Users#install-app-on-android)
--   [buildozer](https://github.com/kivy/buildozer)
--   [buildozer2](https://buildozer.readthedocs.io/en/latest/quickstart.html#init-and-build-for-a)
-
--   [to my code example of the map](https://github.com/aidinbii/kivy%5Fapp)
+    -   [app for Android debug](https://github.com/Android-for-Python/Android-for-Python-Users#install-app-on-android)
+    -   [buildozer](https://github.com/kivy/buildozer)
+    -   [buildozer2](https://buildozer.readthedocs.io/en/latest/quickstart.html#init-and-build-for-a)
+    -   [to my code example of the map](https://github.com/aidinbii/kivy%5Fapp.git)
+    -   [2gis api example](https://www.youtube.com/watch?v=lrcDJwBYN44)
 
 
 ### Team 1 {#team-1}
@@ -65,6 +63,18 @@ type = "teaching"
 > Наша идея это “Карта счастья”. Обычные карты такие как 2гис показывает самый кратчайший путь из точки А в точку B. Но идя каждый день по одному и тому же пути мы даже не знаем какие есть другие пути. Может быть другие дороги более удобны и там меньше пробок, может там просто приятнее идти, а где-то лучше освещение улиц.
 > Наша «Карта счастья» будет составлять путь по которому будет более интересно идти. Путь по желанию пользователя может быть составлен по интересным местам города или же где меньше машин и где легче проехать на велосипеде.
 > Наш концепт в том что обычная дорога с дома до работы может быть интереснее и удобнее.
+
+-   Мы не знаем где брать код вообще
+-   Что лучше переделать Гугл карты или 2Гис
+-   если подбирать цвета для карты это надо писать в коде или отдельно часть UX UI
+-   Нам понадобится знать HTML или пайтоном можно обойтись
+-   мы обойдёмся только одной библиотекой kivy?
+-   мы очень слабы в части программирования?
+-   Вы спасёте нас от позора?
+-   Как работает программа когда прокладывает маршрут
+-   Какие есть алгоритмы в 2гис и как нам записать и использовать наши алгоритмы
+
+waypoints (a single location, or a list of locations, where a location is a string, dict, list, or tuple) – Specifies an array of waypoints. Waypoints alter a route by routing it through the specified location(s). To influence route without adding stop prefix the waypoint with via, similar to waypoints = [“via:San Francisco”, “via:Mountain View”].
 
 
 ### Team 3 {#team-3}
