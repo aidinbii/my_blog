@@ -2,6 +2,8 @@ baseURL = "https://aidinbii.netlify.app/"
 languageCode = "en-us"
 title = "Aidin Biibosunov"
 theme = "ezhil"
+# theme = ["hugo-embed-pdf-shortcode", "ezhil"]
+# enableInlineShortcodes = true
 
 copyright = "© Copyright notice"
 
@@ -73,24 +75,29 @@ url = "/about"
 weight = 3
 
 [[menu.main]]
+name = "CV"
+url = "/pdf_files/cv_ver2.pdf"
+weight = 4
+
+[[menu.main]]
 name = "Teaching"
 url = "/teaching"
-weight = 4
+weight = 5
 
 [[menu.main]]
 name = "Lists"
 url = "/lists"
-weight = 5
+weight = 6
 
 [[menu.main]]
 name = "Journal"
 url = "/journal"
-weight = 6
+weight = 7
 
 [[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 7
+weight = 8
 
 # Social media links which shows up on site header.
 # Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
