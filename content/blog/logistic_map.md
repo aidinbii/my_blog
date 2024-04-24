@@ -2,7 +2,8 @@
 title = "Logistic map or how chaos can arise from a very simple nonlinear equation"
 author = ["Aidin Biibosunov"]
 date = 2024-04-24T06:41:00+02:00
-lastmod = 2024-04-24T06:41:04+02:00
+lastmod = 2024-04-24T06:50:09+02:00
+tags = ["visualization", "math", "python"]
 categories = ["blog"]
 draft = false
 type = "posts"
