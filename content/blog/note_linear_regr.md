@@ -2,7 +2,7 @@
 title = "Note on linear regression"
 author = ["Aidin Biibosunov"]
 date = 2023-07-04T18:17:00+02:00
-lastmod = 2023-07-04T20:08:42+02:00
+lastmod = 2024-04-24T06:25:32+02:00
 tags = ["python", "ML"]
 categories = ["blog"]
 draft = false
