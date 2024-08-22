@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-08-22 Thu 06:48 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Киришүү</title>
+<meta name="author" content="Бийбосунов Айдин Алмазович" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Киришүү</h1>
+
+
+<div id="outline-container-org6525a1c" class="outline-2">
+<h2 id="org6525a1c">Бир аз өзүм жөнүндө</h2>
+<div class="outline-text-2" id="text-org6525a1c">
+
+<div id="org4b26225" class="figure">
+<p><img src="my_photo.jpg" alt="my_photo.jpg" height="40%" width="40%" />
+</p>
+</div>
+
+<ol class="org-ol">
+<li>B.Sc. (Бакалавр) in <i>Physics</i> (Quantum Chemistry)</li>
+<li>M.Sc. (Магистр) in <i>Mathematics</i> (Biomathematics)</li>
+<li>Currently at <i>AliveX</i> (Mathematical modeling)</li>
+<li><a href="http://teachforkyrgyzstan.org/kg">Заманбап Мугалим</a> программасынын катышуучусу</li>
+</ol>
+
+
+<div id="org1240763" class="figure">
+<p><img src="logos.png" alt="logos.png" height="100%" width="100%" />
+</p>
+</div>
+
+<ul class="org-ul">
+<li>Менин блогумда көбүрөөк: <a href="https://aidinbii.netlify.app/">https://aidinbii.netlify.app/</a></li>
+</ul>
+
+<div id="org0bb03bb" class="figure">
+<p><img src="qr_myblog.png" alt="qr_myblog.png" height="50%" width="50%" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga33fc0c" class="outline-2">
+<h2 id="orga33fc0c">Logistics</h2>
+<div class="outline-text-2" id="text-orga33fc0c">
+<ul class="org-ul">
+<li>All the information - syllabus, calendar, materials, correspondence - will be on <b>Edupage</b></li>
+<li>Written material in English &amp; oral explanations in Russian</li>
+<li>We'll use Jupyter notebooks - <i>interactive</i> lessons</li>
+<li><b>IMPORTANT</b>: don't be afraid or shy to ask questions!</li>
+</ul>
+
+<ul class="org-ul">
+<li>Active interaction with you in every lesson</li>
+</ul>
+<ul class="org-ul">
+<li><i>First</i> lesson: go over the previous homework and answer questions</li>
+<li><i>Second</i> lesson: explain new material</li>
+<li><i>Third</i> lesson: a physics topic and the related new homework</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org53d88a3" class="outline-2">
+<h2 id="org53d88a3">Advice</h2>
+<div class="outline-text-2" id="text-org53d88a3">
+<ul class="org-ul">
+<li>You learn by doing. Can’t passively absorb the skill to code</li>
+<li>Play with the code. Experiment! Active learning!</li>
+<li>Do not be afraid to make mistakes!</li>
+<li>If you run into problems, try to think about what went wrong</li>
+<li>Google, StackOverflow, ChatGPT are your friends</li>
+<li>If you find yourself truly stuck, feel free to contact me</li>
+</ul>
+
+<p>
+PRACTICE. PRACTICE? PRACTICE!
+</p>
+
+<div class="NOTES" id="org4089843">
+<ul class="org-ul">
+<li>i cannot put knowledge inside your head.</li>
+<li>you need to walk the path youself</li>
+<li>I will be your guide and map. And support you when needed</li>
+</ul>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-org81f5ac7" class="outline-2">
+<h2 id="org81f5ac7">Cheating</h2>
+<div class="outline-text-2" id="text-org81f5ac7">
+<ul class="org-ul">
+<li>I take academic integrity seriously</li>
+<li>I also trust students to do the right thing</li>
+<li>I rather spend more time teaching and less time making sure no one cheats</li>
+<li>There’s always a way to cheat</li>
+<li>I cannot control you. It is your responsibility to learn</li>
+<li>The Student Code of Compass College</li>
+</ul>
+
+<div class="NOTES" id="orgc3cf01f">
+<ul class="org-ul">
+<li>I trust and am confident that the vast majority of students care about their education enough to take this seriously and am unwilling to spend all my energy focused on those students who do not. That said, students should anticipate that if they are caught cheating on an exam, they will fail the class.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-orgf46cbb9" class="outline-2">
+<h2 id="orgf46cbb9">Learning Goals</h2>
+<div class="outline-text-2" id="text-orgf46cbb9">
+<ul class="org-ul">
+<li>Write and execute programs using Python</li>
+<li>Write clean code</li>
+<li>Utilize control structures such as loops and conditionals to create efficient code</li>
+<li>Debug and troubleshoot common errors</li>
+<li>Understand object-oriented programming concepts</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org641a9d1" class="outline-2">
+<h2 id="org641a9d1">Why learn to code when there's GPT?</h2>
+<div class="outline-text-2" id="text-org641a9d1">
+<ul class="org-ul">
+<li>Still need to understand code. Skills to assess &amp; edit. Does it make sense? Is it optimal? How to improve?</li>
+<li>Analogy with a calculator: don't need to do the calculations yourself, yet need to understand what's happening(mechanism) and the answer</li>
+<li>I myself use ChatGPT. But it has little use if you don't understand the answer</li>
+<li>Treat it as a personal assistant. It can help you with your studies!
+<ul class="org-ul">
+<li><i>Pros</i> - you can get your questions answered</li>
+<li><i>Cons</i> - it can be confidently wrong!</li>
+</ul></li>
+</ul>
+
+<div class="NOTES" id="orgf21e3fb">
+<ul class="org-ul">
+<li>Chat GPT is just one of many tools that can be used to solve problems and create new things</li>
+<li>It makes mistakes</li>
+<li>Coding tools based on AI will become a tool that real programmers can use. It will be like an IDE, compiler, build tools, version control, etc. It will have benefits and limitations. We already have IDEs that can spot syntax problems and help debug the code before you even run the code.</li>
+</ul>
+<p>
+AI tools will be no different. They will be very useful for quickly generating frameworks and finding solutions that would require manual search of the web. Understanding the tools available is part of software development.
+</p>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-org36c74f1" class="outline-2">
+<h2 id="org36c74f1">Why Python?</h2>
+<div class="outline-text-2" id="text-org36c74f1">
+<blockquote>
+<p>
+It’s not the best language for anything, but it’s the second best for everything <br />
+Brad Voytek <br />
+</p>
+</blockquote>
+
+<ol class="org-ol">
+<li>relatively simple syntax</li>
+<li>widely-used: web development, machine learning, scripting, etc.</li>
+<li>Jupyter Notebooks</li>
+</ol>
+
+
+
+<div id="org4641cd0" class="figure">
+<p><img src="python_meme.png" alt="python_meme.png" />
+</p>
+</div>
+
+<div class="NOTES" id="orgb92c2e6">
+<ul class="org-ul">
+<li>in the end of the course hopefully you will understand this meme</li>
+</ul>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf99dc0d" class="outline-2">
+<h2 id="orgf99dc0d">Why Physics?</h2>
+<div class="outline-text-2" id="text-orgf99dc0d">
+<ul class="org-ul">
+<li>Goal is to understand how the world works on the most <b>fundamental</b> level</li>
+<li>Physics is based on handful of principles</li>
+<li>One of the most successful science: nuclear energy, semiconductors, space exploration, etc.</li>
+<li>For you:
+<ul class="org-ul">
+<li>teach you to think better, solve problems</li>
+<li>expand your knowledge horizon</li>
+<li>less likely that someone will deceive you (critical thinking)</li>
+</ul></li>
+</ul>
+
+
+<div id="orgbde653e" class="figure">
+<p><img src="purity.png" alt="purity.png" />
+</p>
+</div>
+
+<div class="NOTES" id="org39a5d9a">
+<ul class="org-ul">
+<li>order of magnitude estimates, asking questions, to not be afraid of thinking, etc. And use physics topics as an example of this.</li>
+<li>I like physics cause u don't need to remember a lot of stuff; can derive stuff</li>
+<li>it is elegant</li>
+</ul>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga4d20d8" class="outline-2">
+<h2 id="orga4d20d8">Scientific method in a nutshell</h2>
+<div class="outline-text-2" id="text-orga4d20d8">
+<blockquote>
+<p>
+We can never be right, we can only prove we are wrong. <br />
+R. Feynman
+</p>
+</blockquote>
+
+
+<div id="org213abc8" class="figure">
+<p><img src="method.png" alt="method.png" height="40%" width="40%" />
+</p>
+</div>
+
+<ul class="org-ul">
+<li>Astronomy vs Astrology</li>
+<li>Paper: <a href="https://www.nature.com/articles/318419a0">A double-blind test of astrology (1985)</a></li>
+</ul>
+
+
+<div class="NOTES" id="org4a022b9">
+<ul class="org-ul">
+<li>theory shoud be falsifiable</li>
+<li>tell anecdote from Feynman about amout of love</li>
+<li>time when you're born effects your biology</li>
+<li>pseudoscience: use of jargon, smart words, imitate real science</li>
+<li>want to be scientific on the surface</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Бийбосунов Айдин Алмазович</p>
+<p class="date">Created: 2024-08-22 Thu 06:48</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
