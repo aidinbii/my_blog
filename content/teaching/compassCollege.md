@@ -1,7 +1,7 @@
 +++
 title = "Compass College, Winter semester 2023/2024"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-03-25T12:27:32+01:00
+lastmod = 2024-09-03T14:52:11+02:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false

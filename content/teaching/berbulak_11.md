@@ -1,7 +1,7 @@
 +++
-title = "Ber-Bulak"
+title = "Ber-Bulak: 11th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-09-03T05:01:12+02:00
+lastmod = 2024-09-03T15:17:42+02:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
