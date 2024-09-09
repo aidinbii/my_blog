@@ -2,7 +2,7 @@
 title = "Ber-Bulak: 8th grade"
 author = ["Aidin Biibosunov"]
 date = 2024-09-03T15:18:00+02:00
-lastmod = 2024-09-09T18:51:03+02:00
+lastmod = 2024-09-09T19:32:17+02:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -18,3 +18,4 @@ type = "teaching"
 
 -   [Assignment 0](/pdf_files/berbulak/algebra_8/assignments/week1_asst0.html)
 -   [Lesson 1](/pdf_files/berbulak/algebra_8/assignments/week1_lesson1.html)
+-   [Lesson 2](/pdf_files/berbulak/algebra_8/assignments/algebra8_week2.html)
