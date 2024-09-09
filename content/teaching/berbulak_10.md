@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 10th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-09-09T19:45:56+02:00
+lastmod = 2024-09-09T20:54:02+02:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -27,5 +27,6 @@ type = "teaching"
 
 ## Physics 10 {#physics-10}
 
--   [Week 1: Lesson 1: Intro](/pdf_files/berbulak/physics_10/week1_intro.pdf)
-    -   [Week 1: Lesson 2: Kinematics](/pdf_files/berbulak/physics_10/physics10_week1_lesson1.html)
+-   [Week 1: Intro](/pdf_files/berbulak/physics_10/week1_intro.pdf)
+-   [Week 1: Kinematics](/pdf_files/berbulak/physics_10/physics10_week1_lesson1.html)
+-   [Week 2](/pdf_files/berbulak/physics_10/physics10_week2.html)
