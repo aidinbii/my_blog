@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 10th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-09-09T20:54:02+02:00
+lastmod = 2024-09-10T16:50:37+02:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -22,7 +22,8 @@ type = "teaching"
 
 ## Geometry 10 {#geometry-10}
 
--   [Week 1: Lesson 1](/pdf_files/berbulak/geometry_10/geom10_week1_lesson1.html)
+-   [Week 1](/pdf_files/berbulak/geometry_10/geom10_week1_lesson1.html)
+-   [Week 2](/pdf_files/berbulak/geometry_10/geometry10_week2.html)
 
 
 ## Physics 10 {#physics-10}

@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 8th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-09-09T19:44:00+02:00
+lastmod = 2024-09-10T15:53:58+02:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -16,5 +16,10 @@ type = "teaching"
 ## Algebra 8 {#algebra-8}
 
 -   [Assignment 0](/pdf_files/berbulak/algebra_8/assignments/week1_asst0.html)
--   [Week 1: Lesson 1](/pdf_files/berbulak/algebra_8/assignments/week1_lesson1.html)
--   [Week 2: Lesson 1](/pdf_files/berbulak/algebra_8/assignments/algebra8_week2.html)
+-   [Week 1 ](/pdf_files/berbulak/algebra_8/assignments/week1_lesson1.html)
+-   [Week 2](/pdf_files/berbulak/algebra_8/assignments/algebra8_week2.html)
+
+
+## Geometry 8 {#geometry-8}
+
+-   [Week 2](/pdf_files/berbulak/geometry_8/geometry8_week2.html)
