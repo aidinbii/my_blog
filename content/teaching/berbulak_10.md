@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 10th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-09-10T16:50:37+02:00
+lastmod = 2024-09-16T20:06:52+02:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -18,6 +18,7 @@ type = "teaching"
 -   [Week 1](/pdf_files/berbulak/algebra_8/assignments/week1_lesson1.html)
 -   [Week 1 (cont)](/pdf_files/berbulak/algebra_10/assignments/week1_lesson2.html)
 -   [Week 2](/pdf_files/berbulak/algebra_10/assignments/algebra10_week2.html)
+-   [Week 3](/pdf_files/berbulak/algebra_10/assignments/algebra10_week3.html)
 
 
 ## Geometry 10 {#geometry-10}
@@ -31,3 +32,4 @@ type = "teaching"
 -   [Week 1: Intro](/pdf_files/berbulak/physics_10/week1_intro.pdf)
 -   [Week 1: Kinematics](/pdf_files/berbulak/physics_10/physics10_week1_lesson1.html)
 -   [Week 2](/pdf_files/berbulak/physics_10/physics10_week2.html)
+-   [Week 3](/pdf_files/berbulak/physics_10/physics10_week3.html)
