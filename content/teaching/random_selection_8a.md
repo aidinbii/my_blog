@@ -1,7 +1,7 @@
 +++
 title = "Randomizer (8a)"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-09-26T16:22:05+02:00
+lastmod = 2024-09-26T16:31:02+02:00
 tags = ["teaching", "tools"]
 categories = ["teaching"]
 draft = false
@@ -101,7 +101,6 @@ function selectRandomStudent() {
         return student + ((index + 1) % N === 0 ? '<br>' : ', ');
     }).join('');
 
-    document.getElementById('latestOutput').innerText = "Randomly selected student: " + selectedStudents[selectedStudents.length - 1];
     document.getElementById('selectedStudentsOutput').innerHTML = "Selected students:<br>" + outputText;
 }
 
