@@ -1,14 +1,14 @@
 +++
-title = "Randomizer"
+title = "Randomizer (numbers)"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-09-24T17:36:15+02:00
+lastmod = 2024-09-26T16:54:27+02:00
 tags = ["teaching", "tools"]
 categories = ["teaching"]
 draft = false
 type = "teaching"
 +++
 
-<input type="number" id="numberInput" placeholder="Enter N" min="1">
+<input type="number" id="numberInput" placeholder="Enter the maximum number to select from" min="1">
 <button onclick="selectRandomNumber()">Select Random Number</button>
 <button onclick="resetSelection()">Reset Selection</button>
 
