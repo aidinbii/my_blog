@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 11th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-09-24T17:29:28+02:00
+lastmod = 2024-10-01T16:06:32+02:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -19,3 +19,4 @@ Here I will provide some links
 
 -   [September: Week 3](/pdf_files/berbulak/geometry_11/geometry11_week3.html)
 -   [September: Week 4](/pdf_files/berbulak/geometry_11/geometry11_week4.html)
+-   [October: Week 1](/pdf_files/berbulak/geometry_11/geometry11_week5.html)
