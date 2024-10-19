@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Physics 10: Week 8</title>
+<meta name="author" content="Aidin Biibosunov"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<style>
+body {
+width: 8.5in; /* Letter width */
+height: 11in; /* Letter height */
+margin: 0 auto; /* Center the page */
+padding: 20px; /* Add some padding */
+box-sizing: border-box; /* Include padding in width/height */
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Physics 10: Week 8</h1><p class="subtitle"></p>
+<h2 class="author">Aidin Biibosunov</h2><p class="date">Created: 2024-10-19 Sat 15:15</p>
+</section>
+
+<section>
+<section id="slide-org697bd90">
+<h2 id="org697bd90">Инерция и первый закон Ньютона</h2>
+<div class="outline-text-2" id="text-org697bd90">
+</div>
+</section>
+<section id="slide-orgd038ef9">
+<h3 id="orgd038ef9">Цели урока</h3>
+<ol>
+<li>Понять понятия инерции и инертности.</li>
+<li>Ознакомиться с формулировкой и значением первого закона Ньютона.</li>
+<li>Применять первый закон Ньютона для анализа движений тел в различных ситуациях.</li>
+
+</ol>
+
+</section>
+<section id="slide-orge18cab3">
+<h3 id="orge18cab3">Содержательная линия</h3>
+<ol>
+<li>Движение и взаимодействие.</li>
+
+</ol>
+
+</section>
+<section id="slide-org5aebd6f">
+<h3 id="org5aebd6f">Ожидаемые результаты</h3>
+<ol>
+<li>ПК1
+<ul>
+<li>Учащиеся смогут объяснить принцип инерции и первый закон Ньютона своими словами. (Знание, Понимание )</li>
+
+</ul></li>
+
+<li>ПК2
+<ul>
+<li>Учащиеся сравнят инерцию лёгких и тяжёлых объектов. (Анализ)</li>
+<li>Учащиеся применяют закон в практических задачах.(Анализ)</li>
+<li>Учащиеся смогут интерпретировать наблюдения на практических примерах.( Понимание )</li>
+<li>Учащиеся предложат свои собственные примеры инерции из повседневной жизни. (Синтез)</li>
+
+</ul></li>
+
+</ol>
+
+</section>
+<section id="slide-org09f48ca">
+<h3 id="org09f48ca">Этапы урока</h3>
+<div class="outline-text-3" id="text-org09f48ca">
+</div>
+</section>
+<section id="slide-org29685bd">
+<h4 id="org29685bd">Этап 1: Целеполагание (Уровень: знание, понимание)</h4>
+<ul>
+<li>Время: 3 минуты</li>
+<li>Деятельность учителя:
+<ul>
+<li>Объявление темы урока: "Инерция и первый закон Ньютона."</li>
+<li>Формулирование целей: учащиеся узнают, что такое инерция, как она проявляется, и как первый закон Ньютона объясняет это явление.</li>
+
+</ul></li>
+<li>Деятельность учащихся:
+<ul>
+<li>Внимательное слушание и обсуждение целей урока.</li>
+
+</ul></li>
+<li>Оценивание:
+Вопросы к учащимся: "Что мы должны узнать и чему научиться на этом уроке?"</li>
+
+</ul>
+
+</section>
+<section id="slide-org4d30596">
+<h4 id="org4d30596">Этап 2: Мотивация (Уровень: понимание)</h4>
+<ul>
+<li>Время: 5 минут</li>
+<li>Деятельность учителя:
+<ul>
+<li>Демонстрации: неподвижное тело на столе и  <a href="https://www.youtube.com/watch?v=Rsk30PQK8R0">Curling</a>, где проявляется инерция.</li>
+<li>Вопрос: "Почему предметы продолжают двигаться даже после того, как на них перестала действовать сила?"</li>
+
+</ul></li>
+<li>Деятельность учащихся:
+<ul>
+<li>Размышление о причинах, обсуждение идей с классом.</li>
+
+</ul></li>
+<li>Оценивание:
+<ul>
+<li>Ответы учащихся на вопросы, проверка уровня их вовлеченности.</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-org84a4ce6">
+<h4 id="org84a4ce6">Этап 3: Актуализация знаний (Уровень: знание, понимание)</h4>
+<ul>
+<li>Время: 5 минут</li>
+<li>Деятельность учителя:
+<ul>
+<li>Вопросы к классу по пройденной теме движения: "Какие виды движения мы изучали? Их графики скорости и ускорения.</li>
+
+</ul></li>
+<li>Деятельность учащихся:
+<ul>
+<li>Ответы на вопросы, вспоминание предыдущего материала.</li>
+
+</ul></li>
+<li>Оценивание:
+<ul>
+<li>Устные ответы учащихся, демонстрирующие их уровень подготовки.</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-org704fb83">
+<h4 id="org704fb83">Этап 4: Изучение нового материала (Уровень: знание, понимание)</h4>
+<ul>
+<li>Время: 10 минут</li>
+<li>Деятельность учителя:
+<ul>
+<li>Объяснение понятия инерции, инертности и первого закона Ньютона. Демонстрация с помощью мяча или другого предмета, который остается на месте или продолжает двигаться по инерции.</li>
+<li>Примеры из жизни: движение машин, спорт, ремни безопасности.</li>
+
+</ul></li>
+<li>Деятельность учащихся:
+<ul>
+<li>Внимательное слушание, участие в обсуждении.</li>
+
+</ul></li>
+<li>Оценивание:
+<ul>
+<li>Учитель задает вопросы по материалу, чтобы убедиться, что учащиеся понимают принцип инерции.</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-orgfb23cd6">
+<h4 id="orgfb23cd6">Этап 5: Работа под руководством учителя (Уровень: применение, анализ)</h4>
+<ul>
+<li>Время: 13 минут</li>
+<li>Деятельность учителя:
+<ul>
+<li>Помощь в решении задач</li>
+<li>задача про <a href="https://www.youtube.com/watch?v=EQuYU3TCnPc">мяч на веревке</a>
+<a href="https://www.youtube.com/watch?v=2qVDu7Heo8U">visual</a></li>
+
+</ul></li>
+<li>Деятельность учащихся:
+<ul>
+<li>Решение задач</li>
+
+</ul></li>
+<li>Оценивание:
+<ul>
+<li>Учитель проверяет ответы учащихся.</li>
+
+</ul></li>
+
+</ul>
+
+
+<div id="orgf95062f" class="figure">
+<p><img src="imgs/inertia_PS.png" alt="inertia_PS.png" width="100%" height="100%" />
+</p>
+</div>
+
+</section>
+<section id="slide-org7683e01">
+<h4 id="org7683e01">Этап 6: Самостоятельная работа/ДЗ (Уровень: синтез, анализ)</h4>
+<ul>
+<li>Время: 7 минут</li>
+<li>Деятельность учителя:
+<ul>
+<li>Задание: учащиеся должны привести примеры из своей повседневной жизни, где можно наблюдать инерцию. Записать свои примеры и объяснить, как действует первый закон Ньютона в этих ситуациях.</li>
+<li>Задача про яйцо</li>
+
+</ul></li>
+<li>Деятельность учащихся:
+<ul>
+<li>Запись примеров инерции и их объяснений.</li>
+
+</ul></li>
+<li>Оценивание:
+<ul>
+<li>Учитель проверяет письменные ответы учащихся.</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-org6e27382">
+<h4 id="org6e27382">Этап 7: Обобщение материала (Уровень: синтез, понимание)</h4>
+<ul>
+<li>Время: 3 минут</li>
+<li>Деятельность учителя:
+<ul>
+<li>Подведение итогов урока. Обсуждение основных выводов: как инерция влияет на объекты, и как первый закон Ньютона помогает это объяснить.</li>
+
+</ul></li>
+<li>Деятельность учащихся:
+<ul>
+<li>Учащиеся повторяют основные выводы урока.</li>
+
+</ul></li>
+<li>Оценивание:
+<ul>
+<li>Учитель задает контрольные вопросы для проверки понимания.</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-org5270260">
+<h4 id="org5270260">Этап 8: Рефлексия (Уровень: оценка)</h4>
+<ul>
+<li>Время: 2 минуты</li>
+<li>Деятельность учителя:
+<ul>
+<li>Вопрос: "Как знание о первом законе Ньютона поможет вам в реальной жизни?"</li>
+<li>Учащиеся размышляют о том, как можно применить знания о законе инерции в повседневных ситуациях.</li>
+
+</ul></li>
+<li>Оценивание:
+<ul>
+<li>Учащиеся дают обратную связь о том, что они поняли и как это можно использовать.</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-orgd4fbb98">
+<h3 id="orgd4fbb98">Ссылки</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=CQYELiTtUs8">video lesson 1</a></li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>
