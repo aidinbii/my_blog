@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 10th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-10-19T16:45:57+02:00
+lastmod = 2024-10-22T16:48:05+02:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -26,6 +26,7 @@ type = "teaching"
 ## Geometry 10 {#geometry-10}
 
 -   [Book: Problems (Geometry 10)](https://www.dropbox.com/scl/fi/yhc6646pq2bcw3gniazaa/geom10%5Fproblems.pdf?rlkey=69monz9eoaw18y6mo0zhj4put&st=u9h4je0m&dl=0)
+-   [Practice problems online](https://www.yaklass.ru/p/geometria/10-klass)
 -   [September: Week 1](/pdf_files/berbulak/geometry_10/geom10_week1_lesson1.html)
 -   [September: Week 2](/pdf_files/berbulak/geometry_10/geometry10_week2.html)
 -   [September: Week 3](/pdf_files/berbulak/geometry_10/geometry10_week3.html)
@@ -43,4 +44,5 @@ type = "teaching"
 -   [October: Week 2](/pdf_files/berbulak/physics_10/physics10_week7.html)
 -   [October: Week 3](/pdf_files/berbulak/physics_10/physics10_week7_2.html)
 -   [October: Week 4](/pdf_files/berbulak/physics_10/physics10_week8.html)
+-   [October: Week 5](/pdf_files/berbulak/physics_10/physics10_week9.html)
 -   [5E lesson](/pdf_files/berbulak/physics_10/physics10_5E.html)
