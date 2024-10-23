@@ -1,7 +1,7 @@
 +++
 title = "Randomizer (10)"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-10-16T15:30:59+02:00
+lastmod = 2024-10-23T10:33:22+02:00
 tags = ["teaching", "tools"]
 categories = ["teaching"]
 draft = false
@@ -18,11 +18,8 @@ type = "teaching"
 <script>
 let selectedStudents = [];
 let availableStudents = [
-        "Адылбекова Нурайым ",
-        "Алыбеков Нурали",
         "Айтымбетова Шайыма",
         "Алымбекова Назик",
-        "Алмазбек уулу Мухаммад",
         "Арстанбеков Асанбек",
         "Арыстанбекова Амира",
         "Асхадова София ",
@@ -31,7 +28,6 @@ let availableStudents = [
         "Жайлообеков Актан ",
         "Жумабекова Аделя",
         "Жумабеков Кутман",
-        "Исаков Ибрахим",
         "Исманбекова Касиет ",
         "Кадыров Баэл ",
         "Канатбекова Динара ",
@@ -62,11 +58,8 @@ function selectRandomStudent() {
     if (selectedStudents.length === 0) {
         // Initialize available students array when the selection starts
         availableStudents = [
-        "Адылбекова Нурайым ",
-        "Алыбеков Нурали",
         "Айтымбетова Шайыма",
         "Алымбекова Назик",
-        "Алмазбек уулу Мухаммад",
         "Арстанбеков Асанбек",
         "Арыстанбекова Амира",
         "Асхадова София ",
@@ -75,7 +68,6 @@ function selectRandomStudent() {
         "Жайлообеков Актан ",
         "Жумабекова Аделя",
         "Жумабеков Кутман",
-        "Исаков Ибрахим",
         "Исманбекова Касиет ",
         "Кадыров Баэл ",
         "Канатбекова Динара ",
@@ -85,6 +77,7 @@ function selectRandomStudent() {
         "Орозалиева Мария",
         "Токталиев Ислам",
         "Шарыпбекова Айдана"
+
         ];
         selectedStudents = []; // Reset selected students list
     }
@@ -113,11 +106,8 @@ function resetSelection() {
     document.getElementById('selectedStudentsOutput').innerHTML = ""; // Clear selected students output
     selectedStudents = [];
     availableStudents = [
-        "Адылбекова Нурайым ",
-        "Алыбеков Нурали",
         "Айтымбетова Шайыма",
         "Алымбекова Назик",
-        "Алмазбек уулу Мухаммад",
         "Арстанбеков Асанбек",
         "Арыстанбекова Амира",
         "Асхадова София ",
@@ -126,7 +116,6 @@ function resetSelection() {
         "Жайлообеков Актан ",
         "Жумабекова Аделя",
         "Жумабеков Кутман",
-        "Исаков Ибрахим",
         "Исманбекова Касиет ",
         "Кадыров Баэл ",
         "Канатбекова Динара ",

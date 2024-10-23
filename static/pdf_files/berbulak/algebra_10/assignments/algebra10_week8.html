@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Algebra 10: Week 8</title>
+<meta name="author" content="Aidin Biibosunov"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<style>
+body {
+width: 8.5in; /* Letter width */
+height: 11in; /* Letter height */
+margin: 0 auto; /* Center the page */
+padding: 20px; /* Add some padding */
+box-sizing: border-box; /* Include padding in width/height */
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Algebra 10: Week 8</h1><p class="subtitle"></p>
+<h2 class="author">Aidin Biibosunov</h2><p class="date">Created: 2024-10-23 Wed 17:17</p>
+</section>
+
+<section>
+<section id="slide-org6f9490f">
+<h2 id="org6f9490f"><span class="section-number-2">1.</span> Тригонометрические функции и их графики</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+</section>
+<section id="slide-orgdffae6f">
+<h4 id="orgdffae6f"><span class="section-number-4">1.0.1.</span> Цели:</h4>
+<ul>
+<li>Изучить основные свойства тригонометрических функций (синус, косинус, тангенс, котангенс).</li>
+<li>Научиться строить графики тригонометрических функций.</li>
+<li>Развивать навыки анализа функций.</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org43b2108">
+<h2 id="org43b2108"><span class="section-number-2">2.</span> Этапы урока:</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+</section>
+<section id="slide-org10c2449">
+<h3 id="org10c2449"><span class="section-number-3">2.1.</span> 1. Целеполагание (3 минуты)</h3>
+<p>
+Учитель задает вопросы:
+</p>
+<ul>
+<li>Что вы уже знаете о тригонометрических функциях?</li>
+<li>Как можно представить их графически?</li>
+
+</ul>
+
+<p>
+Учитель формулирует цель урока: познакомиться с графиками тригонометрических функций и их свойствами.
+</p>
+
+</section>
+<section id="slide-org760f782">
+<h3 id="org760f782"><span class="section-number-3">2.2.</span> 2. Мотивация (5 минут)</h3>
+<p>
+Учитель объясняет:
+</p>
+<ul>
+<li>Тригонометрические функции широко применяются в физике, математике и инженерных задачах. Например, при моделировании колебательных процессов (волны, звуковые сигналы, электроника).</li>
+<li><a href="https://www.szynalski.com/tone-generator/">sin to sound</a></li>
+
+</ul>
+
+
+</section>
+<section id="slide-org2fe4459">
+<h3 id="org2fe4459"><span class="section-number-3">2.3.</span> 3. Актуализация знаний (7 минут)</h3>
+<div class="outline-text-3" id="text-2-3">
+</div>
+</section>
+<section id="slide-org1fb5c9a">
+<h4 id="org1fb5c9a"><span class="section-number-4">2.3.1.</span> Основные понятия:</h4>
+<ul>
+<li>Единичная окружность: Учитель изображает на доске единичную окружность и поясняет связь тригонометрических функций с координатами точки на ней (синус — ордината, косинус — абсцисса).</li>
+<li>Основные значения: Обсуждаются значения синуса и косинуса для углов \(0^\circ\), \(30^\circ\), \(45^\circ\), \(60^\circ\), \(90^\circ\).</li>
+
+</ul>
+
+</section>
+<section id="slide-org708af9e">
+<h4 id="org708af9e"><span class="section-number-4">2.3.2.</span> Вопросы:</h4>
+<ul>
+<li>Что такое периодичность? Какие функции называются периодическими?</li>
+<li>В чем состоит различие четных и нечетных функций?</li>
+
+</ul>
+
+</section>
+<section id="slide-org507242d">
+<h3 id="org507242d"><span class="section-number-3">2.4.</span> 4. Новый материал (10 минут)</h3>
+<div class="outline-text-3" id="text-2-4">
+</div>
+</section>
+<section id="slide-orgd0bc8fb">
+<h4 id="orgd0bc8fb"><span class="section-number-4">2.4.1.</span> Шаг 1: Свойства тригонометрических функций</h4>
+<ul>
+<li><b><b>Периодичность:</b></b> У синуса и косинуса период \(T = 2\pi\), у тангенса и котангенса \(T = \pi\).</li>
+<li><b><b>Четность/нечетность:</b></b> Синус — нечетная функция, косинус — четная.</li>
+
+</ul>
+
+</section>
+<section id="slide-orgfcc831d">
+<h4 id="orgfcc831d"><span class="section-number-4">2.4.2.</span> Шаг 2: Построение графиков функций</h4>
+<ul>
+<li>Учитель строит графики \(y = \sin(x)\) и \(y = \cos(x)\) на доске, объясняя:
+<ul>
+<li>Периодичность.</li>
+<li>Точки пересечения с осями.</li>
+<li>Положение максимумов и минимумов.</li>
+
+</ul></li>
+
+<li>Затем учитель строит график \(y = \tan(x)\), обращая внимание на наличие асимптот при \( \frac{\pi}{2} + n\pi\).</li>
+<li><a href="https://www.desmos.com/calculator/msmjpfzp8f">desmos</a></li>
+
+</ul>
+
+</section>
+<section id="slide-orgcbb694d">
+<h3 id="orgcbb694d"><span class="section-number-3">2.5.</span> 5. Работа под руководством учителя (10 минут)</h3>
+<div class="outline-text-3" id="text-2-5">
+</div>
+</section>
+<section id="slide-orgf47c127">
+<h4 id="orgf47c127"><span class="section-number-4">2.5.1.</span> Задание: Построить график \(y = 2\sin(x)\)</h4>
+<ul>
+<li>Учащиеся вместе с учителем строят график, обсуждая:
+<ul>
+<li>Как изменяются амплитуда и период.</li>
+<li>Какие точки ключевые для построения графика.</li>
+
+</ul></li>
+
+</ul>
+
+<p>
+Учитель помогает построить график \(y = \cos(2x)\) с акцентом на изменении периода.
+</p>
+
+</section>
+<section id="slide-org9762da3">
+<h3 id="org9762da3"><span class="section-number-3">2.6.</span> 6. Самостоятельная работа (7 минут)</h3>
+<div class="outline-text-3" id="text-2-6">
+</div>
+</section>
+<section id="slide-org80fe1d5">
+<h4 id="org80fe1d5"><span class="section-number-4">2.6.1.</span> Задание: Построить график \(y = \tan(x)\)</h4>
+<ul>
+<li>Учащиеся самостоятельно строят график функции \(y = \tan(x)\)</li>
+<li>Определение асимптот и построение графика на интервале от \(-2\pi\) до \(2\pi\).</li>
+
+</ul>
+
+</section>
+<section id="slide-orgf2da408">
+<h3 id="orgf2da408"><span class="section-number-3">2.7.</span> 7. Обобщение (5 минут)</h3>
+<p>
+Учитель подводит итоги урока:
+</p>
+<ul>
+<li>Тригонометрические функции — периодические.</li>
+<li>Синус и косинус имеют период \(2\pi\), тангенс и котангенс — \( \pi \).</li>
+<li>Основные свойства функций (четность/нечетность, асимптоты).</li>
+
+</ul>
+
+</section>
+<section id="slide-orged5ed60">
+<h3 id="orged5ed60"><span class="section-number-3">2.8.</span> Вопросы для обсуждения:</h3>
+<ul>
+<li>Какие свойства функций наиболее важны для построения графиков?</li>
+<li>Как они помогают в решении прикладных задач?</li>
+
+</ul>
+
+</section>
+<section id="slide-org04da712">
+<h3 id="org04da712"><span class="section-number-3">2.9.</span> 8. Рефлексия (3 минуты)</h3>
+<ul>
+<li>Какие новые знания вы получили на уроке?</li>
+<li>Что было самым сложным?</li>
+<li>Как можно применить эти знания на практике?</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org4ec3328">
+<h2 id="org4ec3328"><span class="section-number-2">3.</span> Домашнее задание:</h2>
+<ol>
+<li>Построить графики функций \(y = \sin(2x)\), \(y = \cos(x/2)\), \(y = \tan(2x)\).</li>
+<li>Подготовить примеры задач, связанных с анализом тригонометрических функций.</li>
+
+</ol>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>

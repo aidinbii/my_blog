@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 10th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-10-22T16:48:05+02:00
+lastmod = 2024-10-23T17:01:55+02:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -21,6 +21,7 @@ type = "teaching"
 -   [September: Week 3](/pdf_files/berbulak/algebra_10/assignments/algebra10_week3.html)
 -   [September: Week 4](/pdf_files/berbulak/algebra_10/assignments/algebra10_week4.html)
 -   [October: Week 3](/pdf_files/berbulak/algebra_10/assignments/algebra10_week7.html)
+-   [October: Week 4](/pdf_files/berbulak/algebra_10/assignments/algebra10_week8.html)
 
 
 ## Geometry 10 {#geometry-10}
