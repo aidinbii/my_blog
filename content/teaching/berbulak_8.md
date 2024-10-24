@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 8th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-10-15T20:39:29+02:00
+lastmod = 2024-10-24T18:42:15+02:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -20,13 +20,14 @@ type = "teaching"
 -   [September: Week 1 ](/pdf_files/berbulak/algebra_8/assignments/week1_lesson1.html)
 -   [September: Week 2](/pdf_files/berbulak/algebra_8/assignments/algebra8_week2.html)
 -   [October: Week 2](/pdf_files/berbulak/algebra_8/assignments/algebra8_week6.html)
--   [October: Week 4](/pdf_files/berbulak/algebra_8/assignments/algebra8_week7.html)
+-   [October: Week 3](/pdf_files/berbulak/algebra_8/assignments/algebra8_week7.html)
 
 
 ## Geometry 8 {#geometry-8}
 
 -   [September: Week 2](/pdf_files/berbulak/geometry_8/geometry8_week2.html)
 -   [September: Week 3](/pdf_files/berbulak/geometry_8/geometry8_week3.html)
+-   [Problem set 1](/pdf_files/berbulak/geometry_8/geometry8_PS1.html)
 
 
 ## Fractions {#fractions}
