@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 10th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-10-23T17:01:55+02:00
+lastmod = 2024-10-28T16:56:47+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -22,6 +22,7 @@ type = "teaching"
 -   [September: Week 4](/pdf_files/berbulak/algebra_10/assignments/algebra10_week4.html)
 -   [October: Week 3](/pdf_files/berbulak/algebra_10/assignments/algebra10_week7.html)
 -   [October: Week 4](/pdf_files/berbulak/algebra_10/assignments/algebra10_week8.html)
+-   [Problem set 1](/pdf_files/berbulak/algebra_10/assignments/algebra10_PS1.html)
 
 
 ## Geometry 10 {#geometry-10}
@@ -45,5 +46,6 @@ type = "teaching"
 -   [October: Week 2](/pdf_files/berbulak/physics_10/physics10_week7.html)
 -   [October: Week 3](/pdf_files/berbulak/physics_10/physics10_week7_2.html)
 -   [October: Week 4](/pdf_files/berbulak/physics_10/physics10_week8.html)
--   [October: Week 5](/pdf_files/berbulak/physics_10/physics10_week9.html)
+-   [October: Week 4\_2](/pdf_files/berbulak/physics_10/physics10_week9.html)
 -   [5E lesson](/pdf_files/berbulak/physics_10/physics10_5E.html)
+-   [October: Week 4\_3](/pdf_files/berbulak/physics_10/physics10_week10.html)
