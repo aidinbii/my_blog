@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 10th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-10-30T09:37:10+01:00
+lastmod = 2024-11-11T17:32:00+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -51,3 +51,4 @@ type = "teaching"
 -   [October: Week 4\_3](/pdf_files/berbulak/physics_10/physics10_week10.html)
 -   [October: Week 4\_4](/pdf_files/berbulak/physics_10/physics10_week11.html)
 -   [October: Week 4\_5](/pdf_files/berbulak/physics_10/physics10_week12.html)
+-   [Hook's law](/pdf_files/berbulak/physics_10/physics10_hook.html)
