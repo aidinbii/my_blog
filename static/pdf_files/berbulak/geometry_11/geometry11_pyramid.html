@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Geometry 11: Pyramid</title>
+<meta name="author" content="Aidin Biibosunov"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<style>
+body {
+width: 8.5in; /* Letter width */
+height: 11in; /* Letter height */
+margin: 0 auto; /* Center the page */
+padding: 20px; /* Add some padding */
+box-sizing: border-box; /* Include padding in width/height */
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Geometry 11: Pyramid</h1><p class="subtitle"></p>
+<h2 class="author">Aidin Biibosunov</h2><p class="date">Created: 2024-11-12 Tue 18:46</p>
+</section>
+
+<section>
+<section id="slide-orgf6c0db6">
+<h2 id="orgf6c0db6"><span class="section-number-2">1.</span> Пирамида</h2>
+<ul>
+<li><a href="https://foxford.ru/wiki/matematika/ploschad-poverhnosti-piramidy">article</a></li>
+<li><a href="https://www.yaklass.ru/p/geometria/10-klass/parallelepiped-prizma-piramida-obemy-mnogogrannikov-11037/elementy-piramidy-vidy-piramid-9285/re-73a706c3-4132-462f-972f-f0c537ec9bcb/pe?resultId=4149552142&amp;c=2">practice faces</a></li>
+
+</ul>
+
+</section>
+<section id="slide-org5a7a812">
+<h3 id="org5a7a812"><span class="section-number-3">1.1.</span> Задачи</h3>
+<ul>
+<li><p>
+Задача 1:
+</p>
+
+<p>
+В правильной треугольной пирамиде сторона основания равна 6 см, а апофема равна 5 см. Найдите площадь полной поверхности пирамиды.
+</p></li>
+
+<li><p>
+Задача 2:
+</p>
+
+<p>
+Высота правильной четырехугольной пирамиды равна 4 см, а сторона основания равна 6 см.  Найдите:
+</p>
+
+<ul>
+<li>а) апофему пирамиды;</li>
+
+<li>б) площадь боковой поверхности пирамиды;</li>
+
+<li>в) площадь полной поверхности пирамиды.</li>
+
+</ul></li>
+
+<li><p>
+Задача 3:
+</p>
+
+<p>
+Боковое ребро правильной шестиугольной пирамиды равно 10 см, а сторона основания равна 6 см. Найдите площадь боковой поверхности пирамиды.
+</p></li>
+
+<li><p>
+Задача 4:
+</p>
+
+<p>
+Площадь основания правильной четырехугольной пирамиды равна 64 см². Апофема пирамиды образует с высотой угол 30°. Найдите площадь полной поверхности пирамиды.
+</p></li>
+
+<li><p>
+Задача 5 (повышенной сложности):
+</p>
+
+<p>
+В правильной треугольной пирамиде все ребра равны 8 см. Найдите площадь полной поверхности этой пирамиды.
+</p></li>
+
+</ul>
+
+
+<p>
+Задача 1:
+</p>
+
+<div>
+\begin{align*}
+S_\text{осн} &= \frac{a^2\sqrt{3}}{4} = \frac{6^2\sqrt{3}}{4} = 9\sqrt{3} \text{ см}^2 \
+P &= 3a = 3 \cdot 6 = 18 \text{ см} \
+S_\text{бок} &= \frac{1}{2}Pl = \frac{1}{2} \cdot 18 \cdot 5 = 45 \text{ см}^2 \
+S_\text{полн} &= S_\text{бок} + S_\text{осн} = 45 + 9\sqrt{3} \text{ см}^2
+\end{align*}
+
+</div>
+
+<p>
+Задача 2:
+</p>
+
+<p>
+а)
+</p>
+<div>
+\begin{align*}
+l^2 &= h^2 + \left(\frac{a}{2}\right)^2 = 4^2 + \left(\frac{6}{2}\right)^2 = 16 + 9 = 25 \
+l &= \sqrt{25} = 5 \text{ см}
+\end{align*}
+
+</div>
+
+<p>
+б)
+</p>
+<div>
+\begin{align*}
+S_\text{бок} &= \frac{1}{2}Pl = \frac{1}{2} \cdot (4 \cdot 6) \cdot 5 = 60 \text{ см}^2
+\end{align*}
+
+</div>
+
+<p>
+в)
+</p>
+<div>
+\begin{align*}
+S_\text{осн} &= a^2 = 6^2 = 36 \text{ см}^2 \
+S_\text{полн} &= S_\text{бок} + S_\text{осн} = 60 + 36 = 96 \text{ см}^2
+\end{align*}
+
+</div>
+
+<p>
+Задача 3:
+</p>
+
+<div>
+\begin{align*}
+l^2 &= 10^2 - 6^2 = 100 - 36 = 64 \
+l &= \sqrt{64} = 8 \text{ см} \
+P &= 6a = 6 \cdot 6 = 36 \text{ см} \
+S_\text{бок} &= \frac{1}{2}Pl = \frac{1}{2} \cdot 36 \cdot 8 = 144 \text{ см}^2
+\end{align*}
+
+</div>
+
+<p>
+Задача 4:
+</p>
+
+<div>
+\begin{align*}
+S_\text{осн} &= a^2 = 64  \Rightarrow a = \sqrt{64} = 8 \text{ см} \
+\tan 30^\circ &= \frac{h}{\frac{a}{2}} = \frac{h}{4} \
+h &= 4 \cdot \tan 30^\circ = 4 \cdot \frac{\sqrt{3}}{3} = \frac{4\sqrt{3}}{3} \text{ см} \
+\cos 30^\circ &= \frac{\frac{a}{2}}{l} = \frac{4}{l} \
+l &= \frac{4}{\cos 30^\circ} = \frac{4}{\frac{\sqrt{3}}{2}} = \frac{8\sqrt{3}}{3} \text{ см} \
+P &= 4a = 4 \cdot 8 = 32 \text{ см} \
+S_\text{бок} &= \frac{1}{2}Pl = \frac{1}{2} \cdot 32 \cdot \frac{8\sqrt{3}}{3} = \frac{128\sqrt{3}}{3} \text{ см}^2 \
+S_\text{полн} &= S_\text{бок} + S_\text{осн} = \frac{128\sqrt{3}}{3} + 64 \text{ см}^2
+\end{align*}
+
+</div>
+
+<p>
+Задача 5:
+</p>
+
+<div>
+\begin{align*}
+S_\text{грани} &= \frac{a^2\sqrt{3}}{4} = \frac{8^2\sqrt{3}}{4} = 16\sqrt{3} \text{ см}^2 \
+S_\text{полн} &= 4 \cdot S_\text{грани} = 4 \cdot 16\sqrt{3} = 64\sqrt{3} \text{ см}^2
+\end{align*}
+
+</div>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 11th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-10-29T15:21:09+01:00
+lastmod = 2024-11-12T18:27:14+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -22,3 +22,4 @@ Here I will provide some links
 -   [September: Week 4](/pdf_files/berbulak/geometry_11/geometry11_week4.html)
 -   [October: Week 1](/pdf_files/berbulak/geometry_11/geometry11_week5.html)
 -   [Problem set 1](/pdf_files/berbulak/geometry_11/geometry11_PS1.html)
+-   [Pyramid](/pdf_files/berbulak/geometry_11/geometry11_pyramid.html)
