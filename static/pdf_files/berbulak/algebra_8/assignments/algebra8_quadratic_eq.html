@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Algebra 8: Quadratic equations</title>
+<meta name="author" content="Aidin Biibosunov"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<style>
+body {
+width: 8.5in; /* Letter width */
+height: 11in; /* Letter height */
+margin: 0 auto; /* Center the page */
+padding: 20px; /* Add some padding */
+box-sizing: border-box; /* Include padding in width/height */
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Algebra 8: Quadratic equations</h1><p class="subtitle"></p>
+<h2 class="author">Aidin Biibosunov</h2><p class="date">Created: 2024-11-14 Thu 04:07</p>
+</section>
+
+<section>
+<section id="slide-org602b8c0">
+<h2 id="org602b8c0"><span class="section-number-2">1.</span> Quadratic equations</h2>
+<p>
+### Цель урока:
+</p>
+<ol>
+<li>Научить учащихся решать квадратные уравнения, определять полные и неполные квадратные уравнения.</li>
+<li>Развивать навыки анализа и преобразования алгебраических выражений.</li>
+
+</ol>
+
+<p>
+### Этапы урока
+</p>
+
+<ol>
+<li><b><b>Целеполагание</b></b> (5 минут)
+<ul>
+<li>Поставьте цель урока: изучить методы решения квадратных уравнений, определить полные и неполные уравнения.</li>
+
+</ul></li>
+
+<li><b><b>Мотивация</b></b> (5 минут)
+<ul>
+<li>Задайте вопрос: "С какими задачами и ситуациями мы сталкиваемся, где уравнения второго порядка могут помочь найти решения?" Обсудите примеры из физики или геометрии.</li>
+
+</ul></li>
+
+<li><b><b>Актуализация знаний</b></b> (5 минут)
+<ul>
+<li>Повторите с учащимися понятие уравнения и линейного уравнения.</li>
+<li>Обсудите случаи, когда квадратные уравнения появляются в задачах и в повседневной жизни.</li>
+
+</ul></li>
+
+<li><b><b>Новый материал</b></b> (10 минут)
+<ul>
+<li>Объясните стандартный вид квадратного уравнения \(ax^2 + bx + c = 0\).</li>
+<li>Введите понятие полного и неполного квадратного уравнения.</li>
+<li>Покажите примеры полного (когда \(a\), \(b\) и \(c\) отличны от нуля) и неполного квадратного уравнения (например, когда \(b = 0\) или \(c = 0\)).</li>
+
+</ul></li>
+
+<li><b><b>Работа под руководством учителя</b></b> (10 минут)
+<ul>
+<li>Решите несколько примеров полного и неполного квадратных уравнений вместе с учащимися.</li>
+<li>Объясните учащимся использование формул и методов решения, включая разложение на множители для неполных уравнений.</li>
+
+</ul></li>
+
+<li><b><b>Самостоятельная работа</b></b> (5 минут)
+<ul>
+<li>Предложите учащимся несколько заданий для самостоятельного решения, чтобы они попробовали решить полные и неполные квадратные уравнения.</li>
+
+</ul></li>
+
+<li><b><b>Обобщение</b></b> (3 минуты)
+<ul>
+<li>Проведите краткий обзор: определение полного и неполного квадратного уравнения, основные методы их решения.</li>
+
+</ul></li>
+
+<li><b><b>Рефлексия</b></b> (2 минуты)
+<ul>
+<li>Задайте вопросы: "Что нового вы узнали сегодня?" и "В чем вы почувствовали себя уверенно, а какие моменты хотелось бы еще раз проработать?"</li>
+
+</ul></li>
+
+</ol>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org17ee6e7">
+<h2 id="org17ee6e7"><span class="section-number-2">2.</span> Кыргызча</h2>
+<p>
+### Сабактын максаты:
+</p>
+<ol>
+<li>Окуучуларды квадраттык теңдемелерди чечүүгө, толук жана толук эмес квадраттык теңдемелерди аныктоого үйрөтүү.</li>
+<li>Алгебралык түшүнүктөрдү талдоо жана өзгөртүүгө көндүмдөрдү өнүктүрүү.</li>
+
+</ol>
+
+<p>
+### Сабактын этаптары
+</p>
+
+<ol>
+<li><b><b>Максат коюу</b></b> (5 мүнөт)
+<ul>
+<li>Сабактын максатын коюу: квадраттык теңдемелерди чечүү ыкмаларын үйрөнүү, толук жана толук эмес теңдемелерди аныктоо.</li>
+
+</ul></li>
+
+<li><b><b>Мотивация</b></b> (5 мүнөт)
+<ul>
+<li>Окуучуларга суроо берүү: "Экинчи даражадагы теңдемелер жардам бере турган кандай жагдайлар жана маселелер менен таанышсыздар?" Физика же геометриядан мисалдарды талкулоо.</li>
+
+</ul></li>
+
+<li><b><b>Билимдерди актуалдаштыруу</b></b> (5 мүнөт)
+<ul>
+<li>Окуучулар менен теңдеменин жана сызыктуу теңдеменин түшүнүгүн кайталоо.</li>
+<li>Квадраттык теңдемелердин тапшырмаларда жана күнүмдүк турмушта кандай учурларда колдонуларын талкулоо.</li>
+
+</ul></li>
+
+<li><b><b>Жаңы материал</b></b> (10 мүнөт)
+<ul>
+<li>Квадраттык теңдеменин стандарттык түрүн түшүндүрүү \(ax^2 + bx + c = 0\).</li>
+<li>Толук жана толук эмес квадраттык теңдемелер түшүнүгүн киргизүү.</li>
+<li>Толук (эгер \(a\), \(b\), жана \(c\) нөлдөн айырмаланса) жана толук эмес квадраттык теңдемелердин мисалдарын көрсөтүү (мисалы, \(b = 0\) же \(c = 0\) болгондо).</li>
+
+</ul></li>
+
+<li><b><b>Мугалимдин жетекчилиги астындагы иш</b></b> (10 мүнөт)
+<ul>
+<li>Окуучулар менен бирге толук жана толук эмес квадраттык теңдемелердин бир нече мисалдарын чечүү.</li>
+<li>Теңдемелерди чечүүдө формулаларды жана ыкмаларды колдонуу, толук эмес теңдемелер үчүн көбөйтүчтөргө ажыратуу методун түшүндүрүү.</li>
+
+</ul></li>
+
+<li><b><b>Өз алдынча иш</b></b> (5 мүнөт)
+<ul>
+<li>Окуучуларга бир нече тапшырмаларды берүү, алар толук жана толук эмес квадраттык теңдемелерди чечип көрүшсүн.</li>
+
+</ul></li>
+
+<li><b><b>Жыйынтыктоо</b></b> (3 мүнөт)
+<ul>
+<li>Кыскача кайрылуу: толук жана толук эмес квадраттык теңдеменин аныктамасы, аларды чечүүдө негизги ыкмалар.</li>
+
+</ul></li>
+
+<li><b><b>Рефлексия</b></b> (2 мүнөт)
+<ul>
+<li>Суроолор берүү: "Бүгүн эмнелерди үйрөндүңөр?" жана "Кайсы жерден өздөрүңөрдү ишенимдүү сездиңер, кайсы жерлерди дагы карап чыгуу керек?"</li>
+
+</ul></li>
+
+</ol>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>

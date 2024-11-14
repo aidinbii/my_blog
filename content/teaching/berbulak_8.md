@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 8th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-10-28T14:43:55+01:00
+lastmod = 2024-11-14T17:20:08+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -22,6 +22,7 @@ type = "teaching"
 -   [October: Week 2](/pdf_files/berbulak/algebra_8/assignments/algebra8_week6.html)
 -   [October: Week 3](/pdf_files/berbulak/algebra_8/assignments/algebra8_week7.html)
 -   [Problem set 1](/pdf_files/berbulak/algebra_8/assignments/algebra8_PS1.html)
+-   [Polynom Drill](/pdf_files/berbulak/algebra_8/assignments/algebra8_polynom_drill.html)
 
 
 ## Geometry 8 {#geometry-8}
@@ -29,6 +30,7 @@ type = "teaching"
 -   [September: Week 2](/pdf_files/berbulak/geometry_8/geometry8_week2.html)
 -   [September: Week 3](/pdf_files/berbulak/geometry_8/geometry8_week3.html)
 -   [Problem set 1](/pdf_files/berbulak/geometry_8/geometry8_PS1.html)
+-   [Intro to Trig](/pdf_files/berbulak/geometry_8/geometry8_intro_trig.html)
 
 
 ## Fractions {#fractions}
