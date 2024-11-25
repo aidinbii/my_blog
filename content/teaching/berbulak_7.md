@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 7th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-11-11T14:38:01+01:00
+lastmod = 2024-11-25T13:49:34+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -14,3 +14,8 @@ type = "teaching"
 
 -   [Rules](/pdf_files/berbulak/rules.html)
 -   [Schedule](/pdf_files/berbulak/schedule.html)
+
+
+## Algebra 7 {#algebra-7}
+
+-   [Exponents](/pdf_files/berbulak/algebra_7/algebra7_exponents.html)
