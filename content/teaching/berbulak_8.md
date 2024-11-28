@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 8th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-11-14T17:20:08+01:00
+lastmod = 2024-11-28T20:03:08+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -31,6 +31,7 @@ type = "teaching"
 -   [September: Week 3](/pdf_files/berbulak/geometry_8/geometry8_week3.html)
 -   [Problem set 1](/pdf_files/berbulak/geometry_8/geometry8_PS1.html)
 -   [Intro to Trig](/pdf_files/berbulak/geometry_8/geometry8_intro_trig.html)
+-   [Pythagorean Theorem](/pdf_files/berbulak/geometry_8/geometry8_pythagor_th.html)
 
 
 ## Fractions {#fractions}
