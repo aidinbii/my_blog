@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 7th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-11-25T13:49:34+01:00
+lastmod = 2024-12-02T16:03:12+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -19,3 +19,4 @@ type = "teaching"
 ## Algebra 7 {#algebra-7}
 
 -   [Exponents](/pdf_files/berbulak/algebra_7/algebra7_exponents.html)
+-   [Polynomials](/pdf_files/berbulak/algebra_7/algebra7_polynom.html)
