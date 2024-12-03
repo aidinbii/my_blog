@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Algebra 8: Linear equation</title>
+<meta name="author" content="Aidin Biibosunov"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<style>
+body {
+width: 8.5in; /* Letter width */
+height: 11in; /* Letter height */
+margin: 0 auto; /* Center the page */
+padding: 20px; /* Add some padding */
+box-sizing: border-box; /* Include padding in width/height */
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Algebra 8: Linear equation</h1><p class="subtitle"></p>
+<h2 class="author">Aidin Biibosunov</h2><p class="date">Created: 2024-12-03 Tue 17:24</p>
+</section>
+<p>
+Теңдемелерди чечүү деген — бул белгисиз санды табуу, ал көбүнчө тамга менен белгиленет жана ал теңдемени туура кылат. Келгиле, муну жөнөкөй мисалдардын жардамы менен түшүнөлү:
+</p>
+
+<p>
+&#x2014;
+</p>
+
+<p>
+### <b><b>Теңдемелерди чечүү кадамдары</b></b>
+</p>
+<ol>
+<li><b><b>Теңдемени түшүн.</b></b>
+Теңдеме — бул теңдик, анда белгисиз сан (көбүнчө тамга менен белгиленген) бар. Биздин максат — ошол санды табуу.</li>
+
+<li><b><b>Керексиз сандардан кутул.</b></b>
+Сандарды ушундай кылып жылдыр, белгисиз сан бир жагында, калган сандар экинчи жагында болсун. Карама-каршы операцияларды колдон:
+<ul>
+<li>Эгер \(x\) санга кошулуп жатса, анда аны кемит.</li>
+<li>Эгер \(x\) санга көбөйтүлүп жатса, анда аны бөл.</li>
+
+</ul></li>
+
+<li><b><b>Теңдемени чеч.</b></b>
+Кадам сайын аракеттерди жасап, \(x\) маанисин тап.</li>
+
+</ol>
+
+<p>
+&#x2014;
+</p>
+
+<p>
+### <b><b>Мисалдар:</b></b>
+</p>
+
+<p>
+#### <b><b>Мисал 1: \(x + 3 = 8\)</b></b>
+</p>
+<ol>
+<li>\(x\) санын табышыбыз керек. Азыр \(x\) санына 3 кошулуп жатат.</li>
+<li>\(+3\)-төн кутулуу үчүн эки жагынан тең 3тү кемитебиз:
+\[
+   x + 3 - 3 = 8 - 3
+   \]
+\[
+   x = 5
+   \]</li>
+
+</ol>
+
+<p>
+&#x2014;
+</p>
+
+<p>
+#### <b><b>Мисал 2: \(2x = 12\)</b></b>
+</p>
+<ol>
+<li>\(2x\) деген \(x\) санына 2 көбөйтүлгөнүн билдирет.</li>
+<li>\(x\) санын табыш үчүн эки жагын тең 2ге бөлөбүз:
+\[
+   \frac{2x}{2} = \frac{12}{2}
+   \]
+\[
+   x = 6
+   \]</li>
+
+</ol>
+
+<p>
+&#x2014;
+</p>
+
+<p>
+#### <b><b>Мисал 3: \(x - 4 = 10\)</b></b>
+</p>
+<ol>
+<li>Азыр \(x\) санынан 4 кемитилген.</li>
+<li>\(-4\)-төн кутулуу үчүн эки жагына тең 4 кошобуз:
+\[
+   x - 4 + 4 = 10 + 4
+   \]
+\[
+   x = 14
+   \]</li>
+
+</ol>
+
+<p>
+&#x2014;
+</p>
+
+<p>
+#### <b><b>Мисал 4: \(\frac{x}{3} = 9\)</b></b>
+</p>
+<ol>
+<li>Бул жерде \(x\) саны 3кө бөлүнгөн.</li>
+<li>\(x\) санын табыш үчүн эки жагын тең 3кө көбөйтөлү:
+\[
+   \frac{x}{3} \cdot 3 = 9 \cdot 3
+   \]
+\[
+   x = 27
+   \]</li>
+
+</ol>
+
+<p>
+&#x2014;
+</p>
+
+<p>
+### <b><b>Жалпы эрежелер</b></b>
+</p>
+<ul>
+<li>Теңдеменин эки жагына бирдей аракеттерди жаса, теңдик сакталышы үчүн.</li>
+<li>Операциялардан акырындык менен кутулуп, \(x\) санын тапканга чейин аракет кыл.</li>
+<li>Чечүүнү текшерүү үчүн тапкан жообуңду кайра теңдемеге коюп көр.</li>
+
+</ul>
+
+<p>
+<b><b>Мисалы:</b></b> \(x = 5\) жообун \(x + 3 = 8\) теңдемеси үчүн текшерели:
+\[
+5 + 3 = 8
+\]
+Туура! 🎉
+</p>
+
+
+<p>
+&#x2014;
+</p>
+<ol>
+<li>\(x + 7 = 12\)</li>
+<li>\(x - 5 = 9\)</li>
+<li>\(2x = 14\)</li>
+<li>\(\frac{x}{4} = 6\)</li>
+<li>\(x + 3 = 0\)</li>
+
+</ol>
+
+<p>
+&#x2014;
+</p>
+
+<ol>
+<li>\(2x + 5 = 15\)</li>
+<li>\(3x - 4 = 11\)</li>
+<li>\(\frac{x}{2} + 7 = 10\)</li>
+<li>\(5x - 3 = 2\)</li>
+<li>\(\frac{x}{3} - 2 = 1\)</li>
+
+</ol>
+
+<p>
+&#x2014;
+</p>
+
+<ol>
+<li>\(x + 4 = 2x - 3\)</li>
+<li>\(3x + 5 = 2x + 8\)</li>
+<li>\(4x - 7 = 2x + 1\)</li>
+<li>\(x - 6 = 2x - 10\)</li>
+<li>\(\frac{x}{2} + 3 = x - 4\)</li>
+
+</ol>
+
+<p>
+&#x2014;
+</p>
+
+<ol>
+<li>\(2(x + 3) = 14\)</li>
+<li>\(3(x - 4) = 12\)</li>
+<li>\((x + 2) - 5 = 0\)</li>
+<li>\(4(x - 1) + 3 = 15\)</li>
+<li>\(\frac{2(x + 5)}{3} = 10\)</li>
+
+</ol>
+
+<p>
+&#x2014;
+</p>
+</div>
+</div>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>

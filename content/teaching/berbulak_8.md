@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 8th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-12-02T16:41:48+01:00
+lastmod = 2024-12-03T17:14:25+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -24,6 +24,7 @@ type = "teaching"
 -   [Problem set 1](/pdf_files/berbulak/algebra_8/assignments/algebra8_PS1.html)
 -   [Polynom Drill](/pdf_files/berbulak/algebra_8/assignments/algebra8_polynom_drill.html)
 -   [Quadratic equation](/pdf_files/berbulak/algebra_8/assignments/algebra8_quadratic_eq.html)
+-   [Linear equation](/pdf_files/berbulak/algebra_8/assignments/algebra8_linear_eq.html)
 
 
 ## Geometry 8 {#geometry-8}

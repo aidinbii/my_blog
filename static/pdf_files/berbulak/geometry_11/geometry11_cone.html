@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Geometry 11: Cone</title>
+<meta name="author" content="Aidin Biibosunov"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<style>
+body {
+width: 8.5in; /* Letter width */
+height: 11in; /* Letter height */
+margin: 0 auto; /* Center the page */
+padding: 20px; /* Add some padding */
+box-sizing: border-box; /* Include padding in width/height */
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Geometry 11: Cone</h1><p class="subtitle"></p>
+<h2 class="author">Aidin Biibosunov</h2><p class="date">Created: 2024-12-03 Tue 16:28</p>
+</section>
+<p>
+<b><b>План урока по геометрии для 11 класса</b></b>
+<b><b>Тема: Конус</b></b>
+</p>
+
+<p>
+<b><b>Формат: Emacs org-mode</b></b>
+</p>
+
+<p>
+```org
+</p>
+<section>
+<section id="slide-org6767dff">
+<h2 id="org6767dff"><span class="section-number-2">1.</span> План урока по геометрии</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+</section>
+<section id="slide-org3a045af">
+<h3 id="org3a045af"><span class="section-number-3">1.1.</span> Класс: 11</h3>
+</section>
+<section id="slide-org0f83d58">
+<h3 id="org0f83d58"><span class="section-number-3">1.2.</span> Тема: Конус</h3>
+</section>
+<section id="slide-org10652b2">
+<h3 id="org10652b2"><span class="section-number-3">1.3.</span> Цель урока:</h3>
+<ul>
+<li>Знать: определение конуса, элементы конуса, формулы для расчёта площади и объёма.</li>
+<li>Понимать: геометрическое построение конуса, зависимость между элементами.</li>
+<li>Уметь: применять формулы для решения задач на вычисление площади поверхности и объёма конуса.</li>
+
+</ul>
+
+</section>
+<section id="slide-org25dbdca">
+<h3 id="org25dbdca"><span class="section-number-3">1.4.</span> Этапы урока:</h3>
+<div class="outline-text-3" id="text-1-4">
+</div>
+</section>
+<section id="slide-org7fa2b32">
+<h4 id="org7fa2b32"><span class="section-number-4">1.4.1.</span> 1. Целеполагание (5 минут)</h4>
+<ul>
+<li>Учитель демонстрирует модель конуса и предлагает учащимся подумать, где в жизни встречаются подобные фигуры.</li>
+<li>Вопросы к учащимся:
+<ul>
+<li>Что это за фигура?</li>
+<li>Как вы думаете, какие параметры можно измерить у неё?</li>
+
+</ul></li>
+<li>Формулировка темы и целей урока совместно с учащимися.</li>
+
+</ul>
+
+</section>
+<section id="slide-orgf91d5f3">
+<h4 id="orgf91d5f3"><span class="section-number-4">1.4.2.</span> 2. Мотивация (5 минут)</h4>
+<ul>
+<li>Обсуждение практического применения конуса (архитектура, инженерия, дизайн).</li>
+<li>Пример: Башни, вазы, элементы самолётов.</li>
+<li>Проблемный вопрос:
+<ul>
+<li>Почему так важно уметь рассчитывать параметры конуса в реальной жизни?</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-orgce8c30f">
+<h4 id="orgce8c30f"><span class="section-number-4">1.4.3.</span> 3. Актуализация знаний (7 минут)</h4>
+<ul>
+<li>Краткое повторение понятий «цилиндр», «площадь поверхности», «объём».</li>
+<li>Работа с вопросами:
+<ul>
+<li>Чем конус отличается от цилиндра?</li>
+<li>Какие формулы вы знаете для расчёта площади и объёма у других тел?</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-orgee54b42">
+<h4 id="orgee54b42"><span class="section-number-4">1.4.4.</span> 4. Изучение нового материала (10 минут)</h4>
+<ul>
+<li>Определение конуса и его элементов (основание, ось, высота, образующая).</li>
+<li>Вывод формул:
+<ul>
+<li>Площадь боковой поверхности: \( S_{\text{бок}} = \pi r l \)</li>
+<li>Полная площадь поверхности: \( S = \pi r (r + l) \)</li>
+<li>Объём: \( V = \frac{1}{3} \pi r^2 h \)</li>
+
+</ul></li>
+<li>Иллюстрация на примере.</li>
+
+</ul>
+
+</section>
+<section id="slide-org1019630">
+<h4 id="org1019630"><span class="section-number-4">1.4.5.</span> 5. Работа под руководством учителя (8 минут)</h4>
+<ul>
+<li>Разбор примера:
+<ul>
+<li>Радиус основания конуса равен 3 см, образующая — 5 см. Найти площадь боковой поверхности.</li>
+<li>Радиус основания 4 см, высота — 6 см. Найти объём.</li>
+
+</ul></li>
+<li>Пошаговое решение задач на доске.</li>
+
+</ul>
+
+</section>
+<section id="slide-org75cf8cf">
+<h4 id="org75cf8cf"><span class="section-number-4">1.4.6.</span> 6. Самостоятельная работа (7 минут)</h4>
+<ul>
+<li>Учащимся предлагаются задачи:
+<ol>
+<li>Радиус основания конуса — 2 см, высота — 8 см. Найти объём.</li>
+<li>Образующая конуса — 10 см, радиус основания — 6 см. Найти площадь боковой поверхности.</li>
+
+</ol></li>
+<li>Проверка выбранных задач по ключу на слайде.</li>
+
+</ul>
+
+</section>
+<section id="slide-orgffa42be">
+<h4 id="orgffa42be"><span class="section-number-4">1.4.7.</span> 7. Обобщение (3 минуты)</h4>
+<ul>
+<li>Обсуждение:
+<ul>
+<li>Что нового узнали?</li>
+<li>Какие формулы наиболее запомнились?</li>
+
+</ul></li>
+<li>Обобщение с использованием графической схемы (основные элементы и формулы конуса).</li>
+
+</ul>
+
+</section>
+<section id="slide-org5711f10">
+<h4 id="org5711f10"><span class="section-number-4">1.4.8.</span> 8. Рефлексия (5 минут)</h4>
+<ul>
+<li>Учащиеся заполняют карточки:
+<ul>
+<li>«Что мне понравилось на уроке?»</li>
+<li>«Что мне ещё нужно повторить?»</li>
+
+</ul></li>
+<li>Оценивание выполнения задач и участия в обсуждениях.</li>
+
+</ul>
+
+</section>
+<section id="slide-org7f15bd1">
+<h3 id="org7f15bd1"><span class="section-number-3">1.5.</span> Результаты урока:</h3>
+<ul>
+<li>Знания: учащиеся смогут описать конус, объяснить его свойства.</li>
+<li>Навыки: умение решать задачи на нахождение площади и объёма конуса.</li>
+<li>Применение: использование знаний для решения задач реального мира.</li>
+
+</ul>
+
+</section>
+<section id="slide-org24ac6c8">
+<h3 id="org24ac6c8"><span class="section-number-3">1.6.</span> Домашнее задание:</h3>
+<ul>
+<li>Решить задачи:
+<ol>
+<li>Радиус основания — 5 см, высота — 12 см. Найти объём.</li>
+<li>Образующая — 13 см, радиус основания — 5 см. Найти площадь боковой поверхности и полную площадь.</li>
+
+</ol></li>
+<li>Подготовить примеры из жизни, где встречается конус.</li>
+
+</ul>
+<p>
+```
+</p>
+</section>
+<section id="slide-orgfe935fa">
+<h4 id="orgfe935fa"><span class="section-number-4">1.6.1.</span> PISA-задачи (10 минут)</h4>
+<ul>
+<li><p>
+<b><b>Задача 1 (применение в реальной жизни):</b></b>  
+Вы участвуете в проекте по дизайну ландшафтного парка. Планируется создать холм в форме конуса с радиусом основания 10 м и высотой 12 м.  
+</p>
+<ul>
+<li>а) Какой объём земли потребуется для создания холма?</li>
+<li>б) Если планируется покрыть поверхность холма травой, какой минимальный размер площади травяного покрытия нужно закупить?</li>
+
+</ul>
+<p>
+(Ответ округлить до десятых.)
+</p></li>
+
+<li><p>
+<b><b>Задача 2 (оценка, интерпретация):</b></b>  
+На кондитерской фабрике делают вафельные рожки для мороженого. Диаметр основания рожка — 6 см, высота — 12 см.  
+</p>
+<ul>
+<li>а) Какой объём мороженого поместится в один рожок?</li>
+<li>б) Если рожок заполняется только на 90%, сколько мороженого потребуется для заполнения 1000 таких рожков?</li>
+
+</ul>
+<p>
+(Результаты округлить до целых чисел.)
+</p></li>
+
+<li><b><b>Задача 3 (обоснование, связь с контекстом):</b></b>  
+Вы работаете инженером в строительной компании. Вам поручено разработать резервуар для воды в форме перевёрнутого конуса с радиусом основания 5 м и высотой 8 м.  
+<ul>
+<li>а) Какой объём воды вмещает резервуар?</li>
+<li>б) Если резервуар заполняется только на 75%, сколько литров воды потребуется (1 м³ = 1000 л)?</li>
+
+</ul></li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>
