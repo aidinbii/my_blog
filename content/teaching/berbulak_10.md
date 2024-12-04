@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 10th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-12-03T17:46:31+01:00
+lastmod = 2024-12-04T20:35:21+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -55,3 +55,4 @@ type = "teaching"
 -   [Hook's law](/pdf_files/berbulak/physics_10/physics10_hook.html)
 -   [Pendulum](/pdf_files/berbulak/physics_10/physics10_pendulum.html)
 -   [Sound](/pdf_files/berbulak/physics_10/physics10_sound.html)
+-   [Atom](/pdf_files/berbulak/physics_10/physics10_atom.html)
