@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 10th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-12-04T20:35:21+01:00
+lastmod = 2024-12-09T17:04:24+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -56,3 +56,4 @@ type = "teaching"
 -   [Pendulum](/pdf_files/berbulak/physics_10/physics10_pendulum.html)
 -   [Sound](/pdf_files/berbulak/physics_10/physics10_sound.html)
 -   [Atom](/pdf_files/berbulak/physics_10/physics10_atom.html)
+-   [Brownian motion](/pdf_files/berbulak/physics_10/physics10_brownian_motion.html)
