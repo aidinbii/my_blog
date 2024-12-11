@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Algebra 7: Monomial</title>
+<meta name="author" content="Aidin Biibosunov"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<style>
+body {
+width: 8.5in; /* Letter width */
+height: 11in; /* Letter height */
+margin: 0 auto; /* Center the page */
+padding: 20px; /* Add some padding */
+box-sizing: border-box; /* Include padding in width/height */
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Algebra 7: Monomial</h1><p class="subtitle"></p>
+<h2 class="author">Aidin Biibosunov</h2><p class="date">Created: 2024-12-11 Wed 17:19</p>
+</section>
+<p>
+<b><b>Тема: Бир мүчө. Стандарттык түрү. Бир мүчөлөрдү көбөйтүү</b></b>
+</p>
+
+<p>
+<b><b>1. Бир мүчөнүн түшүнүгү</b></b>
+<b><b>Бир мүчө</b></b> – бул сандарды, айнымалыларды (тамгаларды) жана алардын даражаларын көбөйтүү түрүндө берилген алгебралык туюнтма. Башкача айтканда, бир мүчө – бул бир эле мүчөдөн турган алгебралык туюнтма.
+</p>
+
+<p>
+<b><b>Бир мүчөлөргө мисалдар:</b></b>
+</p>
+<ul>
+<li>\(5x\) – бир мүчө (5 деген санды \(x\) айнымалысына көбөйтүүдөн турат).</li>
+<li>\(-3a^2b\) – бир мүчө (\(-3\) саны, \(a^2\) жана \(b\) айнымалыларынын көбөйтүндүсү).</li>
+<li>\(\frac{1}{2}xy^3\) – бир мүчө (\(\frac{1}{2}\) сандык коэффициенти жана \(x\), \(y^3\) айнымалылары).</li>
+
+</ul>
+
+<p>
+<b><b>2. Бир мүчөнүн стандарттык түрү</b></b>
+Бир мүчө <b><b>стандарттык түрдө</b></b> деп аталат, эгерде:
+</p>
+<ul>
+<li>Сандык коэффициент биринчи болуп жазылса;</li>
+<li>Айнымалылар алфавиттик тартипте жайгашса;</li>
+<li>Окшош айнымалылардын даражалары кошулуп, бир айнымалылуу даража катары жазылса.</li>
+
+</ul>
+
+<p>
+<b><b>Бир мүчөнү стандарттык түргө келтирүү тартиби:</b></b>
+</p>
+<ol>
+<li>Бардык сандык коэффициенттерди көбөйтүү.</li>
+<li>Бирдей айнымалыларды топтоого алып, алардын даражаларын кошуу.</li>
+<li>Айнымалыларды алфавиттик тартипте жайгаштыруу.</li>
+<li>Жыйынтыкты жөнөкөйлөштүрүп, стандарттык түргө келтирүү.</li>
+
+</ol>
+
+<p>
+<b><b>Мисал:</b></b>
+\(-2x \cdot 3x^2y\) туюнтмасын стандарттык түргө келтирели:
+</p>
+<ul>
+<li>Сандык коэффициент: \(-2 \cdot 3 = -6\).</li>
+<li>Айнымалылар: \(x \cdot x^2 = x^{1+2} = x^3\), \(y\) айнымалысы өзгөрбөйт.</li>
+
+</ul>
+<p>
+Жыйынтык: \(-6x^3y\).
+</p>
+
+<p>
+Дагы бир мисал: \(4a^2b \cdot \left(-\frac{1}{2}ab^3\right)\)
+</p>
+<ul>
+<li>Сандык коэффициент: \(4 \cdot (-\frac{1}{2}) = -2\).</li>
+<li>Айнымалылар: \(a^2 \cdot a = a^{2+1} = a^3\); \(b \cdot b^3 = b^{1+3} = b^4\).</li>
+
+</ul>
+<p>
+Жыйынтык: \(-2a^3b^4\).
+</p>
+
+<p>
+<b><b>3. Бир мүчөлөрдү көбөйтүү</b></b>
+Бир мүчөлөрдү көбөйтүү үчүн:
+</p>
+<ol>
+<li>Сандык коэффициенттерди көбөйтүү.</li>
+<li>Бирдей айнымалылардын даражаларын кошуу.</li>
+<li>Натыйжаны стандарттык түргө келтирүү.</li>
+
+</ol>
+
+
+<p>
+<b><b>Бир мүчөлөрдү көбөйтүүгө мисалдар:</b></b>
+</p>
+<ul>
+<li>\((2x^2)(3x) = 6x^{2+1} = 6x^3.\)</li>
+<li>\((-4a^3b)(5a^{-1}b^2) = (-4 \cdot 5)a^{3+(-1)}b^{1+2} = -20a^2b^3.\)</li>
+
+</ul>
+
+<p>
+&#x2014;
+</p>
+
+<p>
+<b><b>Бир мүчө жана анын стандарттык түрү</b></b>
+</p>
+
+<ol>
+<li>Мисал: \( 2xy^2z \)
+Бул туюнтма стандарттык түрдө берилген бир мүчө:
+<ul>
+<li>Сандык коэффициент: \(2\)</li>
+<li>Айнымалылар: \(x, y^2, z\) алфавиттик тартипте: \(x, y, z\).</li>
+
+</ul></li>
+
+<li><p>
+Мисал: \(-3y^2x\)
+Стандарттык түргө келтирүү үчүн айнымалыларды алфавиттик тартипке салабыз:
+</p>
+<ul>
+<li>Алфавиттик тартип: \(x, y\).</li>
+
+</ul>
+<p>
+Жаңыча жазылат: \(-3x y^2\).
+Демек, бир мүчөнүн стандарттык түрү: \(-3x y^2\).
+</p></li>
+
+<li>Мисал: \(\frac{1}{2}b^3 a c\)
+Айнымалыларды алфавиттик тартипте иреттейбиз: \(a, b, c\).
+Стандарттык түрү: \(\frac{1}{2} a b^3 c\).</li>
+
+<li><p>
+Мисал: \(-4a^2 a^{-3} b c^0\)
+Алгач даражаларды жөнөкөйлөштүрөбүз:
+</p>
+<ul>
+<li>\(a^2 \cdot a^{-3} = a^{2+(-3)} = a^{-1} = \frac{1}{a}\).</li>
+<li>\(c^0 = 1\), аны жазбай эле койсо болот.</li>
+
+</ul>
+<p>
+Алгачкы туюнтма: \(-4a^2 a^{-3} b c^0 = -4a^{-1}b\).
+Терс даража бар болсо да, бир мүчө стандарттык түрдө деп эсептелинет. Кааласаңыз, терс даражаны бөлчөк түрүндө жазууга болот:
+\(-4a^{-1}b = -4 \frac{b}{a}\).
+Бирок жалпы түрдө \(-4a^{-1}b\) да стандарттык түр деп саналат.
+</p></li>
+
+</ol>
+
+<p>
+&#x2014;
+</p>
+
+<p>
+<b><b>Бир мүчөлөрдү көбөйтүү</b></b>
+</p>
+
+<p>
+Бир мүчөлөрдү көбөйтүүдө төмөнкү кадамдарды аткарабыз:
+</p>
+<ol>
+<li>Сандык коэффициенттерди көбөйтүү.</li>
+<li>Окшош айнымалылардын даражаларын кошуу.</li>
+<li>Жыйынтыкты стандарттык түргө келтирүү.</li>
+
+</ol>
+
+<p>
+Төмөндө татаалирээк мисалдар келтирилет:
+</p>
+
+<ol>
+<li><p>
+Мисал:
+\[
+   (3x^2y) \cdot (-2xy^3)
+   \]
+</p>
+
+<ul>
+<li>Сандык коэффициенттер: \(3 \cdot (-2) = -6.\)</li>
+<li>Айнымалылар:
+<ul>
+<li>\(x\) үчүн: \(x^2 \cdot x = x^{2+1} = x^3.\)</li>
+<li>\(y\) үчүн: \(y \cdot y^3 = y^{1+3} = y^4.\)</li>
+
+</ul></li>
+
+</ul>
+
+<p>
+Натыйжа: \(-6x^3y^4.\)
+</p></li>
+
+<li><p>
+Мисал:
+\[
+   \left(-\frac{1}{3}a^2b\right) \cdot (6a^{-1}b^3)
+   \]
+</p>
+
+<ul>
+<li>Сандык коэффициенттер: \(-\frac{1}{3} \cdot 6 = -2\) (анткени \(6 \cdot \frac{1}{3} = 2\)).</li>
+<li>Айнымалылар:
+<ul>
+<li>\(a\) үчүн: \(a^2 \cdot a^{-1} = a^{2+(-1)} = a^1 = a.\)</li>
+<li>\(b\) үчүн: \(b \cdot b^3 = b^{1+3} = b^4.\)</li>
+
+</ul></li>
+
+</ul>
+
+<p>
+Натыйжа: \(-2a b^4.\)
+</p></li>
+
+<li><p>
+Мисал:
+\[
+   (4x^3y^2z) \cdot \left(-\frac{1}{2}x^{-2}y z^3\right)
+   \]
+</p>
+
+<ul>
+<li>Сандык коэффициенттер: \(4 \cdot (-\frac{1}{2}) = -2.\)</li>
+<li>Айнымалылар:
+<ul>
+<li>\(x\) үчүн: \(x^3 \cdot x^{-2} = x^{3+(-2)} = x^1 = x.\)</li>
+<li>\(y\) үчүн: \(y^2 \cdot y = y^{2+1} = y^3.\)</li>
+<li>\(z\) үчүн: \(z \cdot z^3 = z^{1+3} = z^4.\)</li>
+
+</ul></li>
+
+</ul>
+
+<p>
+Натыйжа: \(-2x y^3 z^4.\)
+</p></li>
+
+<li><p>
+Бир нече айнымалылар менен мисал:
+\[
+   (2a^2b^3c) \cdot (-3a^{-1}b^4c^2)
+   \]
+</p>
+
+<ul>
+<li>Сандык коэффициенттер: \(2 \cdot (-3) = -6.\)</li>
+<li>Айнымалылар:
+<ul>
+<li>\(a\) үчүн: \(a^2 \cdot a^{-1} = a^{2+(-1)} = a^1 = a.\)</li>
+<li>\(b\) үчүн: \(b^3 \cdot b^4 = b^{3+4} = b^7.\)</li>
+<li>\(c\) үчүн: \(c \cdot c^2 = c^{1+2} = c^3.\)</li>
+
+</ul></li>
+
+</ul>
+
+<p>
+Натыйжа: \(-6 a b^7 c^3.\)
+</p></li>
+
+<li><p>
+Бөлчөк коэффициенттер менен мисал:
+\[
+   \left(\frac{3}{4}x^5y\right) \cdot \left(\frac{2}{3}xy^2\right)
+   \]
+</p>
+
+<ul>
+<li>Сандык коэффициенттер: \(\frac{3}{4} \cdot \frac{2}{3} = \frac{3 \cdot 2}{4 \cdot 3} = \frac{2}{4} = \frac{1}{2}\).</li>
+<li>Айнымалылар:
+<ul>
+<li>\(x\) үчүн: \(x^5 \cdot x = x^{5+1} = x^6.\)</li>
+<li>\(y\) үчүн: \(y \cdot y^2 = y^{1+2} = y^3.\)</li>
+
+</ul></li>
+
+</ul>
+
+<p>
+Натыйжа: \(\frac{1}{2}x^6y^3.\)
+</p></li>
+
+</ol>
+
+<p>
+&#x2014;
+</p>
+
+<p>
+<b><b>Жыйынтык:</b></b>
+</p>
+<ul>
+<li>Бир мүчө – бул сандык коэффициенттин жана айнымалылардын даражалуу көбөйтүндүсүнөн турган туюнтма.</li>
+<li>Стандарттык түр бир мүчөнү тартипке салып, сандык коэффициентти алдына, айнымалыларды алфавиттик тартипке жайгаштырат, бирдей айнымалылардын даражаларын бириктирет.</li>
+<li>Бир мүчөлөрдү көбөйтүүдө сандык коэффициенттер көбөйтүлүп, окшош айнымалылардын даражалары кошулат. Андан кийин стандарттык түргө келтирилет.</li>
+
+</ul>
+</div>
+</div>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>
