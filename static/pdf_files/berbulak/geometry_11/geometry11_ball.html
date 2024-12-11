@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Geometry 11: Ball</title>
+<meta name="author" content="Aidin Biibosunov"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<style>
+body {
+width: 8.5in; /* Letter width */
+height: 11in; /* Letter height */
+margin: 0 auto; /* Center the page */
+padding: 20px; /* Add some padding */
+box-sizing: border-box; /* Include padding in width/height */
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Geometry 11: Ball</h1><p class="subtitle"></p>
+<h2 class="author">Aidin Biibosunov</h2><p class="date">Created: 2024-12-11 Wed 04:00</p>
+</section>
+
+<section>
+<section id="slide-org731492a">
+<h2 id="org731492a"><span class="section-number-2">1.</span> Урок математики: Шар и сфера. Площадь поверхности</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+</section>
+<section id="slide-orgf57c82d">
+<h3 id="orgf57c82d"><span class="section-number-3">1.1.</span> Класс: 11</h3>
+</section>
+<section id="slide-org027c10b">
+<h3 id="org027c10b"><span class="section-number-3">1.2.</span> Время: 45 минут</h3>
+</section>
+<section id="slide-orga9cc63e">
+<h3 id="orga9cc63e"><span class="section-number-3">1.3.</span> Цели урока:</h3>
+<ul>
+<li>Образовательные:
+<ul>
+<li>Понять геометрические свойства шара и сферы.</li>
+<li>Научиться выводить формулу площади поверхности сферы.</li>
+<li>Применять формулу площади поверхности в задачах.</li>
+
+</ul></li>
+<li>Развивающие:
+<ul>
+<li>Развивать навыки пространственного мышления и математического анализа.</li>
+
+</ul></li>
+<li>Воспитательные:
+<ul>
+<li>Формировать внимательность и упорство при решении задач.</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-org3f52a08">
+<h3 id="org3f52a08"><span class="section-number-3">1.4.</span> Этапы урока:</h3>
+<div class="outline-text-3" id="text-1-4">
+</div>
+</section>
+<section id="slide-org3f7579b">
+<h4 id="org3f7579b"><span class="section-number-4">1.4.1.</span> 1. Целеполагание (5 минут)</h4>
+<ul>
+<li>Учитель демонстрирует модели шара и сферы, задавая вопросы:
+<ul>
+<li>"Какую фигуру называют шаром, а какую сферой?"</li>
+<li>"Как вы думаете, чем отличаются объем и поверхность сферы?"</li>
+
+</ul></li>
+<li>Формулируются цели урока совместно с учениками: изучить площадь поверхности сферы и научиться применять формулу.</li>
+
+</ul>
+
+</section>
+<section id="slide-org66f17d2">
+<h4 id="org66f17d2"><span class="section-number-4">1.4.2.</span> 2. Мотивация (5 минут)</h4>
+<ul>
+<li>Учитель предлагает практическую задачу:
+<ul>
+<li>"Как узнать, сколько краски потребуется, чтобы покрасить футбольный мяч?"</li>
+<li>Учащиеся высказывают идеи. Учитель подводит к тому, что нужно знать площадь поверхности.</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-orgd59e518">
+<h4 id="orgd59e518"><span class="section-number-4">1.4.3.</span> 3. Актуализация знаний (5 минут)</h4>
+<ul>
+<li>Вопросы:
+<ul>
+<li>"Что такое площадь поверхности у других фигур, например у куба или цилиндра?"</li>
+<li>"Какие единицы измерения используются?"</li>
+
+</ul></li>
+<li>Учитель напоминает формулы площади для известных тел.</li>
+
+</ul>
+
+</section>
+<section id="slide-org18d2779">
+<h4 id="org18d2779"><span class="section-number-4">1.4.4.</span> 4. Новый материал (10 минут)</h4>
+<ul>
+<li>Учитель объясняет:
+<ul>
+<li>Определение сферы и шара.</li>
+<li>Вывод формулы площади поверхности сферы: \( S = 4\pi R^2 \), где \( R \) — радиус.</li>
+
+</ul></li>
+<li>Демонстрация: видео/анимация с разрезом шара на сектора, показывающим, как формула выводится.</li>
+
+</ul>
+
+</section>
+<section id="slide-orgd4c5964">
+<h4 id="orgd4c5964"><span class="section-number-4">1.4.5.</span> 5. Работа под руководством учителя (10 минут)</h4>
+<ul>
+<li>Решение задач с объяснением:
+<ol>
+<li>Найти площадь поверхности сферы радиусом 5 см.</li>
+<li>Если площадь поверхности сферы равна 314 см², найти радиус.</li>
+
+</ol></li>
+
+</ul>
+
+</section>
+<section id="slide-org60a5224">
+<h4 id="org60a5224"><span class="section-number-4">1.4.6.</span> 6. Самостоятельная работа (7 минут)</h4>
+<ul>
+<li>Учащимся предлагаются задачи:
+<ol>
+<li>Найти площадь поверхности сферы радиусом 10 м.</li>
+<li>Радиус шара увеличили в 2 раза. Как изменилась площадь поверхности?</li>
+
+</ol></li>
+
+</ul>
+
+</section>
+<section id="slide-org625ba33">
+<h4 id="org625ba33"><span class="section-number-4">1.4.7.</span> 7. Обобщение (3 минуты)</h4>
+<ul>
+<li>Учитель задает вопросы:
+<ul>
+<li>"Какая формула используется для нахождения площади поверхности сферы?"</li>
+<li>"Как изменится площадь, если радиус увеличится в 3 раза?"</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-org012f13f">
+<h4 id="org012f13f"><span class="section-number-4">1.4.8.</span> 8. Рефлексия (5 минут)</h4>
+<ul>
+<li>Учащиеся делятся:
+<ul>
+<li>"Что нового узнали на уроке?"</li>
+<li>"Какие задачи были сложными?"</li>
+
+</ul></li>
+<li>Учитель предлагает ученикам оценить свою работу: зеленый, желтый или красный цвет для уровня понимания.</li>
+
+</ul>
+
+</section>
+<section id="slide-org17d11b3">
+<h3 id="org17d11b3"><span class="section-number-3">1.5.</span> Задание на дом:</h3>
+<ul>
+<li>Решить задачи:
+<ol>
+<li>Радиус шара 7 см. Найти площадь поверхности.</li>
+<li>Площадь поверхности сферы равна 616 см². Найти радиус.</li>
+
+</ol></li>
+
+</ul>
+
+
+</section>
+</section>
+<section>
+<section id="slide-orgbadfd85">
+<h2 id="orgbadfd85"><span class="section-number-2">2.</span> Математика сабагы: Шар жана сфера. Беттин аянты</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+</section>
+<section id="slide-org71d9642">
+<h3 id="org71d9642"><span class="section-number-3">2.1.</span> Класс: 11</h3>
+</section>
+<section id="slide-orge5a5972">
+<h3 id="orge5a5972"><span class="section-number-3">2.2.</span> Убакыт: 45 мүнөт</h3>
+</section>
+<section id="slide-orgb10bfab">
+<h3 id="orgb10bfab"><span class="section-number-3">2.3.</span> Сабактын максаттары:</h3>
+<ul>
+<li>Окутуу максаттары:  
+<ul>
+<li>Шар жана сферанын геометриялык касиеттерин түшүнүү.</li>
+<li>Сферанын бетинин аянтын эсептөө формуласы менен таанышуу.</li>
+<li>Формуланы эсептөө маселелеринде колдонуу.</li>
+
+</ul></li>
+<li>Өнүктүрүүчү максаттар:  
+<ul>
+<li>Мейкиндиктик ой жүгүртүүнү жана математикалык талдоону өнүктүрүү.</li>
+
+</ul></li>
+<li>Тарбия берүүчү максаттар:  
+<ul>
+<li>Туруктуулук жана көңүл буруу жөндөмдөрүн калыптандыруу.</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-org8fdca1f">
+<h3 id="org8fdca1f"><span class="section-number-3">2.4.</span> Сабактын этаптары:</h3>
+<div class="outline-text-3" id="text-2-4">
+</div>
+</section>
+<section id="slide-org891f5b1">
+<h4 id="org891f5b1"><span class="section-number-4">2.4.1.</span> 1. Максат коюу (5 мүнөт)</h4>
+<ul>
+<li>Мугалим шар жана сферанын моделдерин көрсөтүп, суроолорду берет:
+<ul>
+<li>"Кайсы фигураны шар, ал эми кайсыны сфера деп атайбыз?"</li>
+<li>"Сферанын көлөмү менен бети эмнеси менен айырмаланат деп ойлойсуз?"</li>
+
+</ul></li>
+<li>Окуучулар менен сабактын максаты аныкталат: сферанын бетинин аянтын үйрөнүү жана формуланы колдонуу.</li>
+
+</ul>
+
+</section>
+<section id="slide-orgd4f145b">
+<h4 id="orgd4f145b"><span class="section-number-4">2.4.2.</span> 2. Мотивация (5 мүнөт)</h4>
+<ul>
+<li>Практикалык суроо:
+<ul>
+<li>"Футбол тобун сырдоого канча боёк керектигин кантип эсептейбиз?"</li>
+<li>Окуучулар өз ойлорун айтышат. Мугалим беттин аянтын билүү зарыл экенин түшүндүрөт.</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-orgc158083">
+<h4 id="orgc158083"><span class="section-number-4">2.4.3.</span> 3. Билемдерди активдештирүү (5 мүнөт)</h4>
+<ul>
+<li>Суроолор:
+<ul>
+<li>"Куб же цилиндр сыяктуу фигуралардын бетинин аянты деген эмне?"</li>
+<li>"Кандай өлчөө бирдиктерин колдонобуз?"</li>
+
+</ul></li>
+<li>Мугалим белгилүү денелердин бетинин аянтын эсептөө формулаларын эскертет.</li>
+
+</ul>
+
+</section>
+<section id="slide-orgde0819f">
+<h4 id="orgde0819f"><span class="section-number-4">2.4.4.</span> 4. Жаңы материал (10 мүнөт)</h4>
+<ul>
+<li>Түшүндүрүү:
+<ul>
+<li>Сфера жана шар деген эмне.</li>
+<li>Сферанын бетинин аянтынын формуласы: \( S = 4\pi R^2 \), мында \( R \) — радиус.</li>
+
+</ul></li>
+<li>Демонстрация: видеодон же анимациядан шарды секторлорго бөлүү менен формуланы чыгаруу.</li>
+
+</ul>
+
+</section>
+<section id="slide-org11938b5">
+<h4 id="org11938b5"><span class="section-number-4">2.4.5.</span> 5. Мугалим менен иштөө (10 мүнөт)</h4>
+<ul>
+<li>Маселелерди биргеликте чечүү:
+<ol>
+<li>Радиусу 5 см болгон сферанын бетинин аянтын тапкыла.</li>
+<li>Эгерде сферанын бетинин аянты 314 см² болсо, радиусун аныктагыла.</li>
+
+</ol></li>
+
+</ul>
+
+</section>
+<section id="slide-org3119f63">
+<h4 id="org3119f63"><span class="section-number-4">2.4.6.</span> 6. Өз алдынча иштөө (7 мүнөт)</h4>
+<ul>
+<li>Маселелер:
+<ol>
+<li>Радиусу 10 м болгон сферанын бетинин аянтын тапкыла.</li>
+<li>Шарды 2 эсе чоңойтту. Анын бетинин аянты кантип өзгөрдү?</li>
+
+</ol></li>
+
+</ul>
+
+</section>
+<section id="slide-org64dadd8">
+<h4 id="org64dadd8"><span class="section-number-4">2.4.7.</span> 7. Жыйынтыктоо (3 мүнөт)</h4>
+<ul>
+<li>Суроолор:
+<ul>
+<li>"Сферанын бетинин аянтын кантип табабыз?"</li>
+<li>"Эгерде радиус 3 эсе чоңойсо, бетинин аянты кантип өзгөрөт?"</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-org9e21408">
+<h4 id="org9e21408"><span class="section-number-4">2.4.8.</span> 8. Рефлексия (5 мүнөт)</h4>
+<ul>
+<li>Окуучулар төмөнкүлөр менен бөлүшөт:
+<ul>
+<li>"Сабакта эмнени жаңы үйрөндүңөр?"</li>
+<li>"Кайсы маселелер оор болду?"</li>
+
+</ul></li>
+<li>Мугалим окуучулардан өз ишин баалоону сурайт: жашыл, сары же кызыл түстү колдонуу.</li>
+
+</ul>
+
+</section>
+<section id="slide-org9161747">
+<h3 id="org9161747"><span class="section-number-3">2.5.</span> Үй тапшырмасы:</h3>
+<ul>
+<li>Маселелерди чечүү:
+<ol>
+<li>Радиусу 7 см болгон шарды бетинин аянтын тапкыла.</li>
+<li>Сферанын бетинин аянты 616 см² болсо, радиусун аныктагыла.</li>
+
+</ol></li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>
