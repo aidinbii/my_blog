@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Algebra 8: Quadratic equation graph</title>
+<meta name="author" content="Aidin Biibosunov"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<style>
+body {
+width: 8.5in; /* Letter width */
+height: 11in; /* Letter height */
+margin: 0 auto; /* Center the page */
+padding: 20px; /* Add some padding */
+box-sizing: border-box; /* Include padding in width/height */
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Algebra 8: Quadratic equation graph</h1><p class="subtitle"></p>
+<h2 class="author">Aidin Biibosunov</h2><p class="date">Created: 2024-12-17 Tue 17:46</p>
+</section>
+<p>
+```org
+</p>
+<section>
+<section id="slide-orgd05f13c">
+<h2 id="orgd05f13c"><span class="section-number-2">1.</span> План урока</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+</section>
+<section id="slide-org8da197c">
+<h3 id="org8da197c"><span class="section-number-3">1.1.</span> Предмет: Алгебра</h3>
+</section>
+<section id="slide-org8941fb7">
+<h3 id="org8941fb7"><span class="section-number-3">1.2.</span> Класс: 8</h3>
+</section>
+<section id="slide-org87b560f">
+<h3 id="org87b560f"><span class="section-number-3">1.3.</span> Тема: График квадратного уравнения</h3>
+</section>
+<section id="slide-orga0c7d48">
+<h3 id="orga0c7d48"><span class="section-number-3">1.4.</span> Время: 45 минут</h3>
+<p>
+<b>Цель урока:</b>
+</p>
+<ul>
+<li>Познакомить учащихся с графиком квадратного уравнения \( y = ax^2 + bx + c \),</li>
+<li>Научить строить график квадратной функции и анализировать его свойства.</li>
+
+</ul>
+
+<p>
+<b><b>Задачи урока:</b></b>
+</p>
+<ul>
+<li><b><b>Знание</b></b>: Понимать, что такое парабола и как она выглядит.</li>
+<li><b><b>Понимание</b></b>: Анализировать коэффициенты \(a\), \(b\), \(c\) и их влияние на график.</li>
+<li><b><b>Применение</b></b>: Строить график квадратного уравнения вручную.</li>
+<li><b><b>Анализ</b></b>: Определять вершину параболы и ось симметрии.</li>
+
+</ul>
+
+<p>
+<b><b>Формат PISA:</b></b>
+</p>
+<ul>
+<li>Решение задач, связанных с построением и анализом графиков на основе реальных данных.</li>
+
+</ul>
+
+<p>
+<b><b>Оборудование:</b></b>
+</p>
+<ul>
+<li>Доска, маркеры, линейка, калькулятор, рабочие листы, графическая бумага.</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org7b90cf2">
+<h2 id="org7b90cf2"><span class="section-number-2">2.</span> Структура урока</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+</section>
+<section id="slide-org176ba2b">
+<h3 id="org176ba2b"><span class="section-number-3">2.1.</span> 1. Целеполагание (3 минуты)</h3>
+<ul>
+<li><b>Учитель</b>: «Сегодня на уроке мы будем изучать график квадратного уравнения, его свойства и методы построения».</li>
+<li><b><b>Вопрос для учеников:</b></b> «Какие уравнения вы уже умеете строить? Что будет, если в уравнении \( y = ax^2 \) появляются дополнительные члены?»</li>
+<li><b><b>Результат:</b></b> Учащиеся понимают цель урока и ожидаемый результат.</li>
+
+</ul>
+</section>
+<section id="slide-orgc7d44b6">
+<h3 id="orgc7d44b6"><span class="section-number-3">2.2.</span> 2. Мотивация (5 минут)</h3>
+<ul>
+<li><b>Пример из жизни</b>: «Представьте, что вы кидаете мяч в воздух. Его траектория напоминает кривую – это и есть парабола. График квадратного уравнения помогает моделировать такие ситуации».</li>
+<li><b>Задача</b>: «Почему важно уметь строить такие графики? Где это можно применить?»</li>
+
+</ul>
+</section>
+<section id="slide-org45840ee">
+<h3 id="org45840ee"><span class="section-number-3">2.3.</span> 3. Актуализация знаний (5 минут)</h3>
+<ul>
+<li>Фронтальная работа: Устный опрос по линейным функциям и понятиям:
+<ul>
+<li>Что такое функция?</li>
+<li>Что такое график функции?</li>
+<li>Как строится график функции вида \( y = kx + b \)?</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-org30767c1">
+<h3 id="org30767c1"><span class="section-number-3">2.4.</span> 4. Новый материал (10 минут)</h3>
+<ul>
+<li><b><b>Определение параболы</b></b>: График уравнения \( y = ax^2 + bx + c \) называется <a href="https://www.desmos.com/calculator/lpywrz1vsi">параболой</a>.</li>
+<li><b><b>Свойства параболы</b></b>:
+<ol>
+<li>Если \( a > 0 \), ветви параболы направлены вверх.</li>
+<li>Если \( a < 0 \), ветви параболы направлены вниз.</li>
+<li>Вершина параболы находится в точке \( x = -\frac{b}{2a} \).</li>
+<li>Парабола симметрична относительно оси симметрии \( x = -\frac{b}{2a} \).</li>
+
+</ol></li>
+<li><b><b>Построение графика</b></b>: Алгоритм:
+<ol>
+<li>Найти вершину параболы.</li>
+<li>Подставить несколько значений \( x \) в уравнение для построения точек.</li>
+<li>Построить ось симметрии.</li>
+<li>Соединить точки плавной кривой.</li>
+
+</ol></li>
+
+</ul>
+</section>
+<section id="slide-orgf80f3bb">
+<h3 id="orgf80f3bb"><span class="section-number-3">2.5.</span> 5. Работа под руководством учителя (10 минут)</h3>
+<ul>
+<li><b>Пример</b>: Построить график функции \( y = x^2 - 4x + 3 \).
+<ul>
+<li>Найти вершину параболы.</li>
+<li>Составить таблицу значений \( x \) и \( y \).</li>
+<li>Построить график на доске и проанализировать его.</li>
+
+</ul></li>
+<li>Ученики работают на доске и в тетрадях с учителем.</li>
+
+</ul>
+</section>
+<section id="slide-org052ab59">
+<h3 id="org052ab59"><span class="section-number-3">2.6.</span> 6. Самостоятельная работа (7 минут)</h3>
+<ul>
+<li>Построить график функции \( y = -x^2 + 2x \).</li>
+<li><b>Задания</b>:
+<ol>
+<li>Найти вершину параболы.</li>
+<li>Определить ось симметрии.</li>
+<li>Построить график на миллиметровой бумаге.</li>
+
+</ol></li>
+
+</ul>
+</section>
+<section id="slide-org987e43f">
+<h3 id="org987e43f"><span class="section-number-3">2.7.</span> 7. Обобщение (3 минуты)</h3>
+<ul>
+<li>Вопросы:
+<ol>
+<li>Как влияет коэффициент \( a \) на направление ветвей параболы?</li>
+<li>Как найти вершину параболы?</li>
+<li>Почему парабола симметрична?</li>
+
+</ol></li>
+<li>Ученики делают выводы о построении и свойствах параболы.</li>
+
+</ul>
+</section>
+<section id="slide-org3be55d0">
+<h3 id="org3be55d0"><span class="section-number-3">2.8.</span> 8. Рефлексия (2 минуты)</h3>
+<ul>
+<li>«Что нового вы узнали на уроке?»</li>
+<li>«Какая часть урока была для вас самой интересной или трудной?»</li>
+<li>Оценка работы учеников: комментарии учителя и выставление отметок.</li>
+
+</ul>
+
+<p>
+<b>Домашнее задание:</b>
+</p>
+<ol>
+<li>Построить график функции \( y = 2x^2 - 3x + 1 \).</li>
+<li>Найти вершину параболы и ось симметрии.</li>
+
+</ol>
+<p>
+```
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>
