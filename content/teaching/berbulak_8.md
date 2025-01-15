@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 8th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-12-17T17:39:57+01:00
+lastmod = 2025-01-15T18:33:59+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -26,6 +26,7 @@ type = "teaching"
 -   [Quadratic equation](/pdf_files/berbulak/algebra_8/assignments/algebra8_quadratic_eq.html)
 -   [Linear equation](/pdf_files/berbulak/algebra_8/assignments/algebra8_linear_eq.html)
 -   [Quadratic equation graph](/pdf_files/berbulak/algebra_8/assignments/algebra8_quadratic_graph.html)
+-   [Linear equation 2](/pdf_files/berbulak/algebra_8/assignments/algebra8_linear_eq_2.html)
 
 
 ## Geometry 8 {#geometry-8}
