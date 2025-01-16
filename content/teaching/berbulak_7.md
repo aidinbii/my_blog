@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 7th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-12-12T17:27:41+01:00
+lastmod = 2025-01-16T17:57:52+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -22,6 +22,7 @@ type = "teaching"
 -   [Polynomials](/pdf_files/berbulak/algebra_7/algebra7_polynom.html)
 -   [Power](/pdf_files/berbulak/algebra_7/algebra7_power.html)
 -   [Monomial](/pdf_files/berbulak/algebra_7/algebra7_monom.html)
+-   [Polynomials: Addition and Subtraction](/pdf_files/berbulak/algebra_7/algebra7_polynom_add_sub.html)
 
 
 ## Geometry 7 {#geometry-7}

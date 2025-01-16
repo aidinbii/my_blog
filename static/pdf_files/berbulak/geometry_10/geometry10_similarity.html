@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Geometry 10: Similarity</title>
+<meta name="author" content="Aidin Biibosunov"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<style>
+body {
+width: 8.5in; /* Letter width */
+height: 11in; /* Letter height */
+margin: 0 auto; /* Center the page */
+padding: 20px; /* Add some padding */
+box-sizing: border-box; /* Include padding in width/height */
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Geometry 10: Similarity</h1><p class="subtitle"></p>
+<h2 class="author">Aidin Biibosunov</h2><p class="date">Created: 2025-01-16 Thu 17:52</p>
+</section>
+<p>
+```org
+</p>
+<section>
+<section id="slide-org4701e80">
+<h2 id="org4701e80"><span class="section-number-2">1.</span> Сабактын темасы: Мейкиндиктеги окшоштуктарды өзгөртүү</h2>
+</section>
+</section>
+<section>
+<section id="slide-org4091b01">
+<h2 id="org4091b01"><span class="section-number-2">2.</span> Сабактын максаты:</h2>
+<ul>
+<li><b><b>Билим берүүчүлүк:</b></b> Окуучуларга мейкиндиктеги окшоштуктарды өзгөртүү түшүнүгүн жана алардын касиеттерин үйрөтүү.</li>
+<li><b><b>Өнүктүрүүчүлүк:</b></b> Анализдөө, салыштыруу жана логикалык ой жүгүртүү жөндөмдөрүн өнүктүрүү.</li>
+<li><b><b>Тарбия берүүчүлүк:</b></b> Изилдөөчүлүк мамиле жана тактыкка кызыгууну өрчүтүү.</li>
+
+</ul>
+
+<p>
+<b><b>Сабактын жүрүшү:</b></b>
+</p>
+
+<p>
+<b><b>1. Сабактын максатын коюу (3 мүнөт)</b></b>  
+</p>
+<ul>
+<li>Окуучуларга мейкиндиктеги окшоштуктарды өзгөртүү түшүнүгүн жана алардын колдонуу ыкмаларын үйрөнө турганыбызды түшүндүрүү.</li>
+<li>Сабактын суроосу: Мейкиндиктеги окшоштуктарды өзгөртүүнүн геометриялык мааниси кандай?</li>
+
+</ul>
+
+<p>
+<b><b>2. Мотивация (5 мүнөт)</b></b>  
+</p>
+<ul>
+<li>Реалдуу жашоодогу мисалдар: архитектурада жана дизайнда объекттердин окшош моделдерин кантип түзүүгө болот?</li>
+<li>Суроо берүү: Эгер чоң фигураны кичирейтип чагылдыруу керек болсо, аны кандай математикалык ыкмалар менен түшүндүрүүгө болот?</li>
+
+</ul>
+
+<p>
+<b><b>3. Актуализация (7 мүнөт)</b></b>  
+</p>
+<ul>
+<li>Окуучулар менен бирге төмөнкү темаларды кайталоо:  
+<ul>
+<li>Окшош фигуралар деген эмне?</li>
+<li>Мейкиндиктеги фигуралардын масштабдары жана пропорциялары.</li>
+
+</ul></li>
+<li>Маселелерди талдоо:  
+<ul>
+<li>Берилген эки үч бурчтуктун окшоштуктарын салыштыруу.</li>
+
+</ul></li>
+
+</ul>
+
+<p>
+<b><b>4. Жаңы материалды түшүндүрүү (10 мүнөт)</b></b>  
+</p>
+<ul>
+<li><b><b>Окшоштуктарды өзгөртүү:</b></b>  
+Мейкиндикте бир фигураны экинчи фигурага пропорциялык түрдө өзгөртүү процесси.</li>
+<li><b><b>Негизги касиеттер:</b></b>  
+<ul>
+<li>Пропорциялык коэффициент.</li>
+<li>Түпкү жана өзгөртүлгөн фигуранын окшоштугу.</li>
+
+</ul></li>
+<li>Формулалар жана схемалар аркылуу түшүндүрүү.</li>
+<li>Мисал: Кубдун тараптарынын узундуктары 2 эсеге чоңойсо, анын көлөмү канчага өзгөрөт?</li>
+
+</ul>
+
+<p>
+<b><b>5. Мугалимдин жетекчилиги менен иштөө (10 мүнөт)</b></b>  
+</p>
+<ul>
+<li>Окуучулар менен биргеликте маселелерди чечүү:  
+<ul>
+<li><b><b>Маселе 1:</b></b> Берилген тик бурчтуу призманы 1,5 эсеге чоңойткондо анын көлөмү канча болот?</li>
+<li><b><b>Маселе 2:</b></b> Берилген окшош шарлардын радиустары 2:3 пропорцияда болсо, алардын беттеринин аянттарынын катышын тап.</li>
+
+</ul></li>
+
+</ul>
+
+<p>
+<b><b>6. Өз алдынча иштөө (7 мүнөт)</b></b>  
+</p>
+<ul>
+<li>Окуучуларга өз алдынча тапшырмалар:  
+<ul>
+<li><b><b>Маселе 1:</b></b> Кубдун тараптарынын узундуктары 3 эсеге кичирейсе, анын көлөмү канчага азаят?</li>
+<li><b><b>Маселе 2:</b></b> Конустун окшош моделдеринин бийиктиктери 4:5 катышта болсо, алардын көлөмдөрүнүн катышын эсептеңиз.</li>
+
+</ul></li>
+
+</ul>
+
+<p>
+<b><b>7. Жыйынтыктоо жана обобщение (5 мүнөт)</b></b>  
+</p>
+<ul>
+<li>Окуучулар менен теманы кайталоо:  
+<ul>
+<li>Окшоштуктарды өзгөртүүнүн негизги касиеттери кайсылар?</li>
+<li>Пропорциялык коэффициенттин мааниси эмнеде?</li>
+
+</ul></li>
+<li>Теманын турмуштагы мааниси жөнүндө кыскача талкуу.</li>
+
+</ul>
+
+<p>
+<b><b>8. Рефлексия (3 мүнөт)</b></b>  
+</p>
+<ul>
+<li>Окуучуларга суроолор берүү:  
+<ul>
+<li>Бүгүн эмнени үйрөндүңөр?</li>
+<li>Окшоштуктарды өзгөртүүнү түшүндүңөрбү?</li>
+<li>Бул түшүнүктү кайсы учурларда колдонууга болот?</li>
+
+</ul></li>
+<li>Сабак боюнча пикирлерин угуу.</li>
+
+</ul>
+
+<p>
+<b><b>Үй тапшырмасы:</b></b>  
+</p>
+<ol>
+<li>Китептен №18 жана №19 маселелерди аткаруу.</li>
+<li>Өз алдынча мейкиндиктеги окшоштуктардын өзгөртүүсүнө байланышкан мисал ойлоп келүү.</li>
+
+</ol>
+<p>
+```</p>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>

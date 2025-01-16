@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Algebra 7: Polynomials</title>
+<meta name="author" content="Aidin Biibosunov"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<style>
+body {
+width: 8.5in; /* Letter width */
+height: 11in; /* Letter height */
+margin: 0 auto; /* Center the page */
+padding: 20px; /* Add some padding */
+box-sizing: border-box; /* Include padding in width/height */
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Algebra 7: Polynomials</h1><p class="subtitle"></p>
+<h2 class="author">Aidin Biibosunov</h2><p class="date">Created: 2025-01-16 Thu 17:58</p>
+</section>
+<section>
+<section id="slide-orgc0c3faa">
+<h2 id="orgc0c3faa"><span class="section-number-2">1.</span> Сабактын темасы: Көп мүчөлөрдү кошуу жана кемитүү</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgbb5cb01">
+<h2 id="orgbb5cb01"><span class="section-number-2">2.</span> Сабактын максаты:</h2>
+<ul>
+<li><b><b>Билим берүүчүлүк:</b></b> Окуучуларды көп мүчөлөрдү кошуу жана кемитүү эрежелери менен тааныштыруу, аларды туура жана так аткарууга үйрөтүү.</li>
+<li><b><b>Өнүктүрүүчүлүк:</b></b> Окуучулардын математикалык логикасын, эсептөө жана ыкмаларды колдонуу жөндөмүн өнүктүрүү.</li>
+<li><b><b>Тарбия берүүчүлүк:</b></b> Тактыкка, тартипке жана иштерди жоопкерчилик менен аткарууга тарбиялоо.</li>
+
+</ul>
+
+<p>
+<b><b>Сабактын жүрүшү:</b></b>  
+</p>
+
+<p>
+<b><b>1. Сабактын максатын коюу (3 мүнөт)</b></b>  
+</p>
+<ul>
+<li>Сабактын темасы жана максаты менен тааныштыруу: Бүгүн көп мүчөлөрдү кошууну жана кемитүүнү үйрөнөбүз, бул көптөгөн алгебралык эсептөөлөрдүн негизи болуп саналат.</li>
+<li>Сабактын суроосу: Көп мүчөлөрдү кошуу жана кемитүү эрежелерин кайсы учурда жана кантип колдонсок болот?</li>
+
+</ul>
+
+<p>
+<b><b>2. Мотивация (5 мүнөт)</b></b>  
+</p>
+<ul>
+<li>Кыскача күнүмдүк жашоодогу мисал: Көп мүчөлөрдүн жардамы менен чоңураак эсептөөлөрдү кантип жөнөкөйлөштүрсө болот? Мисалы: "Эгер бир дүкөндө алма x сомго, ал эми груша y сомго турса, жалпы бааны кантип эсептейбиз?"</li>
+<li>Суроо берүү: Ар кандай алгебралык эсептөөлөрдө көп мүчөлөрдү колдонгон учурларды айта аласыздарбы?</li>
+
+</ul>
+
+<p>
+<b><b>3. Актуализация (7 мүнөт)</b></b>  
+</p>
+<ul>
+<li>Окуучулар менен төмөнкүлөрдү кайталоо:  
+<ul>
+<li>Монома деген эмне?</li>
+<li>Көп мүчө деген эмне?</li>
+<li>Бирдей мүчөлөр деген эмне?</li>
+
+</ul></li>
+<li>Кыскача мисалдар:  
+<ul>
+<li>\((2x + 3y)\), \((5a^2 - 3b + 4)\) сыяктуу көп мүчөлөрдү талдоо.</li>
+
+</ul></li>
+
+</ul>
+
+<p>
+<b><b>4. Жаңы материалды түшүндүрүү (10 мүнөт)</b></b>  
+</p>
+<ul>
+<li><b><b>Көп мүчөлөрдү кошуу:</b></b>  
+<ul>
+<li>Бирдей мүчөлөрдү кошуу үчүн алардын коэффициенттерин гана кошуу керек.</li>
+<li>Мисал:  
+\[
+       (3x + 2y) + (5x - y) = 8x + y
+       \]</li>
+
+</ul></li>
+<li><b><b>Көп мүчөлөрдү кемитүү:</b></b>  
+<ul>
+<li>Бирдей мүчөлөрдү кемитүү үчүн алардын коэффициенттерин кемитебиз.</li>
+<li>Мисал:  
+\[
+       (4a^2 + 3b) - (2a^2 - b) = 2a^2 + 4b
+       \]</li>
+
+</ul></li>
+<li>Формулалар менен иштөөнүн логикасын түшүндүрүү.</li>
+
+</ul>
+
+<p>
+<b><b>5. Мугалимдин жетекчилиги менен иштөө (10 мүнөт)</b></b>  
+</p>
+<ul>
+<li>Мисалдарды биргелешип чечүү:  
+<ul>
+<li><b><b>Мисал 1:</b></b>  
+\[
+       (6x^2 + 3x + 2) + (4x^2 - x + 5)  
+       \]</li>
+<li><b><b>Мисал 2:</b></b>  
+\[
+       (8m^2 - 5m + 7) - (3m^2 + 2m - 4)  
+       \]</li>
+
+</ul></li>
+<li>Чечимдерди так жана туура түшүндүрүү.</li>
+
+</ul>
+
+<p>
+<b><b>6. Өз алдынча иштөө (7 мүнөт)</b></b>  
+</p>
+<ul>
+<li>Окуучуларга мисалдарды берүү:  
+<ul>
+<li><b><b>Мисал 1:</b></b>  
+\[
+       (5x^2 - 4y + 6) + (2x^2 + y - 3)  
+       \]</li>
+<li><b><b>Мисал 2:</b></b>  
+\[
+       (7a - 3b + 5) - (4a + b - 2)  
+       \]</li>
+
+</ul></li>
+<li>Окуучуларды жыйынтыктарын текшерип чыгуу үчүн чакыруу.</li>
+
+</ul>
+
+<p>
+<b><b>7. Жыйынтыктоо жана обобщение (5 мүнөт)</b></b>  
+</p>
+<ul>
+<li>Сабактын негизги темасын кайталоо:  
+<ul>
+<li>Көп мүчөлөрдү кошуу жана кемитүү үчүн эмне кылуу керек?</li>
+<li>Бирдей мүчөлөрдү кантип табабыз?</li>
+
+</ul></li>
+<li>Математикадагы бул теманын маанисин талкуулоо.</li>
+
+</ul>
+
+<p>
+<b><b>8. Рефлексия (3 мүнөт)</b></b>  
+</p>
+<ul>
+<li>Окуучуларга суроолор берүү:  
+<ul>
+<li>Бүгүнкү сабакта эмнени түшүндүңөр?</li>
+<li>Кайсы бөлүгү оңой болду, кайсы бөлүгү кыйыныраак болду?</li>
+
+</ul></li>
+<li>Окуучулардан сунуштарын жана пикирлерин угуу.</li>
+
+</ul>
+
+<p>
+<b><b>Үй тапшырмасы:</b></b>  
+</p>
+<ol>
+<li>Китептен №25 жана №27 маселелерди аткарыңыз.</li>
+<li>Өз алдынча көп мүчөлөрдү кошуу жана кемитүү боюнча 2 мисал ойлоп, алардын чечилишин жазыңыз.</li>
+
+</ol>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>
