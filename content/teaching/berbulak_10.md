@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 10th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2025-01-16T17:51:56+01:00
+lastmod = 2025-01-23T16:32:18+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -36,6 +36,7 @@ type = "teaching"
 -   [October: Week 1](/pdf_files/berbulak/geometry_10/geometry10_week5.html)
 -   [Perpend. plane and line](/pdf_files/berbulak/geometry_10/geometry10_perpend_plane_line.html)
 -   [Similarity](/pdf_files/berbulak/geometry_10/geometry10_similarity.html)
+-   [Parallel plane and line test](/pdf_files/berbulak/geometry_10/geometry10_test.html)
 
 
 ## Physics 10 {#physics-10}

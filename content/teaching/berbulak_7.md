@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 7th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2025-01-16T17:57:52+01:00
+lastmod = 2025-01-23T16:58:15+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -28,3 +28,4 @@ type = "teaching"
 ## Geometry 7 {#geometry-7}
 
 -   [Triangles 1](/pdf_files/berbulak/geometry_7/geometry_7_triangles1.html)
+-   [Triangles 1 Test](/pdf_files/berbulak/geometry_7/geometry_7_triangles1_test.html)

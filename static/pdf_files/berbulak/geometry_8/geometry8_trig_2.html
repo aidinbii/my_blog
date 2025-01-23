@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Geometry 8: Intro to Trig 2</title>
+<meta name="author" content="Aidin Biibosunov"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<style>
+body {
+width: 8.5in; /* Letter width */
+height: 11in; /* Letter height */
+margin: 0 auto; /* Center the page */
+padding: 20px; /* Add some padding */
+box-sizing: border-box; /* Include padding in width/height */
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Geometry 8: Intro to Trig 2</h1><p class="subtitle"></p>
+<h2 class="author">Aidin Biibosunov</h2><p class="date">Created: 2025-01-23 Thu 16:52</p>
+</section>
+<p>
+```org
+</p>
+<section>
+<section id="slide-org6540364">
+<h2 id="org6540364"><span class="section-number-2">1.</span> Тик бурчтуу үч бурчтукту чыгаруу.</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+</section>
+<section id="slide-org3a7a21f">
+<h3 id="org3a7a21f"><span class="section-number-3">1.1.</span> Класс: 8</h3>
+</section>
+<section id="slide-org4a6713d">
+<h3 id="org4a6713d"><span class="section-number-3">1.2.</span> Сабак: Геометрия</h3>
+</section>
+<section id="slide-org4c4be83">
+<h3 id="org4c4be83"><span class="section-number-3">1.3.</span> Убактысы: 45 мүнөт</h3>
+<div class="outline-text-3" id="text-1-3">
+</div>
+</section>
+<section id="slide-org47bacac">
+<h4 id="org47bacac"><span class="section-number-4">1.3.1.</span> Сабактын максаты:</h4>
+<ul>
+<li><b>Жалпы максат</b>: 30°, 45°, 60° бурчтары үчүн синус, косинус жана тангенс маанилерин табууга үйрөтүү.</li>
+<li><b>Жеке максаттар</b>:
+<ul>
+<li>Синус, косинус жана тангенстин аныктамаларын билүү.</li>
+<li>Тригонометриялык функциялардын геометриялык түшүндүрмөсүн түшүнүү.</li>
+<li>Стандарттык бурчтар үчүн тригонометриялык функциялардын маанилерин эсептей билүү.</li>
+<li>Билимди тапшырмаларды чыгарууда колдонуу.</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-org85967d0">
+<h3 id="org85967d0"><span class="section-number-3">1.4.</span> Сабактын этаптары Блумдун таксономиясы боюнча</h3>
+<div class="outline-text-3" id="text-1-4">
+</div>
+</section>
+<section id="slide-orgf733425">
+<h4 id="orgf733425"><span class="section-number-4">1.4.1.</span> 1. Максат коюу (5 мүнөт)</h4>
+<ul>
+<li><b>Мугалим</b>: "Бүгүн биз 30°, 45°, 60° бурчтары үчүн синус, косинус жана тангенсти кантип аныктоону үйрөнүп, бул билимдерди маселелерди чыгарууда колдонгонду үйрөнөбүз."</li>
+<li>Окуучуларга суроо: "Геометрияда тригонометриялык функциялар эмне үчүн керек деп ойлойсуңар?"</li>
+
+</ul>
+</section>
+<section id="slide-org2aedf49">
+<h4 id="org2aedf49"><span class="section-number-4">1.4.2.</span> 2. Мотивация (5 мүнөт)</h4>
+<ul>
+<li>Практикалык мисалды көрсөтүү: 30° жана 45° бурчтары менен дарактын же имараттын бийиктигин эсептөө.</li>
+<li>Окуучуларга суроо: "Кантип бурч менен аралыкты билүү аркылуу объекттин бийиктигин табууга болот?"</li>
+
+</ul>
+</section>
+<section id="slide-org979852e">
+<h4 id="org979852e"><span class="section-number-4">1.4.3.</span> 3. Билимди актуалдаштыруу (5 мүнөт)</h4>
+<ul>
+<li>Сүйлөшүү:
+<ul>
+<li>Синус, косинус жана тангенс деген эмне? (Аныктамаларды талкуулоо)</li>
+<li>30°, 45°, 60° бурчтары бар тик бурчтуктар кандай көрүнөт?</li>
+
+</ul></li>
+<li>Пифагор теоремасын кайталоо.</li>
+
+</ul>
+</section>
+<section id="slide-org620d7a8">
+<h4 id="org620d7a8"><span class="section-number-4">1.4.4.</span> 4. Жаңы материал (10 мүнөт)</h4>
+<ul>
+<li>Түшүндүрмө:
+<ul>
+<li>Теңкапталдуу жана тең жактуу үч бурчтуктарды колдонуп, 30°, 45°, 60° бурчтары үчүн синус, косинус жана тангенстин маанилерин чыгаруу.</li>
+<li><p>
+Маанилер таблицасы:
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Бурч</th>
+<th scope="col" class="org-left">Синус</th>
+<th scope="col" class="org-left">Косинус</th>
+<th scope="col" class="org-left">Тангенс</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">30°</td>
+<td class="org-left">1/2</td>
+<td class="org-left">√3/2</td>
+<td class="org-left">1/√3</td>
+</tr>
+
+<tr>
+<td class="org-left">45°</td>
+<td class="org-left">√2/2</td>
+<td class="org-left">√2/2</td>
+<td class="org-left">1</td>
+</tr>
+
+<tr>
+<td class="org-left">60°</td>
+<td class="org-left">√3/2</td>
+<td class="org-left">1/2</td>
+<td class="org-left">√3</td>
+</tr>
+</tbody>
+</table></li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-org66fdb07">
+<h4 id="org66fdb07"><span class="section-number-4">1.4.5.</span> 5. Мугалимдин жетекчилиги астында иштөө (10 мүнөт)</h4>
+<ul>
+<li>Мисалдарды чыгаруу:
+<ol>
+<li>45° бурчу үчүн синус, косинус жана тангенсти табуу.</li>
+<li>Бир тарабы белгилүү жана бурчу 30° болгон үч бурчтуктун жактарын эсептөө.</li>
+
+</ol></li>
+
+</ul>
+</section>
+<section id="slide-orgd1de23f">
+<h4 id="orgd1de23f"><span class="section-number-4">1.4.6.</span> 6. Өз алдынча иштөө (7 мүнөт)</h4>
+<ul>
+<li>Окуучуларга тапшырмалар:
+<ol>
+<li>60° бурчу бар тик бурчтук үч бурчтукту чийип, синус, косинус жана тангенсти табуу.</li>
+<li>Тапшырма: 30° бурчу бар жана гипотенузасы белгилүү үч бурчтуктун бийиктигин табуу.</li>
+
+</ol></li>
+<li><b>PISA стилиндеги тапшырмалар</b>:
+<ol>
+<li><b><b>Көпүрөнүн бийиктигин табуу</b></b>:
+Көпүрөнүн бийиктиги аныкталбаган. Бирок көпүрөдөн жерде турган адамга чейин бурч 30° болуп, аралыгы 20 м. Көпүрөнүн бийиктигин тапкыла.</li>
+<li><b><b>Имаратты көрүү бурчу</b></b>:
+Имараттын бийиктиги 50 м. Адамдын көз карашы менен имараттын чокусуна чейинки бурч 45°. Адамдан имаратка чейинки аралыкты эсептегиле.</li>
+
+</ol></li>
+
+</ul>
+</section>
+<section id="slide-org26a5d9c">
+<h4 id="org26a5d9c"><span class="section-number-4">1.4.7.</span> 7. Жалпылоо (5 мүнөт)</h4>
+<ul>
+<li>Талкуу:
+<ul>
+<li>Тригонометриялык функциялардын маанилерин кантип таптык?</li>
+<li>Стандарттык бурчтар үчүн бул маанилерди билүү эмне үчүн маанилүү?</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-org205c871">
+<h4 id="org205c871"><span class="section-number-4">1.4.8.</span> 8. Рефлексия (3 мүнөт)</h4>
+<ul>
+<li><b>Мугалим</b>: "Бүгүн эмне жаңы нерсе үйрөндүңөр? Кыйын болдубу?"</li>
+<li>Окуучулар өз жетишкендиктерин баалашат:
+<ul>
+<li>Синус, косинус жана тангенсти табууну түшүндүмбү?</li>
+<li>Бул билимди маселелерди чыгарууда колдоно аламбы?</li>
+
+</ul></li>
+
+</ul>
+<p>
+```
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>
