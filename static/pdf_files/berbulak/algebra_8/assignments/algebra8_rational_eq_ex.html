@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Algebra 8</title>
+<meta name="author" content="Aidin Biibosunov"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<style>
+body {
+width: 8.5in; /* Letter width */
+height: 11in; /* Letter height */
+margin: 0 auto; /* Center the page */
+padding: 20px; /* Add some padding */
+box-sizing: border-box; /* Include padding in width/height */
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Algebra 8</h1><p class="subtitle"></p>
+<h2 class="author">Aidin Biibosunov</h2><p class="date">Created: 2025-01-28 Tue 15:07</p>
+</section>
+<p>
+### Дробно-рационалдык теңдемелерди чечүү мисалдары
+</p>
+
+<p>
+#### <b><b>Мисал 1: \( \frac{x+2}{x-3} = 2 \)</b></b>
+</p>
+
+<ol>
+<li><b><b>Аныкталуу облусун табабыз (ОДЗ):</b></b>
+Теңдеме, эгер \( x - 3 = 0 \) болсо, аныкталбай калат.
+\[ x - 3 \neq 0 \implies x \neq 3 \]
+\( \text{ОДЗ: } x \neq 3 \).</li>
+
+<li><b><b>Теңдемени \( x - 3 \)-ке көбөйтөбүз:</b></b>
+\[ \frac{x+2}{x-3} \cdot (x-3) = 2 \cdot (x-3) \]
+Бөлчөктөр кыскарат:
+\[ x + 2 = 2(x - 3) \]</li>
+
+<li><b><b>Чечип жатабыз:</b></b>
+\[ x + 2 = 2x - 6 \]
+\[ 2 + 6 = 2x - x \]
+\[ x = 8 \]</li>
+
+<li><b><b>Текшерүү (ОДЗ боюнча):</b></b>
+\( x = 8 \neq 3 \), демек, бул чечим туура.</li>
+
+</ol>
+
+<p>
+<b><b>Жооп:</b></b> \( x = 8 \).
+</p>
+
+<p>
+&#x2014;
+</p>
+
+<p>
+#### <b><b>Мисал 2: \( \frac{x^2 - 1}{x+3} = 2 \)</b></b>
+</p>
+
+<ol>
+<li><b><b>ОДЗ табабыз:</b></b>
+\( x+3 = 0 \) болсо, бөлчөк аныкталбай калат.
+\[ x + 3 \neq 0 \implies x \neq -3 \]
+\( \text{ОДЗ: } x \neq -3 \).</li>
+
+<li><b><b>Теңдемени \( x+3 \)-ке көбөйтөбүз:</b></b>
+\[ \frac{x^2 - 1}{x+3} \cdot (x+3) = 2 \cdot (x+3) \]
+Бөлчөктөр кыскарат:
+\[ x^2 - 1 = 2(x + 3) \]</li>
+
+<li><b><b>Квадраттык теңдемени чечебиз:</b></b>
+\[ x^2 - 1 = 2x + 6 \]
+\[ x^2 - 2x - 7 = 0 \]</li>
+
+<li><b><b>Дискриминант менен чечүү:</b></b>
+\[ D = (-2)^2 - 4(1)(-7) = 4 + 28 = 32 \]
+\[ x_{1,2} = \frac{-(-2) \pm \sqrt{32}}{2(1)} = \frac{2 \pm 4\sqrt{2}}{2} \]
+\[ x_1 = 1 + 2\sqrt{2}, \quad x_2 = 1 - 2\sqrt{2} \]</li>
+
+<li><b><b>ОДЗ текшеребиз:</b></b>
+\( x_1 = 1 + 2\sqrt{2} \neq -3 \) жана \( x_2 = 1 - 2\sqrt{2} \neq -3 \).</li>
+
+</ol>
+
+<p>
+<b><b>Жооп:</b></b> \( x = 1 + 2\sqrt{2} \) жана \( x = 1 - 2\sqrt{2} \).
+</p>
+
+<p>
+&#x2014;
+</p>
+
+<p>
+#### <b><b>Мисал 3: \( \frac{2}{x-1} + \frac{3}{x+2} = \frac{5}{x^2+x-2} \)</b></b>
+</p>
+
+<ol>
+<li><b><b>ОДЗ табабыз:</b></b>
+\( x^2 + x - 2 \)-ны факторлорго ажыратсак:
+\[ x^2 + x - 2 = (x-1)(x+2) \]
+Бөлчөк аныкталбай калат, эгерде \( x-1 = 0 \) же \( x+2 = 0 \):
+\[ x \neq 1, \, x \neq -2 \]
+\( \text{ОДЗ: } x \neq 1, \, x \neq -2 \).</li>
+
+<li><b><b>Теңдемени жалпы знаменателге келтиребиз:</b></b>
+Жалпы знаменатель: \( (x-1)(x+2) \).
+\[ \frac{2}{x-1} + \frac{3}{x+2} = \frac{5}{(x-1)(x+2)} \]
+Жаңы форма:
+\[ \frac{2(x+2)}{(x-1)(x+2)} + \frac{3(x-1)}{(x-1)(x+2)} = \frac{5}{(x-1)(x+2)} \]</li>
+
+<li><b><b>Бөлчөктөрдү кошобуз:</b></b>
+\[ \frac{2(x+2) + 3(x-1)}{(x-1)(x+2)} = \frac{5}{(x-1)(x+2)} \]
+Знаменателдерди алып салабыз:
+\[ 2(x+2) + 3(x-1) = 5 \]</li>
+
+<li><b><b>Теңдемени чечебиз:</b></b>
+\[ 2x + 4 + 3x - 3 = 5 \]
+\[ 5x + 1 = 5 \]
+\[ 5x = 4 \]
+\[ x = \frac{4}{5} \]</li>
+
+<li><b><b>ОДЗ текшеребиз:</b></b>
+\( x = \frac{4}{5} \neq 1 \) жана \( x = \frac{4}{5} \neq -2 \).</li>
+
+</ol>
+
+<p>
+<b><b>Жооп:</b></b> \( x = \frac{4}{5} \).
+</p>
+
+
+<p>
+### <b>Мисал 4</b>: \( \frac{1}{x} - \frac{2}{x+1} = \frac{1}{x(x+1)} \)
+</p>
+
+<ol>
+<li><b><b>ОДЗ:</b></b>
+\( x \neq 0, \, x \neq -1 \).</li>
+
+<li><b><b>Жалпы знаменателге келтирүү:</b></b>
+\[ \frac{1}{x} \cdot x(x+1) - \frac{2}{x+1} \cdot x(x+1) = \frac{1}{x(x+1)} \cdot x(x+1) \]
+Кыскарат:
+\[ (x+1) - 2x = 1 \]</li>
+
+<li><b><b>Чечүү:</b></b>
+\[ x + 1 - 2x = 1 \]
+\[ -x + 1 = 1 \]
+\[ -x = 0 \]
+\[ x = 0 \]</li>
+
+<li><b><b>ОДЗ текшерүү:</b></b>
+\( x = 0 \) ОДЗге кирбейт.</li>
+
+</ol>
+
+<p>
+<b><b>Жооп:</b></b> Чечими жок.
+</p>
+</div>
+</div>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>
