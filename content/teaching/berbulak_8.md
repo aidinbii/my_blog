@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 8th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2025-01-23T16:51:43+01:00
+lastmod = 2025-02-10T17:57:58+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -26,7 +26,7 @@ type = "teaching"
 -   [Quadratic equation](/pdf_files/berbulak/algebra_8/assignments/algebra8_quadratic_eq.html)
 -   [Linear equation](/pdf_files/berbulak/algebra_8/assignments/algebra8_linear_eq.html)
 -   [Quadratic equation graph](/pdf_files/berbulak/algebra_8/assignments/algebra8_quadratic_graph.html)
--   [Linear equation 2](/pdf_files/berbulak/algebra_8/assignments/algebra8_linear_eq_2.html)
+-   [Rational equations](/pdf_files/berbulak/algebra_8/assignments/algebra8_rational_eq_ex.html)
 
 
 ## Geometry 8 {#geometry-8}
@@ -38,6 +38,7 @@ type = "teaching"
 -   [Pythagorean Theorem](/pdf_files/berbulak/geometry_8/geometry8_pythagor_th.html)
 -   [Pythagorean Theorem: Problems](/pdf_files/berbulak/geometry_8/geometry8_pythagor_problems.html)
 -   [Trig 2](/pdf_files/berbulak/geometry_8/geometry8_trig_2.html)
+-   [Triangles: Area](/pdf_files/berbulak/geometry_8/geometry8_area_triangle.html)
 
 
 ## Fractions {#fractions}
