@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 8th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2025-02-10T17:57:58+01:00
+lastmod = 2025-02-12T16:22:13+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -39,6 +39,7 @@ type = "teaching"
 -   [Pythagorean Theorem: Problems](/pdf_files/berbulak/geometry_8/geometry8_pythagor_problems.html)
 -   [Trig 2](/pdf_files/berbulak/geometry_8/geometry8_trig_2.html)
 -   [Triangles: Area](/pdf_files/berbulak/geometry_8/geometry8_area_triangle.html)
+-   [Other figure Areas](/pdf_files/berbulak/geometry_8/geometry8_area_other_figs.pdf)
 
 
 ## Fractions {#fractions}
