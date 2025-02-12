@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Применение комплексных чисел для решения квадратных уравнений</title>
+<meta name="author" content="Aidin Biibosunov"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<style>
+body {
+width: 8.5in; /* Letter width */
+height: 11in; /* Letter height */
+margin: 0 auto; /* Center the page */
+padding: 20px; /* Add some padding */
+box-sizing: border-box; /* Include padding in width/height */
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Применение комплексных чисел для решения квадратных уравнений</h1><p class="subtitle"></p>
+<h2 class="author">Aidin Biibosunov</h2><p class="date">Created: 2025-02-12 Wed 16:55</p>
+</section>
+<section>
+<section id="slide-org5e5d704">
+<h2 id="org5e5d704"><span class="section-number-2">1.</span> Введение</h2>
+<p>
+Квадратное уравнение в общем виде записывается так:
+\[
+ax^2 + bx + c = 0 \quad (a \neq 0).
+\]
+При решении мы используем формулу корней:
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}.
+\]
+Число под корнем называют дискриминантом: \( D = b^2 - 4ac \).
+</p>
+
+<ul>
+<li>Если \(D > 0\), в области действительных чисел есть два различных корня.</li>
+<li>Если \(D = 0\), корень один (двойной).</li>
+<li>Если \(D < 0\), в области действительных чисел нет решений.</li>
+
+</ul>
+
+<p>
+Однако, если мы рассмотрим <span class="underline">комплексные</span> числа, то корни всегда найдутся, даже при \(D < 0\).
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org80ade1c">
+<h2 id="org80ade1c"><span class="section-number-2">2.</span> Что такое комплексные числа?</h2>
+<p>
+Чтобы «извлечь» корень из отрицательного числа, вводят число \( i \), для которого
+\[
+i^2 = -1.
+\]
+Тогда любое комплексное число \(z\) можно записать в виде:
+\[
+z = a + b i,
+\]
+где \(a\) и \(b\) — действительные числа.
+</p>
+
+<ul>
+<li>\(a\) называется <b>действительной частью</b> (обозначают: \(\operatorname{Re}(z)\)).</li>
+<li>\(b\) называется <b>мнимой частью</b> (\(\operatorname{Im}(z)\)).</li>
+
+</ul>
+
+<p>
+Если \(b \neq 0\), \(z\) — истинно комплексное; если \(b = 0\), \(z\) — просто действительное.
+</p>
+
+<p>
+Любое комплексное число можно записать в виде \(z = a + bi\), где
+</p>
+<ul>
+<li>\(a\) — действительная часть (например, \(\operatorname{Re}(z) = a\)),</li>
+<li>\(b\) — мнимая часть (\(\operatorname{Im}(z) = b\)),</li>
+<li>\(i\) — мнимая единица, для которой \(i^2 = -1\).</li>
+
+</ul>
+
+<p>
+Некоторые примеры:
+</p>
+<ol>
+<li>\(3 + 4i\)
+<ul>
+<li>Действительная часть: 3</li>
+<li>Мнимая часть: 4</li>
+
+</ul></li>
+<li>\(5\) (можно записать и как \(5 + 0i\))
+<ul>
+<li>Действительная часть: 5</li>
+<li>Мнимая часть: 0</li>
+
+</ul></li>
+<li>\(-2i\) (можно считать, что \(-2i = 0 - 2i\))
+<ul>
+<li>Действительная часть: 0</li>
+<li>Мнимая часть: -2</li>
+
+</ul></li>
+<li>\(\frac{1}{2} + \sqrt{3}\,i\)
+<ul>
+<li>Действительная часть: \(\frac{1}{2}\)</li>
+<li>Мнимая часть: \(\sqrt{3}\)</li>
+
+</ul></li>
+
+</ol>
+
+<p>
+Важно понимать, что:
+</p>
+<ul>
+<li>Действительная часть и мнимая часть — это обычные вещественные числа (из \(\mathbb{R}\)).</li>
+<li>Если мнимая часть равна нулю, число является чисто действительным (обычное число).</li>
+<li>Если действительная часть равна нулю, число является чисто мнимым.</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org2ec05d6">
+<h2 id="org2ec05d6"><span class="section-number-2">3.</span> Решение квадратных уравнений в комплексных числах</h2>
+<p>
+Формула корней остаётся той же:
+\[
+x = \frac{-b \pm \sqrt{D}}{2a}.
+\]
+Но если \(D < 0\), скажем \(D = -k\), где \(k > 0\), то
+\[
+\sqrt{D} = \sqrt{-k} = i \sqrt{k}.
+\]
+Таким образом, корни при \(D < 0\) становятся <span class="underline">комплексными</span>:
+\[
+x_{1,2} = \frac{-b \pm i \sqrt{-D}}{2a}.
+\]
+Обычно их называют <b>комплексно-сопряжёнными</b>: \(a + bi\) и \(a - bi\).
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orgf006789">
+<h2 id="orgf006789"><span class="section-number-2">4.</span> Примеры</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+</section>
+<section id="slide-org4f8d234">
+<h3 id="org4f8d234"><span class="section-number-3">4.1.</span> Пример 1</h3>
+<p>
+Уравнение: \( x^2 + 1 = 0 \).
+</p>
+
+<ul>
+<li>\(a=1, b=0, c=1\).</li>
+<li>Дискриминант: \(D = 0^2 - 4 \cdot 1 \cdot 1 = -4\).</li>
+<li>\(\sqrt{-4} = 2i\).</li>
+
+</ul>
+
+<p>
+Тогда корни:
+\[
+x = \frac{-0 \pm 2i}{2} = \pm i.
+\]
+То есть \(x_1 = i\) и \(x_2 = -i\).
+</p>
+</section>
+<section id="slide-org51c86bf">
+<h3 id="org51c86bf"><span class="section-number-3">4.2.</span> Пример 2</h3>
+<p>
+Уравнение: \(2x^2 + 3x + 5 = 0\).
+</p>
+
+<ul>
+<li>\(a=2, b=3, c=5\).</li>
+<li>\(D = 3^2 - 4 \cdot 2 \cdot 5 = 9 - 40 = -31\).</li>
+<li>\(\sqrt{-31} = i \sqrt{31}\).</li>
+
+</ul>
+
+<p>
+Следовательно, корни:
+\[
+x_{1,2} = \frac{-3 \pm i\sqrt{31}}{4}.
+\]
+Или
+\[
+x_1 = -\frac{3}{4} + \frac{\sqrt{31}}{4} i,
+\quad
+x_2 = -\frac{3}{4} - \frac{\sqrt{31}}{4} i.
+\]
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org4b75bac">
+<h2 id="org4b75bac"><span class="section-number-2">5.</span> Задания для самостоятельной работы</h2>
+<ol>
+<li>Найдите корни (возможно, комплексные) следующих уравнений:
+<ol>
+<li>\(x^2 + 4 = 0\)</li>
+<li>\(x^2 + 2x + 5 = 0\)</li>
+<li>\(3x^2 - 5x + 8 = 0\)</li>
+<li>\(x^2 + x + 1 = 0\)</li>
+
+</ol></li>
+
+<li>(Творческое задание) Придумайте собственное квадратное уравнение с отрицательным дискриминантом и найдите его комплексные корни.</li>
+
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-orgaf82dab">
+<h2 id="orgaf82dab"><span class="section-number-2">6.</span> Важные замечания</h2>
+<ul>
+<li>При \(D < 0\) часто говорят «нет корней» — подразумевая <b>нет корней в действительных числах</b>. В действительности, <b>комплексные</b> корни существуют всегда.</li>
+<li>Каждый полином степени \(n\) имеет ровно \(n\) комплексных корней (с учётом кратности) — это часть <b>Основной теоремы алгебры</b>.</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgd18f088">
+<h2 id="orgd18f088"><span class="section-number-2">7.</span> Итог</h2>
+<ul>
+<li>При \(D \ge 0\) корни квадратного уравнения вещественные.</li>
+<li>При \(D < 0\) корни становятся <b>комплексными</b> и записываются с помощью мнимой единицы \(i\).</li>
+
+</ul>
+
+<p>
+Таким образом, комплексные числа позволяют решить любое квадратное уравнение, расширяя набор возможных решений за пределы действительных чисел.
+```
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>
