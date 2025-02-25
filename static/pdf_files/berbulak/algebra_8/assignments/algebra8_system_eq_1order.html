@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Биринчи даражадагы теңдемелер системасы</title>
+<meta name="author" content="Aidin Biibosunov"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<style>
+body {
+width: 8.5in; /* Letter width */
+height: 11in; /* Letter height */
+margin: 0 auto; /* Center the page */
+padding: 20px; /* Add some padding */
+box-sizing: border-box; /* Include padding in width/height */
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Биринчи даражадагы теңдемелер системасы</h1><p class="subtitle"></p>
+<h2 class="author">Aidin Biibosunov</h2><p class="date">Created: 2025-02-24 Mon 13:40</p>
+</section>
+<section>
+<section id="slide-org22cb22e">
+<h2 id="org22cb22e">Биринчи даражадагы теңдемелер системасы деген эмне?</h2>
+<p>
+Биринчи даражадагы теңдемелер системасы — бул эки же андан көп сызыктык теңдемелердин жыйындысы, анда ар бир белгисиз (\(x\), \(y\)) бир гана даражада (1) кезигет. Мисалы:
+</p>
+
+<div>
+\begin{cases}
+x + 2y = 7 \\
+3x - y = 5
+\end{cases}
+
+</div>
+
+<p>
+Максат — \(x\) жана \(y\) үчүн кайсы маанилер ушул эки теңдемени тең канааттандырарын табуу.
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org4337c28">
+<h2 id="org4337c28">Алмаштыруу ыкмасы: кадамдар</h2>
+<ol>
+<li>Бир теңдемеден бир белгисизди (мисалы, \(x\) же \(y\)) таап алыңыз (мисалы, \(x = \ldots\) же \(y = \ldots\)).</li>
+<li>Ал алынган белгисиздин өрнөгүн экинчи теңдемеге алмаштырыңыз. Ошондо бир гана белгисиз бар теңдеме чыгат.</li>
+<li>Ал теңдемени чечип, белгисиздин маанисин табыңыз.</li>
+<li>Тапкан маанини баштапкы теңдемелердин бирине кайра койуп, экинчи белгисиздин маанисин аныктаңыз.</li>
+
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-org77bdc19">
+<h2 id="org77bdc19">Мисал 1</h2>
+<div>
+\begin{cases}
+x + 2y = 7 \quad (1)\\
+3x - y = 5 \quad (2)
+\end{cases}
+
+</div>
+</section>
+<section id="slide-org35cdaf7">
+<h3 id="org35cdaf7">Кадам 1</h3>
+<p>
+(1)-теңдемеден \(x\)ти таап алабыз:
+\[
+x = 7 - 2y.
+\]
+</p>
+</section>
+<section id="slide-org37f7f9c">
+<h3 id="org37f7f9c">Кадам 2</h3>
+<p>
+Ушул \(x\)ти (2)-теңдемеге алмаштырабыз:
+\[
+3(7 - 2y) - y = 5.
+\]
+\[
+21 - 6y - y = 5 \quad \Rightarrow \quad 21 - 7y = 5.
+\]
+</p>
+</section>
+<section id="slide-org9853052">
+<h3 id="org9853052">Кадам 3</h3>
+<p>
+\(y\)ди эсептейбиз:
+\[
+-7y = 5 - 21 = -16 \quad \Rightarrow \quad y = \frac{16}{7}.
+\]
+</p>
+</section>
+<section id="slide-org2ca33f9">
+<h3 id="org2ca33f9">Кадам 4</h3>
+<p>
+Эми \(x\)ти табалы:
+\[
+x = 7 - 2 \cdot \frac{16}{7}
+= 7 - \frac{32}{7}
+= \frac{49}{7} - \frac{32}{7}
+= \frac{17}{7}.
+\]
+</p>
+
+<p>
+<b><b>Жооп:</b></b>
+\[
+x = \frac{17}{7}, \quad y = \frac{16}{7}.
+\]
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org14e262d">
+<h2 id="org14e262d">Мисал 2</h2>
+<div>
+\begin{cases}
+2x - y = 1 \quad (1)\\
+x + y = 3 \quad (2)
+\end{cases}
+
+</div>
+</section>
+<section id="slide-org258e934">
+<h3 id="org258e934">Кадам 1</h3>
+<p>
+(2)-теңдемеден \(y\)ди таап алабыз:
+\[
+y = 3 - x.
+\]
+</p>
+</section>
+<section id="slide-orgfc39c3f">
+<h3 id="orgfc39c3f">Кадам 2</h3>
+<p>
+Аны (1)-теңдемеге алмаштырабыз:
+\[
+2x - (3 - x) = 1.
+\]
+\[
+2x - 3 + x = 1 \quad \Rightarrow \quad 3x - 3 = 1.
+\]
+</p>
+</section>
+<section id="slide-org9197f36">
+<h3 id="org9197f36">Кадам 3</h3>
+<p>
+\(x\)ти эсептейбиз:
+\[
+3x = 4 \quad \Rightarrow \quad x = \frac{4}{3}.
+\]
+</p>
+</section>
+<section id="slide-org75e6129">
+<h3 id="org75e6129">Кадам 4</h3>
+<p>
+\(y\)ди тапкан \(x\)ке жараша табалы:
+\[
+y = 3 - \frac{4}{3} = \frac{9}{3} - \frac{4}{3} = \frac{5}{3}.
+\]
+</p>
+
+<p>
+<b><b>Жооп:</b></b>
+\[
+x = \frac{4}{3}, \quad y = \frac{5}{3}.
+\]
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orgdc60c57">
+<h2 id="orgdc60c57">Тапшырмалар</h2>
+<p>
+Тапшырма 1
+</p>
+<div>
+\begin{cases}
+x + y = 5 \\
+x - y = 1
+\end{cases}
+
+</div>
+
+<p>
+Тапшырма 2
+</p>
+<div>
+\begin{cases}
+4x + y = 10 \\
+x + 2y = 8
+\end{cases}
+
+</div>
+
+<p>
+Тапшырма 3
+</p>
+<div>
+\begin{cases}
+2x + 5y = 1 \\
+x - 3y = -2
+\end{cases}
+
+</div>
+
+<p>
+Тапшырма 4
+</p>
+<div>
+\begin{cases}
+4x - 3y = 7 \\
+2x + y = 10
+\end{cases}
+
+</div>
+
+<p>
+Тапшырма 5
+</p>
+<div>
+\begin{cases}
+x + 4y = 0 \\
+x - 2y = 6
+\end{cases}
+
+</div>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>
