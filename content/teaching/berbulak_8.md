@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 8th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2025-02-25T17:49:22+01:00
+lastmod = 2025-02-26T19:18:47+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -43,6 +43,7 @@ type = "teaching"
 -   [Triangles: Area](/pdf_files/berbulak/geometry_8/geometry8_area_triangle.html)
 -   [Other figure Areas](/pdf_files/berbulak/geometry_8/geometry8_area_other_figs.pdf)
 -   [Areas: Test](/pdf_files/berbulak/geometry_8/geometry8_area_test.html)
+-   [Circle 1](/pdf_files/berbulak/geometry_8/geometry8_circle_1.html)
 
 
 ## Fractions {#fractions}
