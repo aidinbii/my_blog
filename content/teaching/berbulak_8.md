@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 8th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2025-03-03T12:35:30+01:00
+lastmod = 2025-03-10T05:48:09+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -30,6 +30,7 @@ type = "teaching"
 -   [Complex numbers for quadratic equations](/pdf_files/berbulak/algebra_8/assignments/algebra8_complex_num.html)
 -   [First order system of equations](/pdf_files/berbulak/algebra_8/assignments/algebra8_system_eq_1order.html)
 -   [First order system of equations 2](/pdf_files/berbulak/algebra_8/assignments/algebra8_system_eq_1order_2.html)
+-   [Problem set 2](/pdf_files/berbulak/algebra_8/assignments/algebra8_PS2.html)
 
 
 ## Geometry 8 {#geometry-8}
