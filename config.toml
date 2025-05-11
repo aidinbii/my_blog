@@ -96,9 +96,14 @@ url = "/journal"
 weight = 7
 
 [[menu.main]]
+name = "Misc"
+url = "/misc"
+weight = 8
+
+[[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 8
+weight = 9
 
 # Social media links which shows up on site header.
 # Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
