@@ -1,7 +1,7 @@
 +++
 title = "Ber-Bulak: 8th grade"
 author = ["Aidin Biibosunov"]
-lastmod = 2025-03-24T08:59:53+01:00
+lastmod = 2025-05-12T14:51:20+02:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
@@ -32,6 +32,7 @@ type = "teaching"
 -   [First order system of equations 2](/pdf_files/berbulak/algebra_8/assignments/algebra8_system_eq_1order_2.html)
 -   [Problem set 2](/pdf_files/berbulak/algebra_8/assignments/algebra8_PS2.html)
 -   [Inequalities 1](/pdf_files/berbulak/algebra_8/assignments/algebra8_inequal.html)
+-   [Combinatorics 1](/pdf_files/berbulak/algebra_8/assignments/algebra8_combinatorics.html)
 
 
 ## Geometry 8 {#geometry-8}
