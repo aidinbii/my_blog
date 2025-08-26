@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Intro</title>
+<meta name="author" content="Aidin Biibosunov"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/simple.css" id="theme"/>
+
+<link rel="stylesheet" href="./local_intro.css"/>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><div class="talk-title"><h1 class="no-toc-progress">Intro</h1></div>
+<div class="talk-author"> <p class = "text-align:center;"> Aidin Biibosunov </p>   </div>
+</section>
+
+<section>
+<section id="slide-orgdb6f1ef">
+<h2 id="orgdb6f1ef">A bit about myself</h2>
+
+<div id="org1006bb9" class="figure">
+<p><img src="my_photo.jpg" alt="my_photo.jpg" height="40%" width="40%" />
+</p>
+</div>
+
+<ol>
+<li data-fragment-index="2" class="fragment appear">B.Sc. (Бакалавр) in <i>Physics</i> (Quantum Chemistry)</li>
+<li data-fragment-index="2" class="fragment appear">M.Sc. (Магистр) in <i>Mathematics</i> (Biomathematics)</li>
+<li data-fragment-index="2" class="fragment appear">Currently at <i>Differentia Bio</i> (Mathematical modeling of Immunology)</li>
+<li data-fragment-index="2" class="fragment appear"><a href="http://teachforkyrgyzstan.org/kg">Заманбап Мугалим</a> программасынын катышуучусу</li>
+
+</ol>
+
+
+<div id="org7be566b" class="figure">
+<p><img src="logos_annotated.png" alt="logos_annotated.png" data-fragment-index="2" class="fragment appear" height="100%" width="100%" />
+</p>
+</div>
+
+</section>
+<section id="slide-orgdb6f1ef-split">
+
+<h2>A bit about myself</h2>
+<ul>
+<li>More in my blog: <a href="https://aidinbii.netlify.app/">https://aidinbii.netlify.app/</a></li>
+
+</ul>
+
+<div id="orga02c032" class="figure">
+<p><img src="qr_myblog.png" alt="qr_myblog.png" height="50%" width="50%" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org89c8656">
+<h2 id="org89c8656">Work projects (classical ML)</h2>
+
+<div id="org250beaa" class="figure">
+<p><img src="work_microbiology.png" alt="work_microbiology.png" height="100%" width="100%" />
+</p>
+</div>
+
+</section>
+<section id="slide-org89c8656-split">
+
+<h2>Work projects (classical ML)</h2>
+<ul>
+<li>Goal: for a given variable determine <br />
+the important genes</li>
+<li>Issue: small dataset (#genes \(\gg\) #samples) <br />
+<i>high dimensional data</i></li>
+<li>Approach: determine the most frequent genes which were selected by many trained models(CV)</li>
+
+</ul>
+
+</section>
+<section id="slide-org89c8656-split">
+
+<h2>Work projects (classical ML)</h2>
+<p>
+Example for one variable
+</p>
+<ol>
+<li class="fragment appear">Train several (= #mice) generalized linear models (GLMs)</li>
+<li class="fragment appear">For each trained model predict the value of the left out sample</li>
+<li class="fragment appear">Count the selected genes (with nonzero coefficients)</li>
+
+</ol>
+</section>
+<section id="slide-model_selection">
+<h3 id="model_selection">Selecting a GLM model</h3>
+<ul>
+<li class="fragment appear">\(\min_{(\beta_0, \beta) \in \mathbb{R}^{p+1}}\frac{1}{2N} \sum_{i=1}^N (y_i -\beta_0-x_i^T \beta)^2+\lambda \left[ (1-\alpha)\|\beta\|_2^2/2 + \alpha\|\beta\|_1\right]\)</li>
+<li class="fragment appear">To choose \(\alpha\) select the one with the best predictions (step 0.1)</li>
+<li class="fragment appear">To choose best \(\lambda\) do another CV with parameter <i>nfolds</i> (\(\alpha\) is fixed)</li>
+
+</ul>
+<aside class="notes">
+<ul>
+<li>&alpha; with MSE metric</li>
+<li>Moreover, a well-known justification of the regularization</li>
+
+</ul>
+<p>
+by the ℓ1-norm is that it leads to sparse solutions
+</p>
+<ul>
+<li><a href="https://glmnet.stanford.edu/articles/glmnet.html#quick-start-1">https://glmnet.stanford.edu/articles/glmnet.html#quick-start-1</a></li>
+<li>An attractive feature of the lasso is its computational feasibility for large p since the optimization problem (2) is convex.</li>
+
+</ul>
+
+</aside>
+
+</section>
+<section id="slide-model_selection-split">
+
+<h3>Selecting a GLM model</h3>
+
+<div id="orged486f9" class="figure">
+<p><img src="work_microbiology_plots.png" alt="work_microbiology_plots.png" height="50%" width="50%" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org050868c">
+<h2 id="org050868c">Work projects (Deep Learning)</h2>
+<ul>
+<li><a href="https://www.nature.com/articles/s41420-023-01559-y">https://www.nature.com/articles/s41420-023-01559-y</a></li>
+
+</ul>
+</section>
+<section id="slide-org050868c-split">
+
+<h2>Work projects (Deep Learning)</h2>
+
+<div id="org92a24cc" class="figure">
+<p><img src="work_thesis_sampling.png" alt="work_thesis_sampling.png" height="100%" width="100%" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org02e3b53">
+<h2 id="org02e3b53">Work projects (Modeling of immune system)</h2>
+<ul>
+<li><a href="file:///home/aidin/Documents/tutoring/AI_academy/Week1_Lec1/intro_me/suppl_note.pdf">Suppl note</a></li>
+<li><a href="file:///home/aidin/Documents/tum_courses/hiwi_Atefeh/alivexbiotech/projects/igg4_final/WORK/05-Presentations/Aidin_report_EnsembleFit_2024-06-13.html">Plots</a></li>
+
+</ul>
+
+<div id="orgda02046" class="figure">
+<p><img src="work_igg4_graph.png" alt="work_igg4_graph.png" height="70%" width="70%" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orge70a8c8">
+<h2 id="orge70a8c8">Logistics</h2>
+<ul>
+<li class="fragment appear">Syllabus, calendar, materials(website), communacation(telegram), google collab</li>
+<li class="fragment appear"><b>IMPORTANT</b>: don't be afraid or shy to ask questions!</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org871ba42">
+<h2 id="org871ba42">Advice</h2>
+<ul>
+<li class="fragment appear">You learn by doing. Can’t passively absorb the skill to code</li>
+<li class="fragment appear">Play with the code. Experiment! Active learning!</li>
+<li class="fragment appear">Do not be afraid to make mistakes!</li>
+<li class="fragment appear">If you run into problems, try to think about what went wrong</li>
+<li class="fragment appear">Google, StackOverflow, ChatGPT(LLMs) are your friends</li>
+<li class="fragment appear">If you find yourself truly stuck, feel free to contact the team</li>
+
+</ul>
+
+</section>
+<section id="slide-org871ba42-split">
+
+<h2>Advice</h2>
+<p>
+PRACTICE. PRACTICE? PRACTICE!
+</p>
+
+<aside class="notes">
+<ul>
+<li>i cannot put knowledge inside your head.</li>
+<li>you need to walk the path youself</li>
+<li>I will be your guide and map. And support you when needed</li>
+
+</ul>
+
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-org11c07e4">
+<h2 id="org11c07e4">Why learn to code when there are LLMs?</h2>
+<ul>
+<li class="fragment appear">Still need to understand code. Skills to assess &amp; edit. Does it make sense? Is it optimal? How to improve?</li>
+<li class="fragment appear">Analogy with a calculator: don't need to do the calculations yourself, yet need to understand what's happening(mechanism) and the answer</li>
+<li class="fragment appear">I myself use LLMs. But it has little use if you don't understand the answer</li>
+<li class="fragment appear">Treat it as a personal assistant. It can help you with your studies!
+<ul>
+<li><i>Pros</i> - you can get your questions answered</li>
+<li><i>Cons</i> - it can be confidently wrong!</li>
+
+</ul></li>
+
+</ul>
+
+<aside class="notes">
+<ul>
+<li>Chat GPT is just one of many tools that can be used to solve problems and create new things</li>
+<li>It makes mistakes</li>
+<li>Coding tools based on AI will become a tool that real programmers can use. It will be like an IDE, compiler, build tools, version control, etc. It will have benefits and limitations. We already have IDEs that can spot syntax problems and help debug the code before you even run the code.</li>
+
+</ul>
+<p>
+AI tools will be no different. They will be very useful for quickly generating frameworks and finding solutions that would require manual search of the web. Understanding the tools available is part of software development.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org11c07e4-split">
+
+<h2>Why learn to code when there are LLMs?</h2>
+
+<div id="orgc21def0" class="figure">
+<p><img src="https://i.programmerhumor.io/2023/03/programmerhumor-io-programming-memes-cbb835f1e44019d.jpg" alt="programmerhumor-io-programming-memes-cbb835f1e44019d.jpg" height="100%" width="100%" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org41a1370">
+<h2 id="org41a1370">Intro to DS</h2>
+
+<div id="orgf9e25d8" class="figure">
+<p><img src="https://interviewquery-cms-images.s3-us-west-1.amazonaws.com/9d4e7873-7fb2-4ee5-9719-cbd7fa718a0a.jpg" alt="9d4e7873-7fb2-4ee5-9719-cbd7fa718a0a.jpg" height="100%" width="100%" />
+</p>
+</div>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom/zoom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
+
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+plugins: [RevealMarkdown, RevealZoom, RevealNotes],
+slideNumber: "h/v"
+});
+
+</script>
+</body>
+</html>

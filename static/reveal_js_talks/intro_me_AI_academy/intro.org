@@ -1,0 +1,173 @@
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+# #+REVEAL_ROOT: file:///d:/home/aidin/Documents/aur/reveal.js-master/dist/
+#+REVEAL_REVEAL_JS_VERSION: 4
+:END:
+
+#+REVEAL_THEME: simple
+#+REVEAL_INIT_OPTIONS: slideNumber: "h/v"
+#+REVEAL_MARGIN: 0.0
+#+REVEAL_MIN_SCALE: 0.2
+#+REVEAL_MAX_SCALE: 2.5
+
+#+OPTIONS: num:nil
+#+OPTIONS: toc:nil
+
+# to modifiy the fonts,margin, etc ...  of the theme
+#+REVEAL_EXTRA_CSS: ./local_intro.css
+
+# Use-slide.html
+#+REVEAL_TITLE_SLIDE: <div class="talk-title"><h1 class="no-toc-progress">%t</h1></div>
+#+REVEAL_TITLE_SLIDE: <div class="talk-author"> <p class = "text-align:center;"> %a </p>   </div>
+
+#+Title:  Intro
+#+Author:  Aidin Biibosunov
+
+* A bit about myself
+#+ATTR_HTML: :height 40% :width 40%
+[[file:my_photo.jpg]]
+
+#+ATTR_REVEAL: :frag (appear appear appear appear appear) :frag_idx (2 2 2 2 2)
+1. B.Sc. (Бакалавр) in /Physics/ (Quantum Chemistry)
+2. M.Sc. (Магистр) in /Mathematics/ (Biomathematics)
+3. Currently at /Differentia Bio/ (Mathematical modeling of Immunology)
+4. [[http://teachforkyrgyzstan.org/kg][Заманбап Мугалим]] программасынын катышуучусу
+
+#+ATTR_REVEAL: :frag appear :frag_idx 2
+#+ATTR_HTML: :height 100% :width 100%
+[[file:logos_annotated.png]]
+
+#+REVEAL: split:t
+- More in my blog: https://aidinbii.netlify.app/
+#+ATTR_HTML: :height 50% :width 50%
+[[file:qr_myblog.png]]
+
+
+* Work projects (classical ML)
+#+ATTR_HTML: :height 100% :width 100%
+[[file:work_microbiology.png]]
+
+#+REVEAL: split:t
+- Goal: for a given variable determine \\
+   the important genes
+- Issue: small dataset (#genes $\gg$ #samples) \\
+   /high dimensional data/
+- Approach: determine the most frequent genes which were selected by many trained models(CV)
+
+#+REVEAL: split:t
+ Example for one variable
+#+ATTR_REVEAL: :frag (appear)
+1. Train several (= #mice) generalized linear models (GLMs)
+   # add formula from https://glmnet.stanford.edu/articles/glmnet.html#installation-1?
+2. For each trained model predict the value of the left out sample
+3. Count the selected genes (with nonzero coefficients)
+
+** Selecting a GLM model
+:PROPERTIES:
+:CUSTOM_ID: model_selection
+:END:
+#+ATTR_REVEAL: :frag (appear)
+- $\min_{(\beta_0, \beta) \in \mathbb{R}^{p+1}}\frac{1}{2N} \sum_{i=1}^N (y_i -\beta_0-x_i^T \beta)^2+\lambda \left[ (1-\alpha)\|\beta\|_2^2/2 + \alpha\|\beta\|_1\right]$
+- To choose $\alpha$ select the one with the best predictions (step 0.1)
+- To choose best $\lambda$ do another CV with parameter /nfolds/ ($\alpha$ is fixed)
+#+BEGIN_NOTES
+- \alpha with MSE metric
+- Moreover, a well-known justification of the regularization
+by the ℓ1-norm is that it leads to sparse solutions
+- https://glmnet.stanford.edu/articles/glmnet.html#quick-start-1
+-  An attractive feature of the lasso is its computational feasibility for large p since the optimization problem (2) is convex.
+#+END_NOTES
+
+#+REVEAL: split:t
+#+ATTR_HTML: :height 50% :width 50%
+[[file:work_microbiology_plots.png]]
+
+* Work projects (Deep Learning)
+- https://www.nature.com/articles/s41420-023-01559-y
+#+REVEAL: split:t
+#+ATTR_HTML: :height 100% :width 100%
+[[file:work_thesis_sampling.png]]
+
+* Work projects (Modeling of immune system)
+- [[file+sys:/home/aidin/Documents/tutoring/AI_academy/Week1_Lec1/intro_me/suppl_note.pdf][Suppl note]]
+- [[file:~/Documents/tum_courses/hiwi_Atefeh/alivexbiotech/projects/igg4_final/WORK/05-Presentations/Aidin_report_EnsembleFit_2024-06-13.html][Plots]]
+#+ATTR_HTML: :height 70% :width 70%
+[[file:work_igg4_graph.png]]
+
+
+* Logistics
+#+ATTR_REVEAL: :frag (appear)
+- Syllabus, calendar, materials(website), communacation(telegram), google collab
+- *IMPORTANT*: don't be afraid or shy to ask questions!
+
+* Advice
+#+ATTR_REVEAL: :frag (appear)
+- You learn by doing. Can’t passively absorb the skill to code
+- Play with the code. Experiment! Active learning!
+- Do not be afraid to make mistakes!
+- If you run into problems, try to think about what went wrong
+- Google, StackOverflow, ChatGPT(LLMs) are your friends
+- If you find yourself truly stuck, feel free to contact the team
+
+#+REVEAL: split:t
+PRACTICE. PRACTICE? PRACTICE!
+
+#+BEGIN_NOTES
+  - i cannot put knowledge inside your head.
+  - you need to walk the path youself
+  - I will be your guide and map. And support you when needed
+#+END_NOTES
+
+* Why learn to code when there are LLMs?
+#+ATTR_REVEAL: :frag (appear)
+- Still need to understand code. Skills to assess & edit. Does it make sense? Is it optimal? How to improve?
+- Analogy with a calculator: don't need to do the calculations yourself, yet need to understand what's happening(mechanism) and the answer
+- I myself use LLMs. But it has little use if you don't understand the answer
+- Treat it as a personal assistant. It can help you with your studies!
+  + /Pros/ - you can get your questions answered
+  + /Cons/ - it can be confidently wrong!
+
+#+BEGIN_NOTES
+  - Chat GPT is just one of many tools that can be used to solve problems and create new things
+  - It makes mistakes
+  - Coding tools based on AI will become a tool that real programmers can use. It will be like an IDE, compiler, build tools, version control, etc. It will have benefits and limitations. We already have IDEs that can spot syntax problems and help debug the code before you even run the code.
+AI tools will be no different. They will be very useful for quickly generating frameworks and finding solutions that would require manual search of the web. Understanding the tools available is part of software development.
+#+END_NOTES
+
+#+REVEAL: split:t
+#+ATTR_HTML: :height 100% :width 100%
+[[https://i.programmerhumor.io/2023/03/programmerhumor-io-programming-memes-cbb835f1e44019d.jpg]]
+
+
+* Intro to DS
+#+ATTR_HTML: :height 100% :width 100%
+[[https://interviewquery-cms-images.s3-us-west-1.amazonaws.com/9d4e7873-7fb2-4ee5-9719-cbd7fa718a0a.jpg]]
+
+* Scientific method in a nutshell                                  :noexport:
+#+begin_quote
+We can never be right, we can only prove we are wrong. \\
+R. Feynman
+#+end_quote
+
+#+ATTR_REVEAL: :frag (appear)
+#+ATTR_HTML: :height 40% :width 40%
+[[file:method.png]]
+
+#+ATTR_REVEAL: :frag (appear appear ) :frag_idx (1 1 )
+- Astronomy vs Astrology
+- Paper: [[https://www.nature.com/articles/318419a0][A double-blind test of astrology (1985)]]
+
+
+#+BEGIN_NOTES
+- theory shoud be falsifiable
+- tell anecdote from Feynman about amout of love
+- time when you're born effects your biology
+- pseudoscience: use of jargon, smart words, imitate real science
+- want to be scientific on the surface
+#+END_NOTES
+
+* Material                                                         :noexport:
+- https://stanfordpython.com/lecture/1-intro.pdf
+- https://cogs18.github.io/assets/intro/01_welcome.pdf
+* To include                                                       :noexport:
+- https://news.ycombinator.com/item?id=36771114 (ChatGPT)
