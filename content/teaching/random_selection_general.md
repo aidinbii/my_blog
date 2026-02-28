@@ -1,7 +1,7 @@
 +++
 title = "Randomizer (general)"
 author = ["Aidin Biibosunov"]
-lastmod = 2024-09-26T16:56:06+02:00
+lastmod = 2026-02-28T07:24:57+01:00
 tags = ["teaching", "tools"]
 categories = ["teaching"]
 draft = false
@@ -78,3 +78,5 @@ function resetSelection() {
     availableStudents = [];
 }
 </script>
+
+-   [Recommendations](/html_files/recommendations.html)

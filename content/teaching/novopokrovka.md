@@ -1,7 +1,7 @@
 +++
 title = "Novopokrovka №3"
 author = ["Aidin Biibosunov"]
-lastmod = 2026-02-28T06:57:05+01:00
+lastmod = 2026-02-28T07:27:10+01:00
 tags = ["teaching"]
 categories = ["teaching"]
 draft = false
